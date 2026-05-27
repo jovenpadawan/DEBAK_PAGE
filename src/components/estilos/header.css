@@ -1,0 +1,226 @@
+/* HEADER */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 1002;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+  transition: all 0.3s ease;
+}
+
+.main-header.active {
+  background: #000;
+}
+
+.header-logo .logo-img {
+  margin: 0;
+  padding: 0;
+  max-height: 120px;
+  width: 120px;
+}
+
+/* BOTÓN HAMBURGUESA */
+.menu-btn {
+  width: 40px;
+  height: 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1006;
+}
+
+.menu-btn span {
+  display: block;
+  height: 3px;
+  width: 24px;
+  background: rgb(6, 6, 6); 
+  margin: 4px 0;
+  border-radius: 2px;
+  transition: all 0.4s ease;
+  z-index: 1006;
+}
+
+.menu-btn.active span {
+  background: #fff; 
+}
+
+.menu-btn.active span:nth-child(1) {
+  transform: rotate(45deg) translate(7.5px, 7.5px);
+}
+.menu-btn.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu-btn.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(7.5px, -7.5px);
+}
+
+/* MENÚ LATERAL */
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -280px;
+  width: 280px;
+  height: 100vh;
+  background-color: #111;
+  color: white;
+  padding: 140px 24px 40px;
+  transition: left 0.4s ease;
+  z-index: 1001;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+.menu-header {
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+.menu-header h2 {
+  font-size: 1.5rem;
+  color: #f5c400;
+}
+
+.side-menu ul {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.side-menu li {
+  margin: 0.45rem 0;
+}
+
+.side-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.15rem;
+  transition: all 0.25s;
+}
+
+.side-menu a:hover {
+  color: #f5c400;
+  padding-left: 8px;
+}
+
+/* FRANJAS */
+.menu-stripes {    
+  margin: auto 0 0 0;    
+  display: flex;
+  flex-direction: column;
+  gap: 20px;                  
+  padding: 30px 0 30px 0;   
+  width: 100%;  
+}
+
+.menu-stripes .yellow,
+.menu-stripes .red {
+  height: 18px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.menu-stripes .yellow { background: #f5c400; }
+.menu-stripes .red    { background: #c62828; }
+
+/* OVERLAY */
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+  z-index: 1000;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+main {
+  margin-top: 120px;
+}
+
+.menu-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: white;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+.menu-link.active-link {
+  color: #f5c400;
+  transform: translateX(8px);
+}
+
+.menu-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-group-button {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1.15rem;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+}
+
+.menu-group-button:hover {
+  color: #f5c400;
+}
+
+.menu-group-button.active-link {
+  color: #f5c400;
+  transform: translateX(-8px);
+}
+
+.submenu {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding-left: 1rem;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, opacity 0.25s ease, padding 0.3s ease;
+}
+
+.submenu li {
+  margin: 0.35rem 0;
+  list-style-type: none;
+}
+
+.menu-group.open .submenu {
+  max-height: 18rem;
+  opacity: 1;
+}
+
+.submenu .menu-link {
+  color: #d7d7d7;
+  font-size: 1rem;
+}
+
+.submenu .menu-link.active-link {
+  color: #f5c400;
+}

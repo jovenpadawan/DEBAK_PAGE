@@ -1,0 +1,54 @@
+/* ENTRENADORES */
+
+.trainerTitles{
+  padding: 3rem 1.5rem;
+  height:100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #fff, #f0f0f0);
+}
+
+.trainerTitles h1 {
+  padding:auto;
+  font-size: 2.8rem;
+}
+
+.trainerTitles span {
+  display: flex;
+  margin:auto;
+  margin-bottom:1rem;
+  height: 5px;
+  width: 75px;
+  background: #ffc700;
+  text-align:center;
+  border-radius: 2px;
+}
+
+.trainerCards{
+   margin:10px;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;           
+   justify-content: center; 
+}
+
+.trainerCards .tarjeta{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 250px;
+    height: 350px;
+    border-radius:10px;  
+    box-shadow:0 5px 15px;
+    gap:10px;
+    text-align: center;
+}
+
+.trainerCards .tarjeta img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}

@@ -1,0 +1,80 @@
+/* DEPORTISTAS */
+
+.deportistTitles{
+  padding: 3rem 1.5rem;
+  height:100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #fff, #f0f0f0);
+}
+
+.deportistTitles h1 {
+  padding:auto;
+  font-size: 2.8rem;
+}
+
+.deportistTitles span {
+  display: flex;
+  margin:auto;
+  margin-bottom:1rem;
+  height: 5px;
+  width: 75px;
+  background: #ffc700;
+  text-align:center;
+  border-radius: 2px;
+}
+
+.deportistCards{
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   justify-content: center;
+   max-width: 1200px;
+}
+
+.deportistCards .tarjeta{
+    margin:10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    width: 300px;
+    height: 375px;
+    border-radius:10px;  
+    box-shadow:0 5px 15px;
+}
+
+.deportistCards .tarjeta img{
+    margin: auto;
+    width: 250px;
+    height: 400px;
+}
+
+.deportistLevel {
+  padding: 3rem 1.5rem;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #fff, #f0f0f0);
+}
+
+.deportistLevel h1 {
+  padding: auto;
+  font-size: 2.1rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.sectionDivider {
+  display: block;
+  margin: 0 auto 1rem;
+  height: 5px;
+  width: 75px;
+  background: #ffc700;
+  border-radius: 2px;
+}

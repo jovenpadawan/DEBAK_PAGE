@@ -1,0 +1,38 @@
+.transparencyTitles{
+  padding: 3rem 1.5rem;
+  height:100%;
+  text-align: center;
+  background: linear-gradient(to bottom, #fff, #f0f0f0);
+}
+
+.transparencyTitles h1 {
+  padding:auto;
+  font-size: 2.8rem;
+}
+
+.transparencyTitles span {
+  display: flex;
+  margin:auto;
+  margin-bottom:1rem;
+  height: 5px;
+  width: 75px;
+  background: #ffc700;
+  text-align:center;
+  border-radius: 2px;
+}
+
+.filesContainer {
+  padding: 20px;
+  width: 30%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(to bottom, #fff, #f0f0f0);
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.filesContainer:hover{
+    transform: scale(1.1);
+}

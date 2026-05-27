@@ -1,0 +1,22 @@
+
+
+  @import './global.css';
+  @import './header.css';
+  @import './carousel.css';
+  @import './inicio.css';
+  @import './institucion.css';
+  @import './entrenadores.css';
+  @import './deportistas.css';
+  @import './eventos.css';
+  @import './contactanos.css';
+  @import './modal.css';
+  @import './examenes.css';
+  @import './catalogo.css';
+  @import './transparencia.css';
+
+  /* utility fallback in case any file is missing */
+  .spanGridCenter {
+    display: grid;
+    place-items: center;
+  }
+
