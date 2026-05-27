@@ -60,7 +60,53 @@ export default function Deportistas() {
       achievements: ["Torneo regional 2020", "Entrenador asistente 2023"]
     },
     {
+      name: "David Obando",
+      rank: "Cinturón verde.",
+      level: "intermedio",
+      image: "img.png",
+      achievements: ["Torneo regional 2020", "Entrenador asistente 2023"]
+    },
+    {
+      name: "Leonardo Obando",
+      rank: "Cinturón verde.",
+      level: "intermedio",
+      image: "img.png",
+      achievements: ["Torneo regional 2020", "Entrenador asistente 2023"]
+    },
+    {
       name: "Iván Marcano",
+      rank: "Cinturón negro.",
+      level: "avanzado",
+      image: "/imagenes/deportistas/ivanMarcano.jpg",
+      courses: ["Entrenamiento físico", "Técnica de patadas"],
+      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
+    },
+    {
+      name: "Emilio Ayala",
+      rank: "Cinturón negro.",
+      level: "avanzado",
+      image: "/imagenes/deportistas/ivanMarcano.jpg",
+      courses: ["Entrenamiento físico", "Técnica de patadas"],
+      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
+    },
+    {
+      name: "Zoe Celi",
+      rank: "Cinturón negro.",
+      level: "avanzado",
+      image: "/imagenes/deportistas/ivanMarcano.jpg",
+      courses: ["Entrenamiento físico", "Técnica de patadas"],
+      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
+    },
+    {
+      name: "Héctor Ruíz",
+      rank: "Cinturón negro.",
+      level: "avanzado",
+      image: "/imagenes/deportistas/ivanMarcano.jpg",
+      courses: ["Entrenamiento físico", "Técnica de patadas"],
+      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
+    },
+    {
+      name: "Joaquín Vargas",
       rank: "Cinturón negro.",
       level: "avanzado",
       image: "/imagenes/deportistas/ivanMarcano.jpg",
