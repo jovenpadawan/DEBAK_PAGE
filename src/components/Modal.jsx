@@ -5,7 +5,6 @@ export default function Modal({ children, onClose }) {
 
   const handleClose = () => {
     setClosing(true);
-    // wait for animation to finish before calling parent's onClose
     setTimeout(onClose, 300);
   };
 

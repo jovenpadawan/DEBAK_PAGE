@@ -7,6 +7,7 @@ export default function Header() {
   const [institucionOpen, setInstitucionOpen] = useState(false);
   const [eventosOpen, setEventosOpen] = useState(false);
   const location = useLocation();
+  
   const isInstitucionActive = location.pathname.startsWith('/institucion');
   const isEventosActive = location.pathname.startsWith('/eventos');
 
@@ -85,6 +86,7 @@ export default function Header() {
               Deportistas Destacados
             </NavLink>
           </li>
+          
           <li className={`menu-group ${eventosOpen ? 'open' : ''}`}>
             <button
               type="button"
@@ -95,22 +97,38 @@ export default function Header() {
             </button>
             <ul className="submenu">
               <li>
-                <NavLink to="/eventos/deportivos" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
+                <NavLink 
+                  to="/eventos" 
+                  state={{ categoria: 'deportivos' }}
+                  className={() => location.state?.categoria === 'deportivos' && isEventosActive ? 'menu-link active-link' : 'menu-link'} 
+                  onClick={closeMenu}
+                >
                   Eventos Deportivos
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/eventos/sociales" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
+                <NavLink 
+                  to="/eventos" 
+                  state={{ categoria: 'sociales' }}
+                  className={() => location.state?.categoria === 'sociales' && isEventosActive ? 'menu-link active-link' : 'menu-link'} 
+                  onClick={closeMenu}
+                >
                   Eventos Sociales
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/eventos/promocion" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
+                <NavLink 
+                  to="/eventos" 
+                  state={{ categoria: 'promocion' }}
+                  className={() => location.state?.categoria === 'promocion' && isEventosActive ? 'menu-link active-link' : 'menu-link'} 
+                  onClick={closeMenu}
+                >
                   Promoción del Taekwondo
                 </NavLink>
               </li>
             </ul>
           </li>
+
           <li>
             <NavLink to="/examenes" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
               Exámenes
@@ -129,6 +147,11 @@ export default function Header() {
           <li>
             <NavLink to="/transparencia" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
               Transparencia
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="/PaginasAsociadas" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
+              Páginas Asociadas
             </NavLink>
           </li>
         </ul>

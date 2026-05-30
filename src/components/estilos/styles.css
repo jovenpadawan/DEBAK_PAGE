@@ -13,6 +13,7 @@
   @import './examenes.css';
   @import './catalogo.css';
   @import './transparencia.css';
+  @import './pagAsociadas.css';
 
   /* utility fallback in case any file is missing */
   .spanGridCenter {

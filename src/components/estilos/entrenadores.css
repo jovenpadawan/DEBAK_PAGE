@@ -52,3 +52,59 @@
     object-fit: cover;
     border-radius: 8px;
 }
+ /* NUEVOS ESTILOS PARA LA MINIATURA EN EL MODAL */
+
+.modal-profile-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: left;
+}
+
+.modal-profile-thumb {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%; /* Esto la hace circular tipo avatar, si la quieres cuadrada con bordes suaves cambia a 8px */
+  border: 2px solid #ffc700; /* Añade un sutil borde amarillo del club */
+  flex-shrink: 0; /* Evita que la foto se deforme o se comprima */
+}
+
+.modal-profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.modal-profile-info h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #1e293b;
+}
+
+.modal-profile-role {
+  margin: 0;
+  font-weight: 600;
+  color: #475569;
+}
+
+.modal-profile-range {
+  margin: 0;
+  font-style: italic;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+/* Ajuste Responsivo para pantallas pequeñas */
+@media (max-width: 480px) {
+  .modal-profile-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+  }
+  
+  .modal-profile-thumb {
+    width: 90px;
+    height: 90px;
+  }
+}
