@@ -6,7 +6,7 @@ export default function Catalogo() {
     const products = [
         { name: 'Doboks', image: '/imagenes/doboks.jpg', link: '/catalogo/doboks' },
         { name: 'Uniforme Debak', image: '/imagenes/uniforme-debak.jpg', link: '/catalogo/uniformes' },
-        { name: 'Implementos', image: '/imagenes/implementos.jpg', link: '/catalogo/implementos' }
+        { name: 'Implementos', image: '/imagenes/catalogo/implementos.jpg', link: '/catalogo/implementos' }
     ];
 
     return (

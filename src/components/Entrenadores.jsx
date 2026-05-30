@@ -8,18 +8,26 @@ export default function Entrenadores() {
 
   const staff = [
     {
+      name: "Diego Naranjo",
+      role: "Psicólogo Deportivo y Secretario",
+      image: "imagenes/entrenadores/diegoNaranjo.jpg",
+      miniImage: "imagenes/entrenadores/diegoNaranjo.jpg",
+      tasks: ["Clases de psicología deportiva.", "Parte del equipo multidisciplinario."],
+      courses: ["Curso de Psicología del Deporte en el ISFP."]
+    },
+    {
       name: "Rodneey Quisnia",
       role: "Departamento Administrativo",
       image: "imagenes/entrenadores/rodneeyQuisniaInstitucional.jpg",
-      miniImage: "imagenes/entrenadores/rodneeyQuisniaInstitucioalMini.jpg",
+      miniImage: "imagenes/entrenadores/rodneeyQuisniaInstitucional.jpg",
       tasks: ["Facturación.", "Gestión de GAL Nacional y Provincial.", "Inscripción en eventos Nacionales y Provinciales."],
-      courses: ["Curso 2"]
+      courses: ["Capacitación en gestión administrativa."]
     },
     {
       name: "Andrés Alejo",
       role: "Marketing",
       image: "imagenes/entrenadores/andresAlejoInstitucional.jpg",
-      miniImage: "imagenes/entrenadores/andresAlejoInstitucionalMini.png",
+      miniImage: "imagenes/entrenadores/andresAlejoInstitucional.jpg",
       tasks: ["Gestión de redes sociales.", "Creación de contenido audiovisual."],
       courses: ["Curso de Creación de Contenido."]
     },
@@ -27,7 +35,7 @@ export default function Entrenadores() {
       name: "Miguel Ortuño",
       role: "Diseñador y Desarrollador Web",
       image: "imagenes/entrenadores/miguelOrtunoInstitucional.jpg",
-      miniImage: "imagenes/entrenadores/miguelOrtunoInstitucionalMini.jpg",
+      miniImage: "imagenes/entrenadores/miguelOrtunoInstitucional.jpg",
       tasks: [],
       courses: ["Curso de Desarrollo Web y Bases de Datos.", "Bachillerato Técnico Informático.", "Curso de Instalaciones Eléctricas."]
     }
@@ -50,7 +58,7 @@ export default function Entrenadores() {
       image: "imagenes/entrenadores/marceloPrado.jpg",
       miniImage: "imagenes/entrenadores/marceloPradoMini.jpg",
       courses: ["Curso de Acreditación de entrenadores Provincial y Nacional 2026.", "Técnicas mixtas"],
-      achievements: ["Campeón Poomsae del I Ecuador Challenger 2026.", "Kung fu", "Karate"]
+      achievements: ["Campeón Poomsae del I Ecuador Challenger 2026.", "Mundial Taipei", "Karate"]
     },
     {
       name: "Adrián Lara",
@@ -76,17 +84,17 @@ export default function Entrenadores() {
       role: "Director de la sede Carcelén Bajo.",
       image: "imagenes/entrenadores/jaredVargas.jpg",
       miniImage: "imagenes/entrenadores/jaredVargasMini.jpg",
-      courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Técnicas mixtas"],
-      achievements: ["Preparador físico certificado", "Kung fu", "Karate"]
+      courses: ["Acreditación de entrenadores Provincial y Nacional 2026."],
+      achievements: ["Bronce Panamericano Costa Rica.", "Campeón G1 Perú.", "Vicecampeón en Juegos Nacionales."]
     },
     {
       name: "Santiago Llaguno",
-      range: "1er DAN Nacional.",
+      range: "1er DAN Nacional y 1er DAN Kukkiwon.",
       role: "Director de la sede Tumbaco.",
       image: "imagenes/entrenadores/santiLlaguno.jpg",
       miniImage: "imagenes/entrenadores/santiLlagunoMini.jpg",
       courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Capacitación en entrenamiento personal y deportivo."],
-      achievements: ["Medalla de bronce en el Ranking Mundial GR Riobamba 2024", "Principiante en Jujitsu"]
+      achievements: ["Medalla de bronce en el Ranking Mundial GR Riobamba 2024", "Bronce del Campeonato Nacional."]
     },
     {
       name: "Estefani Bolaños",

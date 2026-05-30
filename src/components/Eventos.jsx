@@ -52,31 +52,31 @@ const dataEventos = {
     descripcion: 'Actividades para la comunidad, la convivencia y el crecimiento en equipo.',
     items: [
       {
-        title: 'Encuentro Comunitario',
-        description: 'Una jornada de integración con familias y alumnos para celebrar la cultura del Taekwondo.',
-        image: '/imagenes/eventos/comunidad.jpg',
-        date: '05 de Septiembre, 2026',
-        location: 'Parque de la Familia',
+        title: 'Donación de Prendas',
+        description: 'Una jornada solidaria donde se apoyó a las personas que lo necesitan en lanavidad.',
+        image: '/imagenes/eventos/ayudaNavidena.jpg',
+        date: '23 de Diciembre, 2025',
+        location: 'Quito Sur',
         tag: 'Social',
-        detalles: 'Compartiremos un almuerzo comunitario y dinámicas grupales para fortalecer lazos.'
+        detall: 'Compartiremos un almuerzo comunitario y dinámicas grupales para fortalecer lazos.'
       },
       {
-        title: 'Cena de Gala',
-        description: 'Evento social donde reconocemos el esfuerzo de los practicantes y reforzamos los lazos de comunidad.',
-        image: '/imagenes/eventos/cena.jpg',
+        title: 'Cena navideña DEBAK',
+        description: 'Nos reunimos para dar mantenimiento al tatami y disfrutamos de una deliciosa cena.',
+        image: '/imagenes/eventos/cenaNavidena.jpg',
         date: '18 de Diciembre, 2026',
-        location: 'Hotel Central',
+        location: 'Debak Matriz',
         tag: 'Social',
-        detalles: 'Cena de fin de año con premiaciones especiales para toda la familia DEBAK.'
+        detalles: 'Cena de fin de año junto con la familia DEBAK.'
       },
       {
-        title: 'Tarde de Puertas Abiertas',
-        description: 'Invitamos a nuevos miembros a conocer nuestro espacio, tomar una clase de prueba y disfrutar de actividades recreativas.',
-        image: '/imagenes/eventos/puertas-abiertas.jpg',
-        date: '10 de Octubre, 2026',
-        location: 'Sede Central',
+        title: 'Reunión Deportiva',
+        description: 'Luego de la carnetización de nuestros deportistas, se les invitó s disfrutar de las actividades planificadas para todas las edades.',
+        image: '/imagenes/eventos/tardeDeportiva.jpg',
+        date: '31 de Enero, 2026',
+        location: 'Debak Matriz',
         tag: 'Social',
-        detalles: 'Entrada libre para amigos y conocidos. Descuentos especiales en inscripciones.'
+        detalles: 'Los peques disfrutaron de un colchón inflable y algodón de azúcar y los intermedios y avanzados jugaron ecuavoley buscando ganar premios.'
       }
     ]
   },

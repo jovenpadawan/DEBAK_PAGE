@@ -2,21 +2,29 @@ import Header from './Header';
 import './estilos/catalogo.css';
 
 const implementos = [
-    { name: 'Protector de Antebrazo', image: '/imagenes/protector-antebrazo.jpg' },
-    { name: 'Protector de Canilla', image: '/imagenes/protector-canilla.jpg' },
-    { name: 'Guantines', image: '/imagenes/guantines.jpg' },
-    { name: 'Empeineras', image: '/imagenes/empeineras.jpg' },
-    { name: 'Inguinales Masculinos', image: '/imagenes/inguinales-masculinos.jpg' },
-    { name: 'Inguinales Femeninos', image: '/imagenes/inguinales-femeninos.jpg' },
-    { name: 'Petos', image: '/imagenes/petos.jpg' },
-    { name: 'Cabezales', image: '/imagenes/cabezales.jpg' }
+    { name: 'Protector de Antebrazo', image: '/imagenes/catalogo/protector-antebrazo.jpg' },
+    { name: 'Protector de Canilla', image: '/imagenes/catalogo/canillera.jpg' },
+    { name: 'Guantines', image: '/imagenes/catalogo/guantines.jpg' },
+    { name: 'Empeineras', image: '/imagenes/catalogo/empeineras.jpg' },
+    { name: 'Inguinales Masculinos', image: '/imagenes/catalogo/inguinalMasc.jpg' },
+    { name: 'Inguinales Femeninos', image: '/imagenes/catalogo/inguinales-femeninos.jpg' },
+    { name: 'Petos', image: '/imagenes/catalogo/petos.jpg' },
+    { name: 'Cabezales', image: '/imagenes/catalogo/cabezal.jpg' }
 ];
 
 export default function Implementos() {
+    const numeroWhatsApp = "593963240963"; 
+
+    const consultarPorWhatsApp = (nombreProducto) => {
+        const mensaje = `Hola, vengo de la página web. Estoy interesado en el siguiente producto: *${nombreProducto}*. ¿Me podrían brindar más información?`;
+        const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+        window.open(url, '_blank');
+    };
+
     return (
         <>
             <Header />
-            <main>
+            <main style={{ paddingBottom: '4rem' }}>
                 <section className="catalogoTitles">
                     <h1>Implementos</h1>
                     <span></span>
@@ -24,7 +32,12 @@ export default function Implementos() {
                 <section className="catalogo">
                     <div className="products-container">
                         {implementos.map((item) => (
-                            <div key={item.name} className="product-card">
+                            <div 
+                                key={item.name} 
+                                className="product-card"
+                                onClick={() => consultarPorWhatsApp(item.name)}
+                                title="Consultar disponibilidad en WhatsApp"
+                            >
                                 <div className="product-image">
                                     <img src={item.image} alt={item.name} />
                                 </div>
