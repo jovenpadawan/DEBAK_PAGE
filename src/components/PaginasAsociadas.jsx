@@ -5,23 +5,23 @@ export default function PaginasAsociadas() {
     const organizaciones = [
         {
             name: "World Taekwondo",
-            image: "/imagenes/asociadas/world-tkd.png",
-            url: "http://www.worldtaekwondo.org/"
+            image: "/imagenes/paginasAsociadas/wt.png",
+            url: "https://worldtkd.simplycompete.com/"
         },
         {
             name: "Federación Ecuatoriana de Taekwondo",
-            image: "/imagenes/asociadas/fetkd.png",
-            url: "https://www.facebook.com/fetkd.ecuador/"
+            image: "/imagenes/paginasAsociadas/fetkd.jpg",
+            url: "https://www.ecuatorianatkd.com/"
         },
         {
-            name: "Concentración Deportiva de Pichincha",
-            image: "/imagenes/asociadas/cdp.png",
-            url: "https://teampichincha.com/"
+            name: "Asociación Deportiva de Pichincha",
+            image: "/imagenes/paginasAsociadas/asotkd.png",
+            url: "https://www.pichinchataekwondo.com/"
         },
         {
             name: "PATU (Pan American Taekwondo Union)",
-            image: "/imagenes/asociadas/patu.png",
-            url: "https://www.patu.org/"
+            image: "/imagenes/paginasAsociadas/patu.png",
+            url: "https://www.patutkd.org/"
         }
     ];
 
