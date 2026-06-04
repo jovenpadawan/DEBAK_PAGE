@@ -11,39 +11,48 @@ const dataEventos = {
     items: [
       {
         title: 'I Campeonato Nacional Interclubes',
-        description: 'Competencia para todas las categorías con medallas y reconocimiento especial para los mejores competidores.',
+        description: 'Varios de nuestros deportistas nos representaron en el Campeonato Nacional Interclubes en Manabí.',
         image: '/imagenes/eventos/interclubesManabi.jpg',
         date: '19 de Febrero, 2026',
         location: 'Manabí',
         tag: 'Deportivo',
-        detalle: 'El pesaje iniciará a las 08:00 AM. Recuerda asistir con el Dobok oficial e implementar todas tus protecciones reglamentarias.'
+        detalles: 'Cada uno de nuestros deportistas consiguió buenos resultados, llevándose nuevos aprendizajes con ellos.'
       },
       {
         title: 'II Campeonato Sueños Olímpicos Patu12',
-        description: 'Entrenamiento intensivo para mejorar técnica, velocidad y espíritu competitivo en cada combate.',
+        description: 'Nuestros campeones dieron su mayor esfuerzo en el Patu12 2026, logrando destacar con sus logros.',
         image: '/imagenes/eventos/patu12.jpg',
         date: '28 de Marzo, 2026',
         location: 'Quito',
         tag: 'Deportivo',
-        detalle: 'Dirigido por profesores cinturón negro destacados. Traer hidratación extra.'
+        detalles: 'Salieron de aquí varios logros y medalas, símbolo del esfuerzo y dedicación de los deportistas de DEBAK.'
       },
       {
         title: 'Campeonato Ranking Mundial G1',
-        description: 'Presentación de los logros del año, con exhibiciones y entrega de reconocimientos a atletas destacados.',
+        description: 'Nuestro director, Jimmy Bolaños, asistió junto con nuestro campeón Iván Marcano y Charlotte al Campeonato Ranking Mundial G1 en República Dominicana.',
         image: '/imagenes/eventos/rankingRD.jpg',
         date: '10 de Abril, 2026',
         location: 'República Dominicana',
         tag: 'Deportivo',
-        detalle: 'Evento de gala formal. Se requiere confirmación de asistencia previa.'
+        detalles: 'Todos consiguieron alcanzar el podio, estando Charlotte en el tercer lugar, Iván Marcano en el segundo y Jimmy Bolaños en el primero.'
       },
       {
         title: 'Campeonato Panamericano de Taekwondo',
-        description: 'Presentación de los logros del año, con exhibiciones y entrega de reconocimientos a atletas destacados.',
+        description: 'Nuestro director, Jimmy Bolaños, y maestro, Marcelo Prado, nos representaron en el Campeonato Panamericano de Taekwondo en Brasil.',
         image: '/imagenes/eventos/panamericanBrasil.jpg',
         date: '7 de Mayo, 2026',
         location: 'Brasil, Arena Carioca 1',
         tag: 'Deportivo',
-        detalle: 'Evento de gala formal. Se requiere confirmación de asistencia previa.'
+        detalles: 'Marcelo Prado consiguió el segundo lugar en el podio, dejando en alto a la nación y al club.'
+      },
+      {
+        title: 'Nacional Junior Combate',
+        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
+        image: '/imagenes/eventos/panamericanBrasil.jpg',
+        date: '7 de Mayo, 2026',
+        location: 'Manabí',
+        tag: 'Deportivo',
+        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
       }
     ]
   },
@@ -58,7 +67,7 @@ const dataEventos = {
         date: '23 de Diciembre, 2025',
         location: 'Quito Sur',
         tag: 'Social',
-        detall: 'Compartiremos un almuerzo comunitario y dinámicas grupales para fortalecer lazos.'
+        detalles: 'Compartiremos un almuerzo comunitario y dinámicas grupales para fortalecer lazos.'
       },
       {
         title: 'Cena navideña DEBAK',

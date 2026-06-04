@@ -30,13 +30,6 @@ export default function Deportistas() {
       achievements: ["Campeón Kyorugui del Campeonato Nacional Infantil Quito 2026.", "Doble Campeón y Bronce del Challenger Ecuador."]
     },
     {
-      name: "Tifany Ortega",
-      rank: "Cinturón azul-rojo.",
-      level: "intermedio",
-      image: "/imagenes/deportistas/tifanyOrtega.jpg",
-      achievements: ["Bronce Kyorugui en Patu12 2026."]
-    },
-    {
       name: "María López",
       rank: "Cinturón verde.",
       level: "intermedio",

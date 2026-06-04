@@ -3,17 +3,17 @@ import './estilos/catalogo.css';
 
 export default function Doboks() {
     const products = [
-        { name: 'Doboks Kyorugui tallas 100 - 200', image: '/imagenes/doboks-kyorugui.jpg' },
-        { name: 'Dobok Poomsae Cadete Masculino', image: '/imagenes/dobok-poomsae-cadete-m.jpg' },
-        { name: 'Dobok Poomsae Cadete Femenino', image: '/imagenes/dobok-poomsae-cadete-f.jpg' },
-        { name: 'Dobok Poomsae Junior Masculino', image: '/imagenes/dobok-poomsae-junior-m.jpg' },
-        { name: 'Dobok Poomsae Junior Femenino', image: '/imagenes/dobok-poomsae-junior-f.jpg' },
-        { name: 'Dobok Senior', image: '/imagenes/dobok-senior.jpg' },
-        { name: 'Dobok Olímpico Mooto', image: '/imagenes/dobok-mooto.jpg' },
-        { name: 'Dobok Olímpico Tusah', image: '/imagenes/dobok-tusah.jpg' },
-        { name: 'Dobok Rojo', image: '/imagenes/dobok-rojo.jpg' },
-        { name: 'Dobok Azul', image: '/imagenes/dobok-azul.jpg' },
-        { name: 'Dobok Negro', image: '/imagenes/dobok-negro.jpg' }
+        { name: 'Doboks Kyorugui tallas 100 - 200', image: '/imagenes/catalogo/dobokCombate.png' },
+        { name: 'Dobok Poomsae Cadete Masculino', image: '/imagenes/catalogo/dobokCadeteHombre.png' },
+        { name: 'Dobok Poomsae Cadete Femenino', image: '/imagenes/catalogo/dobokCadeteMujer.png' },
+        { name: 'Dobok Poomsae Junior Masculino', image: '/imagenes/catalogo/dobokJuniorHombre.png' },
+        { name: 'Dobok Poomsae Junior Femenino', image: '/imagenes/catalogo/dobokJuniorMujer.png' },
+        { name: 'Dobok Senior', image: '/imagenes/catalogo/dobokSenior.png' },
+        { name: 'Dobok Olímpico Mooto', image: '/imagenes/catalogo/dobokMooto.png' },
+        { name: 'Dobok Olímpico Tusah', image: '/imagenes/catalogo/dobokTusah.png' },
+        { name: 'Dobok Rojo', image: '/imagenes/catalogo/dobokRojo.png' },
+        { name: 'Dobok Azul', image: '/imagenes/catalogo/dobokAzul.png' },
+        { name: 'Dobok Negro', image: '/imagenes/catalogo/dobokNegro.png' }
     ];
 
     return (
