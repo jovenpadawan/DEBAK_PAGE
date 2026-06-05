@@ -9,7 +9,7 @@ export default function InstitucionMision() {
         <section className="institucionTitles">
           <h1>Misión</h1>
           <span></span>
-          <p>En DEBAK TKD trabajamos para formar atletas con disciplina, respeto y espíritu competitivo, llevando el taekwondo como una herramienta de inclusión social y superación personal.</p>
+          <p>Conoce ¿Qué hacemos?, ¿a quiénes nos dirigimos? y ¿Cuál es nuestro valor agregado?</p>
         </section>
 
         <section className="info-card">
@@ -18,8 +18,7 @@ export default function InstitucionMision() {
           </div>
           <span className="info-divider" aria-hidden="true"></span>
           <div className="info-card__content">
-            <p>Desarrollamos un espacio seguro y profesional para el aprendizaje del Taekwondo, donde cada estudiante recibe entrenamiento técnico, fortaleza mental y valores que impulsan el crecimiento deportivo y humano.</p>
-            <p>Somos el puente entre la pasión por las artes marciales y el logro de metas tangibles en competencias, formación y comunidad.</p>
+            <p>En DEBAK entrenamos y formamos deportistas en la disciplina del Taekwondo, dirigido para niños, jóvenes y adultos que busquen un estilo de vida enmarcado en el respeto, disciplina y marcialidad. De esta manera, formamos seres humanos íntegros; buscando siempre formar seleccionados provinciales, nacionales y representantes internacionales del Ecuador.</p>
           </div>
         </section>
       </main>

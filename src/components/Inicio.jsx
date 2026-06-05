@@ -7,11 +7,15 @@ export default function Inicio() {
     <>
       <Header />
       <main>
+        <section className="h1titles">
+          <h1>DEBAK TKD</h1>
+          <span></span>
+        </section>
         <Carousel />
 
         <section className="intro">
-          <h2>Bienvenidos a DEBAK TKD</h2>
-          <p>DEBAK TKD es un espacio dedicado al entrenamiento serio y disciplinado del Taekwondo. Clases para todas las edades y niveles.</p>
+          <h2>¿Quiénes somos?</h2>
+          <p>Somos una familia de campeones dejando en alto al Ecuador. Formamos grandes seres humanos para la vida.</p>
         </section>
       </main>
     </>
