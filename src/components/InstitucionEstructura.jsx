@@ -19,7 +19,7 @@ export default function InstitucionEstructura() {
               <p>Nuestra organización está estructurada para apoyar el crecimiento deportivo, la administración y la experiencia de cada alumno, con entrenadores, coordinación técnica y apoyo logístico enfocados en resultados.</p>
             </div>
             <div className="estructura-card__image">
-              <img src="/imagenes/institucion/organigrama.png" alt="Estructura organizacional DEBAK TKD" loading="lazy" />
+              <img src="./imagenes/institucion/organigrama.png" alt="Estructura organizacional DEBAK TKD" loading="lazy" />
             </div>
           </div>
         </section>

@@ -12,7 +12,7 @@ const dataEventos = {
       {
         title: 'I Campeonato Nacional Interclubes',
         description: 'Varios de nuestros deportistas nos representaron en el Campeonato Nacional Interclubes en Manabí.',
-        image: '/imagenes/eventos/interclubesManabi.jpg',
+        image: './imagenes/eventos/interclubesManabi.jpg',
         date: '19 de Febrero, 2026',
         location: 'Manabí',
         tag: 'Deportivo',
@@ -21,7 +21,7 @@ const dataEventos = {
       {
         title: 'II Campeonato Sueños Olímpicos Patu12',
         description: 'Nuestros campeones dieron su mayor esfuerzo en el Patu12 2026, logrando destacar con sus logros.',
-        image: '/imagenes/eventos/patu12.jpg',
+        image: './imagenes/eventos/patu12.jpg',
         date: '28 de Marzo, 2026',
         location: 'Quito',
         tag: 'Deportivo',
@@ -30,7 +30,7 @@ const dataEventos = {
       {
         title: 'Campeonato Ranking Mundial G1',
         description: 'Nuestro director, Jimmy Bolaños, asistió junto con nuestro campeón Iván Marcano y Charlotte al Campeonato Ranking Mundial G1 en República Dominicana.',
-        image: '/imagenes/eventos/rankingRD.jpg',
+        image: './imagenes/eventos/rankingRD.jpg',
         date: '10 de Abril, 2026',
         location: 'República Dominicana',
         tag: 'Deportivo',
@@ -39,7 +39,7 @@ const dataEventos = {
       {
         title: 'Campeonato Panamericano de Taekwondo',
         description: 'Nuestro director, Jimmy Bolaños, y maestro, Marcelo Prado, nos representaron en el Campeonato Panamericano de Taekwondo en Brasil.',
-        image: '/imagenes/eventos/panamericanBrasil.jpg',
+        image: './imagenes/eventos/panamericanBrasil.jpg',
         date: '7 de Mayo, 2026',
         location: 'Brasil, Arena Carioca 1',
         tag: 'Deportivo',
@@ -48,7 +48,7 @@ const dataEventos = {
       {
         title: 'Nacional Junior Combate',
         description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
-        image: '/imagenes/eventos/panamericanBrasil.jpg',
+        image: './imagenes/eventos/panamericanBrasil.jpg',
         date: '7 de Mayo, 2026',
         location: 'Manabí',
         tag: 'Deportivo',
@@ -63,7 +63,7 @@ const dataEventos = {
       {
         title: 'Donación de Prendas',
         description: 'Una jornada solidaria donde se apoyó a las personas que lo necesitan en lanavidad.',
-        image: '/imagenes/eventos/ayudaNavidena.jpg',
+        image: './imagenes/eventos/ayudaNavidena.jpg',
         date: '23 de Diciembre, 2025',
         location: 'Quito Sur',
         tag: 'Social',
@@ -72,7 +72,7 @@ const dataEventos = {
       {
         title: 'Cena navideña DEBAK',
         description: 'Nos reunimos para dar mantenimiento al tatami y disfrutamos de una deliciosa cena.',
-        image: '/imagenes/eventos/cenaNavidena.jpg',
+        image: './imagenes/eventos/cenaNavidena.jpg',
         date: '18 de Diciembre, 2026',
         location: 'Debak Matriz',
         tag: 'Social',
@@ -81,7 +81,7 @@ const dataEventos = {
       {
         title: 'Reunión Deportiva',
         description: 'Luego de la carnetización de nuestros deportistas, se les invitó s disfrutar de las actividades planificadas para todas las edades.',
-        image: '/imagenes/eventos/tardeDeportiva.jpg',
+        image: './imagenes/eventos/tardeDeportiva.jpg',
         date: '31 de Enero, 2026',
         location: 'Debak Matriz',
         tag: 'Social',
@@ -96,7 +96,7 @@ const dataEventos = {
       {
         title: 'Debak al Aire',
         description: 'Nuestro Director, junto con nuestros deportistas Zoe Celi y Martín Benavides, estuvieron presentes en una entrevista en Pública FM.',
-        image: '/imagenes/eventos/zoeEntrevista.png',
+        image: './imagenes/eventos/zoeEntrevista.png',
         date: '8 de Enero, 2026',
         location: 'Quito',
         tag: 'Entrevista',
@@ -105,7 +105,7 @@ const dataEventos = {
       {
         title: 'Emiliano Herrera al Aire',
         description: 'Nuestro querido deportista, Emiliano Herrera, fue invitado a asistir en una entrevista en Pública FM.',
-        image: '/imagenes/eventos/emilianoEntrevista.png',
+        image: './imagenes/eventos/emilianoEntrevista.png',
         date: '2 de Marzo, 2026',
         location: 'Quito',
         tag: 'Entrevista',
@@ -114,7 +114,7 @@ const dataEventos = {
       {
         title: 'Marcelo Prado al Aire',
         description: 'Nuestro maestro de Poomsae, Marcelo Prado, recibió una invitación para participar en una entrevista en Pública FM.',
-        image: '/imagenes/eventos/marceloEntrevista.png',
+        image: './imagenes/eventos/marceloEntrevista.png',
         date: '12 de Marzo, 2026',
         location: 'Quito',
         tag: 'Entrevista',
@@ -123,7 +123,7 @@ const dataEventos = {
       {
         title: 'Iván Marcano al Aire',
         description: 'Nuestro campeón tuvo una entrevista con Pública FM desde la base de entrenamiento de Pichincha.',
-        image: '/imagenes/eventos/marcanoEntrevista.png',
+        image: './imagenes/eventos/marcanoEntrevista.png',
         date: '12 de Marzo, 2026',
         location: 'Quito',
         tag: 'Entrevista',
@@ -132,7 +132,7 @@ const dataEventos = {
       {
         title: 'Rodneey Quisnia al Aire',
         description: 'Nuestro profesor, Rodneey Quisnia, tuvo el placer de ser invitado a una entrevista en Pública FM.',
-        image: '/imagenes/eventos/rodneeyEntrevista.png',
+        image: './imagenes/eventos/rodneeyEntrevista.png',
         date: '28 de Mayo, 2026',
         location: 'Quito',
         tag: 'Entrevista',

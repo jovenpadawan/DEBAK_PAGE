@@ -2,11 +2,11 @@ import { useEffect, useState } from 'react';
 import './estilos/styles.css';
 
 const defaultImages = [
-  '/imagenes/carrusel/carruselEstadio.jpg',
-  '/imagenes/carrusel/carruselMindo.jpg',
-  '/imagenes/carrusel/carruselPeques.jpg',
-  '/imagenes/carrusel/carruselPremios.jpg',
-  '/imagenes/carrusel/carruselPortoviejo.jpg',
+  './imagenes/carrusel/carruselEstadio.jpg',
+  './imagenes/carrusel/carruselMindo.jpg',
+  './imagenes/carrusel/carruselPeques.jpg',
+  './imagenes/carrusel/carruselPremios.jpg',
+  './imagenes/carrusel/carruselPortoviejo.jpg',
 ];
 
 export default function Carousel({ images = defaultImages, intervalMs = 5000 }) {

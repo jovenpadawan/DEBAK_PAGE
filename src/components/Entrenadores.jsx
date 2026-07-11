@@ -10,32 +10,32 @@ export default function Entrenadores() {
     {
       name: "Diego Naranjo",
       role: "Psicólogo Deportivo y Secretario",
-      image: "imagenes/entrenadores/diegoNaranjo.jpg",
-      miniImage: "imagenes/entrenadores/diegoNaranjo.jpg",
+      image: "./imagenes/entrenadores/diegoNaranjo.jpg",
+      miniImage: "./imagenes/entrenadores/diegoNaranjo.jpg",
       tasks: ["Clases de psicología deportiva.", "Parte del equipo multidisciplinario."],
       courses: ["Curso de Psicología del Deporte en el ISFP."]
     },
     {
       name: "Rodneey Quisnia",
       role: "Departamento Administrativo",
-      image: "imagenes/entrenadores/rodneeyQuisniaInstitucional.jpg",
-      miniImage: "imagenes/entrenadores/rodneeyQuisniaInstitucional.jpg",
+      image: "./imagenes/entrenadores/rodneeyQuisniaInstitucional.jpg",
+      miniImage: "./imagenes/entrenadores/rodneeyQuisniaInstitucional.jpg",
       tasks: ["Facturación.", "Gestión de GAL Nacional y Provincial.", "Inscripción en eventos Nacionales y Provinciales."],
       courses: ["Capacitación en gestión administrativa."]
     },
     {
       name: "Andrés Alejo",
       role: "Marketing",
-      image: "imagenes/entrenadores/andresAlejoInstitucional.jpg",
-      miniImage: "imagenes/entrenadores/andresAlejoInstitucional.jpg",
+      image: "./imagenes/entrenadores/andresAlejoInstitucional.jpg",
+      miniImage: "./imagenes/entrenadores/andresAlejoInstitucional.jpg",
       tasks: ["Gestión de redes sociales.", "Creación de contenido audiovisual."],
       courses: ["Curso de Creación de Contenido."]
     },
     {
       name: "Miguel Ortuño",
       role: "Diseñador y Desarrollador Web",
-      image: "imagenes/entrenadores/miguelOrtunoInstitucional.jpg",
-      miniImage: "imagenes/entrenadores/miguelOrtunoInstitucional.jpg",
+      image: "./imagenes/entrenadores/miguelOrtunoInstitucional.jpg",
+      miniImage: "./imagenes/entrenadores/miguelOrtunoInstitucional.jpg",
       tasks: [],
       courses: ["Curso de Desarrollo Web y Bases de Datos.", "Bachillerato Técnico Informático.", "Curso de Instalaciones Eléctricas."]
     }
@@ -46,8 +46,8 @@ export default function Entrenadores() {
       name: "Jimmy Bolaños",
       range: "5to DAN Nacional y 5to DAN Kukkiwon.",
       role: "Director y Presidente del club DEBAK.",
-      image: "imagenes/entrenadores/jimmyBolanos.jpg",
-      miniImage: "imagenes/entrenadores/jimmyBolanosMini.jpg",
+      image: "./imagenes/entrenadores/jimmyBolanos.jpg",
+      miniImage: "./imagenes/entrenadores/jimmyBolanosMini.jpg",
       courses: ["Curso de Acreditación de entrenadores 2026.", "Poomsae avanzado"],
       achievements: ["Campeón Poomsae del I Ecuador Challenger 2026.", "Medalla de oro internacional 2021"]
     },
@@ -55,8 +55,8 @@ export default function Entrenadores() {
       name: "Marcelo Prado",
       range: "5to DAN Nacional y 5to DAN Kukkiwon.",
       role: "Maestro de la modalidad poomsae.",
-      image: "imagenes/entrenadores/marceloPrado.jpg",
-      miniImage: "imagenes/entrenadores/marceloPradoMini.jpg",
+      image: "./imagenes/entrenadores/marceloPrado.jpg",
+      miniImage: "./imagenes/entrenadores/marceloPradoMini.jpg",
       courses: ["Curso de Acreditación de entrenadores Provincial y Nacional 2026.", "Técnicas mixtas"],
       achievements: ["Campeón Poomsae del I Ecuador Challenger 2026.", "Mundial Taipei", "Karate"]
     },
@@ -64,8 +64,8 @@ export default function Entrenadores() {
       name: "Adrián Lara",
       range: "1er DAN Nacional.",
       role: "Profesor de combate y director de la sede Colegio Liga.",
-      image: "imagenes/entrenadores/adrianLara.jpg",
-      miniImage: "imagenes/entrenadores/adrianLaraMini.jpg",
+      image: "./imagenes/entrenadores/adrianLara.jpg",
+      miniImage: "./imagenes/entrenadores/adrianLaraMini.jpg",
       courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Práctica de poomsae, freestyle y exhibición 2025.", "Actualización del reglamento kyorugui 2025."],
       achievements: ["Ing. en Administración de Empresas.", "Lic. en Educación Mención en Educación Física."]
     },
@@ -73,8 +73,8 @@ export default function Entrenadores() {
       name: "Rodneey Quisnia",
       range: "1er DAN Nacional.",
       role: "Profesor de la modalidad poomsae.",
-      image: "imagenes/entrenadores/rodneeyQuisnia.jpg",
-      miniImage: "imagenes/entrenadores/rodneeyQuisniaMini.jpg",
+      image: "./imagenes/entrenadores/rodneeyQuisnia.jpg",
+      miniImage: "./imagenes/entrenadores/rodneeyQuisniaMini.jpg",
       courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Coreografía de poomsae"],
       achievements: ["Jugador nacional de poomsae", "Entrenador del año 2022"]
     },
@@ -82,8 +82,8 @@ export default function Entrenadores() {
       name: "Jared Vargas",
       range: "1er DAN Nacional.",
       role: "Director de la sede Carcelén Bajo.",
-      image: "imagenes/entrenadores/jaredVargas.jpg",
-      miniImage: "imagenes/entrenadores/jaredVargasMini.jpg",
+      image: "./imagenes/entrenadores/jaredVargas.jpg",
+      miniImage: "./imagenes/entrenadores/jaredVargasMini.jpg",
       courses: ["Acreditación de entrenadores Provincial y Nacional 2026."],
       achievements: ["Bronce Panamericano Costa Rica.", "Campeón G1 Perú.", "Vicecampeón en Juegos Nacionales."]
     },
@@ -91,8 +91,8 @@ export default function Entrenadores() {
       name: "Santiago Llaguno",
       range: "1er DAN Nacional y 1er DAN Kukkiwon.",
       role: "Director de la sede Tumbaco.",
-      image: "imagenes/entrenadores/santiLlaguno.jpg",
-      miniImage: "imagenes/entrenadores/santiLlagunoMini.jpg",
+      image: "./imagenes/entrenadores/santiLlaguno.jpg",
+      miniImage: "./imagenes/entrenadores/santiLlagunoMini.jpg",
       courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Capacitación en entrenamiento personal y deportivo."],
       achievements: ["Medalla de bronce en el Ranking Mundial GR Riobamba 2024", "Bronce del Campeonato Nacional."]
     },
@@ -100,8 +100,8 @@ export default function Entrenadores() {
       name: "Estefani Bolaños",
       range: "2do DAN Kukkiwon.",
       role: "Directora de la sede Colegio PU.",
-      image: "imagenes/entrenadores/estefyBolanos.jpg",
-      miniImage: "imagenes/entrenadores/estefyBolanosMini.jpg",
+      image: "./imagenes/entrenadores/estefyBolanos.jpg",
+      miniImage: "./imagenes/entrenadores/estefyBolanosMini.jpg",
       courses: ["Entrenadora Provincial y Nacional", "Título de arquitectura en la UCE."],
       achievements: ["Bronce parejas Campeonato Nacional Poomsae 2023.", "Seleccionada Provincial."]
     }

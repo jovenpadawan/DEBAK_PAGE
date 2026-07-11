@@ -2,14 +2,14 @@ import Header from './Header';
 import './estilos/catalogo.css';
 
 const implementos = [
-    { name: 'Protector de Antebrazo', image: '/imagenes/catalogo/brazera.jpg' },
-    { name: 'Protector de Canilla', image: '/imagenes/catalogo/canillera.jpg' },
-    { name: 'Guantines', image: '/imagenes/catalogo/guantines.jpg' },
-    { name: 'Empeineras', image: '/imagenes/catalogo/empeineras.jpg' },
-    { name: 'Inguinales Masculinos', image: '/imagenes/catalogo/inguinalMasc.jpg' },
-    { name: 'Inguinales Femeninos', image: '/imagenes/catalogo/inguinalFem.jpg' },
-    { name: 'Petos', image: '/imagenes/catalogo/peto.jpg' },
-    { name: 'Cabezales', image: '/imagenes/catalogo/cabezal.jpg' }
+    { name: 'Protector de Antebrazo', image: './imagenes/catalogo/brazera.jpg' },
+    { name: 'Protector de Canilla', image: './imagenes/catalogo/canillera.jpg' },
+    { name: 'Guantines', image: './imagenes/catalogo/guantines.jpg' },
+    { name: 'Empeineras', image: './imagenes/catalogo/empeineras.jpg' },
+    { name: 'Inguinales Masculinos', image: './imagenes/catalogo/inguinalMasc.jpg' },
+    { name: 'Inguinales Femeninos', image: './imagenes/catalogo/inguinalFem.jpg' },
+    { name: 'Petos', image: './imagenes/catalogo/peto.jpg' },
+    { name: 'Cabezales', image: './imagenes/catalogo/cabezal.jpg' }
 ];
 
 export default function Implementos() {
