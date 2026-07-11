@@ -6,7 +6,7 @@ export default function Uniformes() {
         { name: 'Piel Debak', image: './imagenes/catalogo/pielDebak.jpg' },
         { name: 'Camiseta Debak', image: './imagenes/catalogo/camisetaDebak.jpg' },
         { name: 'Pantaloneta Debak', image: './imagenes/catalogo/pantaloneta.jpg' },
-        { name: 'Mochila Debak', image: './imagenes/catalogo/mochilaDebak.jpg' }
+        //{ name: 'Mochila Debak', image: './imagenes/catalogo/mochilaDebak.jpg' }
     ];
 
     return (

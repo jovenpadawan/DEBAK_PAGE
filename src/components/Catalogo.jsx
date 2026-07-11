@@ -5,7 +5,7 @@ import './estilos/catalogo.css';
 export default function Catalogo() {
     const products = [
         { name: 'Doboks', image: './imagenes/catalogo/dobokCombatePortada.png', link: '/catalogo/doboks' },
-        { name: 'Uniforme Debak', image: './imagenes/uniforme-debak.jpg', link: '/catalogo/uniformes' },
+        { name: 'Uniforme Debak', image: './imagenes/catalogo/camisetaDebak.jpg', link: '/catalogo/uniformes' },
         { name: 'Implementos', image: './imagenes/catalogo/implementos.jpg', link: '/catalogo/implementos' }
     ];
 
