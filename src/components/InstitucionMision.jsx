@@ -9,7 +9,6 @@ export default function InstitucionMision() {
         <section className="institucionTitles">
           <h1>Misión</h1>
           <span></span>
-          <p>Conoce ¿Qué hacemos?, ¿a quiénes nos dirigimos? y ¿Cuál es nuestro valor agregado?</p>
         </section>
 
         <section className="info-card">

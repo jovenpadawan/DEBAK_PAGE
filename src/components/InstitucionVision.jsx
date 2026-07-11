@@ -9,7 +9,6 @@ export default function InstitucionVision() {
         <section className="institucionTitles">
           <h1>Visión</h1>
           <span></span>
-          <p>Queremos ser reconocidos como la institución de taekwondo más sólida de la región, formando campeones y líderes que transformen su entorno con disciplina, salud y trabajo en equipo.</p>
         </section>
 
         <section className="info-card">
@@ -18,8 +17,7 @@ export default function InstitucionVision() {
           </div>
           <span className="info-divider" aria-hidden="true"></span>
           <div className="info-card__content">
-            <p>Aspiramos a multiplicar el impacto social del taekwondo, generando oportunidades de crecimiento personal y deportivo para niños, jóvenes y adultos, mediante una formación constante y un ambiente respetuoso.</p>
-            <p>Nos proyectamos como una comunidad deportiva donde los éxitos se construyen con esfuerzo y vocación, y cada integrante se siente motivado a superarse.</p>
+            <p>Ser el club de alto rendimiento referente del Ecuador, consolidando en los próximos 10 años una trayectoria de excelencia que transforme a atletas competitivos en campeones de élite mundial creando una comunidad de deportistas de alto rendimiento con buenos valores humanos.</p>
           </div>
         </section>
       </main>
