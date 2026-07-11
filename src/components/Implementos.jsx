@@ -2,7 +2,7 @@ import Header from './Header';
 import './estilos/catalogo.css';
 
 const implementos = [
-    { name: 'Protector de Antebrazo', image: './imagenes/catalogo/brazeras.jpg' },
+    { name: 'Protector de Antebrazo', image: './imagenes/catalogo/brazeras.png' },
     { name: 'Protector de Canilla', image: './imagenes/catalogo/canilleras.jpg' },
     { name: 'Guantines', image: './imagenes/catalogo/guantines.jpg' },
     { name: 'Empeineras', image: './imagenes/catalogo/empeineras.jpg' },
