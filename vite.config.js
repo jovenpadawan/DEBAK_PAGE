@@ -1,11 +1,9 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-const isProduction = process.env.NODE_ENV === 'production'
-
 // https://vite.dev/config/
 export default defineConfig({
-  base: isProduction ? '/DEBAK_PAGE/' : '/',
+  base: './', 
   plugins: [react()],
   server: {
     host: '0.0.0.0',
