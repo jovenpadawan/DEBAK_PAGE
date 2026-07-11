@@ -35,7 +35,7 @@ export default function Contactanos() {
           <p>Ve nuestro contenido y escríbenos para más información.</p>
           <div className="contactanosSocial">
             <div className="whatsappSection">
-              <img src="/imagenes/redes/whatsapp.png" alt="WhatsApp" />
+              <img src="./imagenes/redes/whatsapp.png" alt="WhatsApp" />
               <p>WhatsApp</p>
               <div className="whatsappNumbers">
                 <a href="https://wa.me/593964020344" target="_blank" rel="noopener noreferrer">
@@ -47,15 +47,15 @@ export default function Contactanos() {
               </div>
             </div>
             <a href="https://www.instagram.com/tkd.debak?igsh=MTI2d3Z6dmxiMGRxdQ==" target="_blank" rel="noopener noreferrer">
-              <img src="/imagenes/redes/instagram.png" alt="Instagram" />
+              <img src="./imagenes/redes/instagram.png" alt="Instagram" />
               <p>Instagram</p>  
             </a>
             <a href="https://www.facebook.com/share/18FbU5tuVB/" target="_blank" rel="noopener noreferrer">
-              <img src="/imagenes/redes/facebook.png" alt="Facebook" />
+              <img src="./imagenes/redes/facebook.png" alt="Facebook" />
               <p>Facebook</p>
             </a>
             <a href="https://www.tiktok.com/@tkd.debak" width="80px" height="80px" target="_blank" rel="noopener noreferrer">
-              <img src="/imagenes/redes/tiktok.png" alt="TikTok" />
+              <img src="./imagenes/redes/tiktok.png" alt="TikTok" />
               <p>TikTok</p>
             </a>
           </div>

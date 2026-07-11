@@ -3,10 +3,10 @@ import './estilos/catalogo.css';
 
 export default function Uniformes() {
     const uniforms = [
-        { name: 'Piel Debak', image: './imagenes/piel-debak.jpg' },
-        { name: 'Camiseta Debak', image: './imagenes/camiseta-debak.jpg' },
-        { name: 'Pantaloneta Debak', image: './imagenes/pantaloneta-debak.jpg' },
-        { name: 'Mochila Debak', image: './imagenes/mochila-debak.jpg' }
+        { name: 'Piel Debak', image: './imagenes/catalogo/pielDebak.jpg' },
+        { name: 'Camiseta Debak', image: './imagenes/catalogo/camisetaDebak.jpg' },
+        { name: 'Pantaloneta Debak', image: './imagenes/catalogo/pantaloneta.jpg' },
+        { name: 'Mochila Debak', image: './imagenes/catalogo/mochilaDebak.jpg' }
     ];
 
     return (

@@ -48,8 +48,8 @@ export default function Entrenadores() {
       role: "Director y Presidente del club DEBAK.",
       image: "./imagenes/entrenadores/jimmyBolanos.jpg",
       miniImage: "./imagenes/entrenadores/jimmyBolanosMini.jpg",
-      courses: ["Curso de Acreditación de entrenadores 2026.", "Poomsae avanzado"],
-      achievements: ["Campeón Poomsae del I Ecuador Challenger 2026.", "Medalla de oro internacional 2021"]
+      courses: ["Curso de Acreditación de entrenadores 2026.", "Ingeniero Automotriz."],
+      achievements: ["Campeón Panamericano.", "Seleccionado nacional desde el 2021.", "Campeón del Campeonato Ranking Mundial G1 República Dominicana 2026."]
     },
     {
       name: "Marcelo Prado",
@@ -57,8 +57,8 @@ export default function Entrenadores() {
       role: "Maestro de la modalidad poomsae.",
       image: "./imagenes/entrenadores/marceloPrado.jpg",
       miniImage: "./imagenes/entrenadores/marceloPradoMini.jpg",
-      courses: ["Curso de Acreditación de entrenadores Provincial y Nacional 2026.", "Técnicas mixtas"],
-      achievements: ["Campeón Poomsae del I Ecuador Challenger 2026.", "Mundial Taipei", "Karate"]
+      courses: ["Curso de Acreditación de entrenadores Provincial y Nacional 2026."],
+      achievements: ["Vicecampeón de el 11° Campeonato Mundial Taipei 2018.","Vicecampeón del Campeonato Panamericano de Taekwondo 2026 Brasil.", "Vicecampeón del World Masters Games 2025 Taipei."]
     },
     {
       name: "Adrián Lara",
@@ -75,8 +75,8 @@ export default function Entrenadores() {
       role: "Profesor de la modalidad poomsae.",
       image: "./imagenes/entrenadores/rodneeyQuisnia.jpg",
       miniImage: "./imagenes/entrenadores/rodneeyQuisniaMini.jpg",
-      courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Coreografía de poomsae"],
-      achievements: ["Jugador nacional de poomsae", "Entrenador del año 2022"]
+      courses: ["Curso vigente de Ingeniería en Sistemas.", "Curso de acreditación de entrenadores Provincial y Nacional 2026."],
+      achievements: ["Campeón Parejas Juegos Prejuveniles 2022."]
     },
     {
       name: "Jared Vargas",

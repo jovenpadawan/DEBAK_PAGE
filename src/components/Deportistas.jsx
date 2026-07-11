@@ -83,37 +83,21 @@ export default function Deportistas() {
       rank: "Cinturón negro, 1er DAN Nacional.",
       level: "avanzado",
       image: "./imagenes/deportistas/emilioAyala.jpg",
-      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
+      achievements: [""]
     },
     {
       name: "Zoe Celi",
       rank: "Cinturón negro, 1er DAN Nacional.",
       level: "avanzado",
       image: "./imagenes/deportistas/zoeCeli.jpg",
-      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
+      achievements: ["Campeona freestyle Campeonato Nacional Poomsae 2026."]
     },
     {
-       name: "Arantxa Marcano",
+      name: "Arantxa Marcano",
       rank: "Cinturón azul-rojo.",
       level: "intermedio",
       image: "./imagenes/deportistas/arantxaMarcano.jpg",
-      achievements: ["Bronce en Patu12 2026.", "Bronce en el Campeonato Nacional Infantil Quito 2026."]
-    },
-    {
-       name: "Kevin Flores",
-      rank: "Cinturón negro, 1er DAN Nacional.",
-      level: "avanzado",
-      image: "./imagenes/deportistas/kevinFlores.jpg",
-      courses: ["Entrenamiento físico", "Técnica de patadas"],
-      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
-    },
-    {
-       name: "Julián Ibarra",
-      rank: "Cinturón negro, 1er DAN Nacional.",
-      level: "avanzado",
-      image: "./imagenes/deportistas/julianIbarra.jpg",
-      courses: ["Entrenamiento físico", "Técnica de patadas"],
-      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
+      achievements: ["Bronce en Patu12 2026.", "Bronce en el Campeonato Nacional Infantil Quito 2026.", "Bronce II Ecuador Challenger 2026."]
     },
     {
       name: "Estefany Barrera",
