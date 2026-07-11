@@ -90,22 +90,6 @@ export default function Deportistas() {
       rank: "Cinturón negro, 1er DAN Nacional.",
       level: "avanzado",
       image: "/imagenes/deportistas/zoeCeli.jpg",
-      courses: ["Entrenamiento físico", "Técnica de patadas"],
-      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
-    },
-    {
-      name: "Héctor Ruíz",
-      rank: "Cinturón negro, 1er DAN Nacional.",
-      level: "avanzado",
-      image: "/imagenes/deportistas/ivanMarcano.jpg",
-      courses: ["Entrenamiento físico", "Técnica de patadas"],
-      achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
-    },
-    {
-      name: "Joaquín Vargas",
-      rank: "Cinturón negro, 1er DAN Nacional.",
-      level: "avanzado",
-      image: "/imagenes/deportistas/ivanMarcano.jpg",
       achievements: ["Campeona provincial 2023", "Mejor graduada 2022"]
     },
     {
@@ -142,13 +126,6 @@ export default function Deportistas() {
       name: "Andy Almeida",
       rank: "Cinturón amarillo.",
       level: "intermedio",
-      image: "/imagenes/deportistas/andyAlmeida.jpg",
-      achievements: ["Doble campeón del Ecuador Challenger.", "Vicecampeón del Patu12 2026."]
-    },
-    {
-      name: "Juan Puente",
-      rank: "Cinturón negro, 1er DAN Nacional.",
-      level: "avanzado",
       image: "/imagenes/deportistas/andyAlmeida.jpg",
       achievements: ["Doble campeón del Ecuador Challenger.", "Vicecampeón del Patu12 2026."]
     }
