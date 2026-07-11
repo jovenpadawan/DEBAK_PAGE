@@ -37,7 +37,7 @@ export default function Header() {
         </button>
 
         <div className="header-logo">
-          <img src="/imagenes/debakLogo.jpeg" alt="DEBAK TKD" className="logo-img" />
+          <img src="./imagenes/debakLogo.jpeg" alt="DEBAK TKD" className="logo-img" />
         </div>
       </header>
 
@@ -60,17 +60,17 @@ export default function Header() {
             </button>
             <ul className="submenu">
               <li>
-                <NavLink to="/institucion/mision" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
+                <NavLink to="./institucion/mision" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
                   Misión
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/institucion/vision" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
+                <NavLink to="./institucion/vision" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
                   Visión
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/institucion/estructura" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
+                <NavLink to="./institucion/estructura" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
                   Estructura Organizacional
                 </NavLink>
               </li>
