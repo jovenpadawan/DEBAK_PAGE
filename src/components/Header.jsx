@@ -150,7 +150,7 @@ export default function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/PaginasAsociadas" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
+            <NavLink to="/paginasAsociadas" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
               Páginas Asociadas
             </NavLink>
           </li>

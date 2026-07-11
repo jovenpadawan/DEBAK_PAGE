@@ -1,5 +1,5 @@
 import Header from './Header';
-import './Estilos/styles.css';
+import './estilos/styles.css';
 
 export default function InstitucionMision() {
   return (

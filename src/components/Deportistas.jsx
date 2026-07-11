@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Header from './Header';
 import Modal from './Modal';
-import './Estilos/styles.css';
+import './estilos/styles.css';
 
 export default function Deportistas() {
   const [selected, setSelected] = useState(null);

@@ -1,5 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import './components/Estilos/styles.css';
+import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
+import './components/estilos/styles.css';
 
 import Inicio from './components/Inicio';
 import Entrenadores from './components/Entrenadores';
@@ -19,7 +19,7 @@ import PaginasAsociadas from './components/PaginasAsociadas';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/entrenadores" element={<Entrenadores />} />
@@ -37,8 +37,9 @@ function App() {
         <Route path="/institucion/estructura" element={<InstitucionEstructura />} />
         <Route path="/eventos" element={<Eventos />} />
         <Route path="/paginasAsociadas" element={<PaginasAsociadas />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
