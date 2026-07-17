@@ -20,7 +20,7 @@ export default function Deportistas() {
       level: "intermedio",
       image: "./imagenes/deportistas/mariMadrid.png",
       courses: ["Entrenamiento físico", "Técnica de patadas"],
-      achievements: ["Campeona del Intercolegial de Taekwondo 2026.", "Campeona Kyorugui y Bronce Poomsae en el I Campeonato Nacional Interclubes Manabí 2026."]
+      achievements: ["Campeona del Intercolegial de Taekwondo 2026.", "Campeona Kyorugui y Bronce Poomsae en el I Campeonato Nacional Interclubes Manabí 2026.", "Integrante del equipo de Juegos Nacionales 2026."]
     },
     {
       name: "Bryan Valdez",
@@ -76,21 +76,42 @@ export default function Deportistas() {
       rank: "Cinturón negro, 1er DAN Nacional.",
       level: "avanzado",
       image: "./imagenes/deportistas/ivanMarcano.jpg",
-      achievements: ["Campeón Poomsae y Vicecampeón Freestyle del Patu12 2026.", "Campeón Kyorugui, Vicecampeón Freestyle y Bronce Poomsae del I Campeonato Nacional Interclubes Manabí 2026."]
+      achievements: ["Campeón Poomsae y Vicecampeón Freestyle del Patu12 2026.", "Campeón Kyorugui, Vicecampeón Freestyle y Bronce Poomsae del I Campeonato Nacional Interclubes Manabí 2026.", "Vicecampeón poomsae y Campeón combate en el Campeonato Ranking Mundial G1 República Dominicana 2026."]
     },
     {
       name: "Emilio Ayala",
       rank: "Cinturón negro, 1er DAN Nacional.",
       level: "avanzado",
       image: "./imagenes/deportistas/emilioAyala.jpg",
-      achievements: [""]
+      achievements: ["Seleccionado provincial.", "Medallista de Juegos Nacionales Estudiantiles.", "Representante de Ecuador en la President Cup 2025.", "Integrante del equipo de Juegos Nacionales 2026."]
+    },
+    {
+      name:"Kevin Flores",
+      rank: "Cinturón negro, 2do DAN.",
+      level: "avanzado",
+      image: "./imagenes/deportistas/kevinFlores.jpg",
+      achievements: ["Ex-seleccionado nacional en combate -68kg.", "Medallista internacional.", "Representante de Ecuador en varios ranking mundiales.", "Multimedallista de varios juegos nacionales."]
+    },
+    {
+      name:"Julián Ibarra",
+      rank: "Cinturón negro, 1er DAN Nacional.",
+      level: "avanzado",
+      image: "./imagenes/deportistas/julianIbarra.jpg",
+      achievements: ["Seleccionado de Pichincha", "Ex-preselección Nacional.", "Campeón Nacional.", "Medallista de Juegos Nacionales."]
     },
     {
       name: "Zoe Celi",
-      rank: "Cinturón negro, 1er DAN Nacional.",
+      rank: "Cinturón negro, 2do DAN Nacional.",
       level: "avanzado",
       image: "./imagenes/deportistas/zoeCeli.jpg",
-      achievements: ["Campeona freestyle Campeonato Nacional Poomsae 2026."]
+      achievements: ["Seleccionada Provincial y Nacional desde 2022.", "Doble medalla de bronce panamericana.", "Campeona nacional de manera consecutiva desde 2023.", "Medalla de oro, plata y bronce en Juegos Nacionales.", "Integrante del equipo de Juegos Nacionales 2026."]
+    },
+    {
+      name:"Gabriel Ruíz",
+      rank: "Cinturón negro, 1er DAN Nacional.",
+      level: "avanzado",
+      image: "./imagenes/deportistas/gabrielRuiz.jpg",
+      achievements: ["Seleccionado provincial y nacional.", "Vicecampeón de Juegos Nacionales.", "Bronce Panamericano en México.", "Integrante del equipo de Juegos Nacionales 2026."]
     },
     {
       name: "Arantxa Marcano",
