@@ -77,7 +77,7 @@ export default function Deportistas() {
       rank: "Cinturón negro, 1er DAN Nacional.",
       level: "avanzado",
       image: "./imagenes/deportistas/ivanMarcano.jpg",
-      achievements: ["Campeón Poomsae y Vicecampeón Freestyle del Patu12 2026.", "Campeón Kyorugui, Vicecampeón Freestyle y Bronce Poomsae del I Campeonato Nacional Interclubes Manabí 2026.", "Vicecampeón poomsae y Campeón combate en el Campeonato Ranking Mundial G1 República Dominicana 2026."]
+      achievements: ["Seleccionado Provincial y Nacional.", "Doble Campeón Panamericano Infantil.", "Campeón Mundial Infantil Colombia.", "Representante del Ecuador en la President Cup 2024.", "Campeón Poomsae y Vicecampeón Freestyle del Patu12 2026.", "Campeón Kyorugui, Vicecampeón Freestyle y Bronce Poomsae del I Campeonato Nacional Interclubes Manabí 2026.", "Vicecampeón poomsae y Campeón combate en el Campeonato Ranking Mundial G1 República Dominicana 2026."]
     },
     {
       name: "Emilio Ayala",
