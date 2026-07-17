@@ -86,11 +86,25 @@ export default function Deportistas() {
       achievements: ["Seleccionado provincial.", "Medallista de Juegos Nacionales Estudiantiles.", "Representante de Ecuador en la President Cup 2025.", "Integrante del equipo de Juegos Nacionales 2026."]
     },
     {
+      name:"Juan Puente",
+      rank: "Cinturón negro, 1er DAN Nacional.",
+      level: "avanzado",
+      image: "./imagenes/deportistas/juanPuente.jpg",
+      achievements: ["Seleccionado Provincial y Nacional.", "Medallista Panamericano.", "Representante del Ecuador en el US Open y Ranking Mundiales.", "Campeón Provincial y Nacional.", "Multimedallista de Juegos Nacionales."]
+    },
+    {
       name:"Kevin Flores",
       rank: "Cinturón negro, 2do DAN.",
       level: "avanzado",
       image: "./imagenes/deportistas/kevinFlores.jpg",
       achievements: ["Ex-seleccionado nacional en combate -68kg.", "Medallista internacional.", "Representante de Ecuador en varios ranking mundiales.", "Multimedallista de varios juegos nacionales."]
+    },
+    {
+      name:"Charlotte Campusano",
+      rank:"Cinturón negro, 1er DAN Nacional.",
+      level: "avanzado",
+      image: "./imagenes/deportistas/charlotteCampusano.jpg",
+      achievements: ["Seleccionada Provincial y Nacional en combate y poomsae.", "Representante del Ecuador en el Dominican Republica Ranking G1."]
     },
     {
       name:"Julián Ibarra",
@@ -111,7 +125,7 @@ export default function Deportistas() {
       rank: "Cinturón negro, 1er DAN Nacional.",
       level: "avanzado",
       image: "./imagenes/deportistas/gabrielRuiz.jpg",
-      achievements: ["Seleccionado provincial y nacional.", "Vicecampeón de Juegos Nacionales.", "Bronce Panamericano en México.", "Integrante del equipo de Juegos Nacionales 2026."]
+      achievements: ["Seleccionado provincial y nacional.", "Vicecampeón de Juegos Nacionales.", "Medallista Panamericano.", "Integrante del equipo de Juegos Nacionales 2026."]
     },
     {
       name: "Arantxa Marcano",

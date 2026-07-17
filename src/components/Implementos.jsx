@@ -7,7 +7,7 @@ const implementos = [
     { name: 'Guantines', image: './imagenes/catalogo/guantines.jpg' },
     { name: 'Empeineras', image: './imagenes/catalogo/empeineras.jpg' },
     { name: 'Inguinales Masculinos', image: './imagenes/catalogo/inguinalMasc.jpg' },
-    //{ name: 'Inguinales Femeninos', image: './imagenes/catalogo/inguinalFem.jpg' },
+    //{ name: 'Inguinales Femeninos', image: './imagenes/catalogo/inguinalFem.png' },
     { name: 'Petos', image: './imagenes/catalogo/peto.png' },
     { name: 'Cabezales', image: './imagenes/catalogo/cabezal.jpg' }
 ];

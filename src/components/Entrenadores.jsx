@@ -11,7 +11,7 @@ export default function Entrenadores() {
       name: "Diego Naranjo",
       role: "Psicólogo Deportivo y Secretario",
       image: "./imagenes/entrenadores/diegoNaranjo.jpg",
-      miniImage: "./imagenes/entrenadores/diegoNaranjo.jpg",
+      miniImage: "./imagenes/entrenadores/diegoNaranjoMini.jpg",
       tasks: ["Clases de psicología deportiva.", "Parte del equipo multidisciplinario."],
       courses: ["Curso de Psicología del Deporte en el ISFP."]
     },
@@ -37,7 +37,7 @@ export default function Entrenadores() {
       image: "./imagenes/entrenadores/miguelOrtunoInstitucional.jpg",
       miniImage: "./imagenes/entrenadores/miguelOrtunoInstitucional.jpg",
       tasks: [],
-      courses: ["Curso de Desarrollo Web y Bases de Datos.", "Bachillerato Técnico Informático.", "Curso de Instalaciones Eléctricas."]
+      courses: ["Curso de Desarrollo Web y Bases de Datos.", "Bachillerato Técnico en Informática.", "Curso de Instalaciones Eléctricas."]
     }
   ];
 
