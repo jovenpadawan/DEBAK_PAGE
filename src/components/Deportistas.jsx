@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from './Header';
 import Modal from './Modal';
+import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
 export default function Deportistas() {
@@ -152,6 +153,7 @@ export default function Deportistas() {
 
   return ( 
     <>
+      <SeoOptimization title="Deportistas" description="Descubre a los deportistas destacados y logros de DEBAK TKD." />
       <Header />
       <main>
         <section className="deportistTitles">

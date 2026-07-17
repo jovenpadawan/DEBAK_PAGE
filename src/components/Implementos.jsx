@@ -1,4 +1,5 @@
 import Header from './Header';
+import SeoOptimization from './SeoOptimization';
 import './estilos/catalogo.css';
 
 const implementos = [
@@ -23,6 +24,7 @@ export default function Implementos() {
 
     return (
         <>
+            <SeoOptimization title="Catálogo" description="Consulta implementos deportivos y accesorios oficiales para la práctica del Taekwondo en DEBAK TKD." />
             <Header />
             <main style={{ paddingBottom: '4rem' }}>
                 <section className="catalogoTitles">

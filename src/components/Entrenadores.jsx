@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Header from './Header';
 import Modal from './Modal';
+import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
 export default function Entrenadores() {
@@ -109,6 +110,7 @@ export default function Entrenadores() {
 
   return (
     <>
+      <SeoOptimization title="Entrenadores" description="Conoce al equipo de entrenadores y personal institucional de DEBAK TKD." />
       <Header />
       <main style={{ paddingBottom: '4rem' }}>
         

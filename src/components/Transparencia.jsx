@@ -1,4 +1,5 @@
 import Header from './Header';
+import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
 export default function Transparencia() {
@@ -42,6 +43,7 @@ export default function Transparencia() {
 
     return (
         <>
+            <SeoOptimization title="Transparencia" description="Consulta documentos institucionales, estatutos, reglamentos y protocolos de DEBAK TKD." />
             <Header />
             <main>
                 <section className="transparencyTitles">

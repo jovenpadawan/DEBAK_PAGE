@@ -1,4 +1,5 @@
 import Header from './Header';
+import SeoOptimization from './SeoOptimization';
 import { Link } from 'react-router-dom';
 import './estilos/catalogo.css';
 
@@ -11,6 +12,7 @@ export default function Catalogo() {
 
     return (
         <>
+            <SeoOptimization title="Catálogo" description="Explora el catálogo de doboks, uniformes e implementos deportivos de DEBAK TKD." />
             <Header />
             <main>
                 <section className="catalogoTitles">

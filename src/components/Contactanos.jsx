@@ -1,4 +1,5 @@
 import Header from './Header';
+import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
 export default function Contactanos() {
@@ -27,6 +28,7 @@ export default function Contactanos() {
 
   return (
     <>
+      <SeoOptimization title="Contacto" description="Ponte en contacto con DEBAK TKD, conoce nuestras redes sociales y sedes en Quito." />
       <Header />
       <main>
         <section className="contactanosTitles">

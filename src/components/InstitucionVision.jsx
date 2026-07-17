@@ -1,9 +1,11 @@
 import Header from './Header';
+import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
 export default function InstitucionVision() {
   return (
     <>
+      <SeoOptimization title="Institución" description="Descubre la visión de DEBAK TKD y su apuesta por la excelencia deportiva y el desarrollo humano." />
       <Header />
       <main>
         <section className="institucionTitles">

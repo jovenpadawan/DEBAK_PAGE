@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import Header from './Header';
 import Modal from './Modal';
+import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
 const dataEventos = {
@@ -149,6 +150,7 @@ export default function Eventos() {
 
   return (
     <>
+      <SeoOptimization title="Eventos" description="Descubre los eventos deportivos, sociales y de promoción del club DEBAK TKD." />
       <Header />
       <main style={{ paddingBottom: '5rem' }}>
         

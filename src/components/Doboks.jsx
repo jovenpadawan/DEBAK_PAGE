@@ -1,4 +1,5 @@
 import Header from './Header';
+import SeoOptimization from './SeoOptimization';
 import './estilos/catalogo.css';
 
 export default function Doboks() {
@@ -18,6 +19,7 @@ export default function Doboks() {
 
     return (
         <>
+            <SeoOptimization title="Catálogo" description="Explora los doboks oficiales de DEBAK TKD para diferentes categorías y estilos." />
             <Header />
             <main>
                 <section className="catalogoTitles">

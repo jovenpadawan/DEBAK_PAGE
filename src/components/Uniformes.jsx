@@ -1,4 +1,5 @@
 import Header from './Header';
+import SeoOptimization from './SeoOptimization';
 import './estilos/catalogo.css';
 
 export default function Uniformes() {
@@ -11,6 +12,7 @@ export default function Uniformes() {
 
     return (
         <>
+            <SeoOptimization title="Catálogo" description="Descubre uniformes y prendas oficiales para deportistas y entrenadores de DEBAK TKD." />
             <Header />
             <main>
                 <section className="catalogoTitles">

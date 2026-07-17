@@ -1,9 +1,11 @@
 import Header from './Header';
+import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
 export default function InstitucionEstructura() {
   return (
     <>
+      <SeoOptimization title="Institución" description="Explora la estructura organizacional de DEBAK TKD y el equipo que impulsa el club." />
       <Header />
       <main>
         <section className="institucionTitles">
