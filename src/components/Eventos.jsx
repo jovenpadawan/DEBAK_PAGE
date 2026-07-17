@@ -48,8 +48,8 @@ const dataEventos = {
       {
         title: 'Nacional Junior Combate',
         description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
-        image: './imagenes/eventos/panamericanBrasil.jpg',
-        date: '7 de Mayo, 2026',
+        image: './imagenes/eventos/nacionalJunior.jpg',
+        date: '30 de Mayo, 2026',
         location: 'Manabí',
         tag: 'Deportivo',
         detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
@@ -68,15 +68,6 @@ const dataEventos = {
         location: 'Quito Sur',
         tag: 'Social',
         detalles: 'Compartiremos un almuerzo comunitario y dinámicas grupales para fortalecer lazos.'
-      },
-      {
-        title: 'Cena navideña DEBAK',
-        description: 'Nos reunimos para dar mantenimiento al tatami y disfrutamos de una deliciosa cena.',
-        image: './imagenes/eventos/cenaNavidena.jpg',
-        date: '18 de Diciembre, 2026',
-        location: 'Debak Matriz',
-        tag: 'Social',
-        detalles: 'Cena de fin de año junto con la familia DEBAK.'
       },
       {
         title: 'Reunión Deportiva',

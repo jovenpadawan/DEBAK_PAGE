@@ -100,10 +100,10 @@ export default function Deportistas() {
       achievements: ["Ex-seleccionado nacional en combate -68kg.", "Medallista internacional.", "Representante de Ecuador en varios ranking mundiales.", "Multimedallista de varios juegos nacionales."]
     },
     {
-      name:"Charlotte Campusano",
+      name:"Charllote Campusano",
       rank:"Cinturón negro, 1er DAN Nacional.",
       level: "avanzado",
-      image: "./imagenes/deportistas/charlotteCampusano.jpg",
+      image: "./imagenes/deportistas/charlloteCampusano.jpg",
       achievements: ["Seleccionada Provincial y Nacional en combate y poomsae.", "Representante del Ecuador en el Dominican Republica Ranking G1."]
     },
     {
