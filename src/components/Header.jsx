@@ -50,7 +50,6 @@ export default function Header() {
             </NavLink>
           </li>
 
-          {/* Submenú Institución - Corregido con rutas absolutas */}
           <li className={`menu-group ${institucionOpen ? 'open' : ''}`}>
             <button 
               type="button" 
@@ -90,7 +89,6 @@ export default function Header() {
             </NavLink>
           </li>
 
-          {/* Submenú Eventos - Corregido desestructurando { isActive } */}
           <li className={`menu-group ${eventosOpen ? 'open' : ''}`}>
             <button 
               type="button" 

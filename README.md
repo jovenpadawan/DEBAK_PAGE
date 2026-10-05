@@ -26,9 +26,10 @@ Se agregó una carpeta `public/imagenes` para almacenar recursos gráficos de la
 
 ### Publicación en GitHub Pages
 
-El sitio se publica en `https://jovenpadawan.github.io/DEBAK_PAGE/`.
+El sitio se publica en `https://debaktkd.com/` mediante el dominio personalizado configurado en GitHub Pages.
 
 1. En GitHub, abre **Settings → Pages**.
 2. En **Build and deployment**, elige **Deploy from a branch**.
 3. Selecciona la rama `gh-pages` y la carpeta `/(root)`, y guarda los cambios.
-4. Publica los cambios con `npm run deploy`. El comando genera `dist/` y actualiza la rama `gh-pages`.
+4. Confirma que el dominio personalizado sea `debaktkd.com`.
+5. Publica los cambios con `npm run deploy`. El comando genera `dist/` y actualiza la rama `gh-pages`.
