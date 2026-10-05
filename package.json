@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.io",
+  "homepage": "https://jovenpadawan.github.io/DEBAK_PAGE/",
   "name": "debak_page",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview --host 0.0.0.0",
-    "deploy": "npm run build && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist -b gh-pages"
   },
   "dependencies": {
     "react": "^19.2.0",
