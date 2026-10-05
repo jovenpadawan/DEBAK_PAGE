@@ -1,5 +1,4 @@
 import Header from './Header';
-// Ya no necesitamos importar { Link } de 'react-router-dom'
 import './estilos/examenes.css';
 
 export default function Examenes() {

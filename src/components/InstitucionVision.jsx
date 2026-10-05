@@ -19,7 +19,7 @@ export default function InstitucionVision() {
           </div>
           <span className="info-divider" aria-hidden="true"></span>
           <div className="info-card__content">
-            <p>Ser el club de alto rendimiento referente del Ecuador, consolidando en los próximos 10 años una trayectoria de excelencia que transforme a atletas competitivos en campeones de élite mundial creando una comunidad de deportistas de alto rendimiento con buenos valores humanos.</p>
+            <p>Ser una institución deportiva modelo, sólida y con liderazgo, consolidándonos en los próximos 3 años como una potencia deportiva del país y un referente internacional dentro de América y el mundo formando atletas y humanos íntegros y con trascendencia por su estilo de vida.</p>
           </div>
         </section>
       </main>

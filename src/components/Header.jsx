@@ -47,7 +47,7 @@ export default function Header() {
         <ul>
           <li>
             <NavLink end to="/" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-              Inicio
+              INICIO
             </NavLink>
           </li>
           <li className={`menu-group ${institucionOpen ? 'open' : ''}`}>
@@ -56,34 +56,34 @@ export default function Header() {
               className={`menu-link menu-group-button ${isInstitucionActive ? 'active-link' : ''}`}
               onClick={() => setInstitucionOpen(!institucionOpen)}
             >
-              Institución
+              INSTITUCIÓN
             </button>
             <ul className="submenu">
               <li>
                 <NavLink to="./institucion/mision" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-                  Misión
+                  MISIÓN
                 </NavLink>
               </li>
               <li>
                 <NavLink to="./institucion/vision" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-                  Visión
+                  VISIÓN
                 </NavLink>
               </li>
               <li>
                 <NavLink to="./institucion/estructura" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-                  Estructura Organizacional
+                  ESTRUCTURA ORGANIZACIONAL
                 </NavLink>
               </li>
             </ul>
           </li>
           <li>
             <NavLink to="/entrenadores" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-              Entrenadores
+              ENTRENADORES
             </NavLink>
           </li>
           <li>
             <NavLink to="/deportistas" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-              Deportistas Destacados
+              DEPORTISTAS DESTACADOS
             </NavLink>
           </li>
           
@@ -93,7 +93,7 @@ export default function Header() {
               className={`menu-link menu-group-button ${isEventosActive ? 'active-link' : ''}`}
               onClick={() => setEventosOpen(!eventosOpen)}
             >
-              Eventos
+              EVENTOS
             </button>
             <ul className="submenu">
               <li>
@@ -103,7 +103,7 @@ export default function Header() {
                   className={() => location.state?.categoria === 'deportivos' && isEventosActive ? 'menu-link active-link' : 'menu-link'} 
                   onClick={closeMenu}
                 >
-                  Eventos Deportivos
+                  EVENTOS DEPORTIVOS
                 </NavLink>
               </li>
               <li>
@@ -113,7 +113,7 @@ export default function Header() {
                   className={() => location.state?.categoria === 'sociales' && isEventosActive ? 'menu-link active-link' : 'menu-link'} 
                   onClick={closeMenu}
                 >
-                  Eventos Sociales
+                  EVENTOS SOCIALES
                 </NavLink>
               </li>
               <li>
@@ -123,7 +123,7 @@ export default function Header() {
                   className={() => location.state?.categoria === 'promocion' && isEventosActive ? 'menu-link active-link' : 'menu-link'} 
                   onClick={closeMenu}
                 >
-                  Promoción del Taekwondo
+                  PROMOCIÓN DEL TAEKWONDO
                 </NavLink>
               </li>
             </ul>
@@ -131,27 +131,27 @@ export default function Header() {
 
           <li>
             <NavLink to="/examenes" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-              Exámenes
+              EXÁMENES
             </NavLink>
           </li>
           <li>
             <NavLink to="/catalogo" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-              Catálogo
+              CATÁLOGO
             </NavLink>
           </li>
           <li>
             <NavLink to="/contactanos" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-              Contáctanos
+              CONTÁCTANOS
             </NavLink>
           </li>
           <li>
             <NavLink to="/transparencia" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-              Transparencia
+              TRANSPARENCIA
             </NavLink>
           </li>
           <li>
             <NavLink to="/paginasAsociadas" className={({ isActive }) => isActive ? 'menu-link active-link' : 'menu-link'} onClick={closeMenu}>
-              Páginas Asociadas
+              PÁGINAS ASOCIADAS
             </NavLink>
           </li>
         </ul>
