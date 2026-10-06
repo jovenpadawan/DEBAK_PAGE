@@ -1,6 +1,6 @@
 .transparency-page {
   background:
-    linear-gradient(rgba(248, 248, 248, 0.9), rgba(248, 248, 248, 0.9)),
+    linear-gradient(rgba(248, 248, 248, 0.7), rgba(248, 248, 248, 0.7)),
     url('/imagenes/transparencia/transparenciaBG.jpeg') center / cover no-repeat;
 }
 
