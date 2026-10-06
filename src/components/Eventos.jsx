@@ -53,6 +53,60 @@ const dataEventos = {
         location: 'Manabí',
         tag: 'Deportivo',
         detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
+      },
+      {
+        title: 'II Ecuador Challenger 2026',
+        description: 'DEBAK Estuvo presente en esta competencia nacional desarrollada en Riobamba.',
+        image: './imagenes/eventos/IIecuadorChallenger.jpg',
+        date: '30 de Mayo, 2026',
+        location: 'Manabí',
+        tag: 'Deportivo',
+        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
+      }
+      {
+        title: 'Nacional Junior Combate',
+        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
+        image: './imagenes/eventos/nacionalJunior.jpg',
+        date: '30 de Mayo, 2026',
+        location: 'Manabí',
+        tag: 'Deportivo',
+        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
+      },
+      {
+        title: 'Nacional Junior Combate',
+        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
+        image: './imagenes/eventos/nacionalJunior.jpg',
+        date: '30 de Mayo, 2026',
+        location: 'Manabí',
+        tag: 'Deportivo',
+        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
+      },
+      {
+        title: 'Nacional Junior Combate',
+        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
+        image: './imagenes/eventos/nacionalJunior.jpg',
+        date: '30 de Mayo, 2026',
+        location: 'Manabí',
+        tag: 'Deportivo',
+        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
+      },
+      {
+        title: 'Nacional Junior Combate',
+        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
+        image: './imagenes/eventos/nacionalJunior.jpg',
+        date: '30 de Mayo, 2026',
+        location: 'Manabí',
+        tag: 'Deportivo',
+        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
+      },
+      {
+        title: 'Nacional Junior Combate',
+        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
+        image: './imagenes/eventos/nacionalJunior.jpg',
+        date: '30 de Mayo, 2026',
+        location: 'Manabí',
+        tag: 'Deportivo',
+        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
       }
     ]
   },
