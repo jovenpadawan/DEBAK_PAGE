@@ -43,7 +43,7 @@ export default function Contactanos() {
                 <a href="https://wa.me/593964020344" target="_blank" rel="noopener noreferrer">
                   +593 96 402 0344
                 </a>
-                <a href="https://wa.me/593987654321" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/593984096361" target="_blank" rel="noopener noreferrer">
                   +593 98 409 6361
                 </a>
               </div>

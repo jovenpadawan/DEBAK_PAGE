@@ -139,7 +139,7 @@ export default function Deportistas() {
       name: "Emiliano Herrera",
       rank: "Cinturón rojo.",
       level: "intermedio",
-      image: "./imagenes/deportistas/emilianoHerrera.jpg",
+      image: "./imagenes/deportistas/emilianoHerrera.jpeg",
       achievements: ["Medalla de plata en el Campeonato Panamericano Infantil.", "Medalla de bronce del Campeonato Nacional de Combate."]
     },
     {

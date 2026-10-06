@@ -21,7 +21,7 @@ const dataEventos = {
       {
         title: 'XIII Juegos Nacionales Pre Juveniles Azuay 2026',
         description: 'Zoe Celi y Gabriel Ruíz representaron a la provincia de Pichincha en estos Juegos Nacionales, convirtiéndose en múltiples medallistas y ayudando a Pichincha a convertirse en el campeón absoluto del evento.',
-        image: './imagenes/eventos/xiiijuegosNacionales.jpeg',
+        image: './imagenes/eventos/xiiiJuegosNacionales.jpeg',
         date: '12 de Agosto, 2026',
         location: 'Cuenca',
         tag: 'Deportivo',
@@ -39,7 +39,7 @@ const dataEventos = {
       {
         title: 'Ranking G1 Copa de las Naciones Ecuador 2026',
         description: 'Nuestros deportistas avanzados estuvieron presentes en este gran evento de nivel internacional, dejando en alto al Ecuador y al club DebakTKD.',
-        image: './imagenes/eventos/copaDeNaciones.jpeg',
+        image: './imagenes/eventos/copaDeNaciones.jpg',
         date: '11 de Septiembre, 2026', 
         location: 'Quito',
         tag: 'Deportivo',
@@ -102,7 +102,7 @@ const dataEventos = {
       {
         title: 'XII Copa Embajador de la República de Corea',
         description: 'En Baños de Agua Santa, nuestros deportistas dieron su mayor esfuerzo y consiguieron grandes resultados.',
-        image: './imagenes/eventos/xiicopaDeCorea.jpg',
+        image: './imagenes/eventos/xiicopaDeCorea.jpeg',
         date: '20 de Junio, 2026',
         location: 'Baños de Agua Santa',
         tag: 'Deportivo',
@@ -111,7 +111,7 @@ const dataEventos = {
       {
         title: 'II Ecuador Challenger 2026',
         description: 'DEBAK Estuvo presente en esta competencia nacional desarrollada en Riobamba.',
-        image: './imagenes/eventos/iiecuadorChallenger.jpg',
+        image: './imagenes/eventos/iiecuadorChallenger.jpeg',
         date: '09 de Julio, 2026',
         location: 'Riobamba',
         tag: 'Deportivo',
@@ -211,7 +211,7 @@ const dataEventos = {
       },{
         title: 'Gabriel Ruíz al Aire',
         description: 'Gabriel Ruíz, uno de nuestros deportistas, pudo dar a conocer sus motivaciones en el deporte y compartió hermosos mensajes desde su experiencia y trayectoria.',
-        image: './imagenes/eventos/gabrielEntrevista.png',  
+        image: './imagenes/eventos/entrevistaGabriel.jpeg',  
         date: '28 de Mayo, 2026',
         location: 'Quito',
         tag: 'Entrevista',

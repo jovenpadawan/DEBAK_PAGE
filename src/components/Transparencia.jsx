@@ -13,7 +13,7 @@ export default function Transparencia() {
         {
             titulo: 'Estatuto',
             archivos: [
-                { documento: 'estatutoDEBAK', textoEnlace: 'Estatuto DEBAK' }
+                { documento: 'estatutoDebak', textoEnlace: 'Estatuto DEBAK' }
             ]
         },
         {
