@@ -10,13 +10,58 @@ const dataEventos = {
     titulo: 'Eventos Deportivos',
     items: [
       {
-        title: 'I Campeonato Nacional Interclubes',
-        description: 'Varios de nuestros deportistas nos representaron en el Campeonato Nacional Interclubes en Manabí.',
-        image: './imagenes/eventos/interclubesManabi.jpg',
-        date: '19 de Febrero, 2026',
-        location: 'Manabí',
+        title: 'Ranking G8 Chuncheon 2026 World Taekwondo Poomsae Championships, Korea 2026',
+        description: 'Nuestro deportista Iván Marcano y Maestro Marcelo Prado representaron al Ecuador en el mundial de Corea, donde con mucho orgullo lo dejaron en alto.',
+        image: './imagenes/eventos/chuncheon2026.jpg',
+        date: '16 de Septiembre, 2026',
+        location: 'Corea del sur',
         tag: 'Deportivo',
-        detalles: 'Cada uno de nuestros deportistas consiguió buenos resultados, llevándose nuevos aprendizajes con ellos.'
+        detalles: 'Iván Marcano obtuvo el puntaje másalto de todo el team ecuador (8,63) y Marcelo Prado obtuvo el 5to lugar entre múltiples deportitstas de su categoría.'
+      },
+      {
+        title: 'XIII Juegos Nacionales Pre Juveniles Azuay 2026',
+        description: 'Zoe Celi y Gabriel Ruíz representaron a la provincia de Pichincha en estos Juegos Nacionales, convirtiéndose en múltiples medallistas y ayudando a Pichincha a convertirse en el campeón absoluto del evento.',
+        image: './imagenes/eventos/xiiijuegosNacionales.jpeg',
+        date: '12 de Agosto, 2026',
+        location: 'Cuenca',
+        tag: 'Deportivo',
+        detalles: 'Zoe Celi consiguió ser campeona y subcampeona en Poomsae Trio y Poomsae individual y Gabriel Ruíz se consagró como campeón del evento en la categoría de Freestyle.'
+      },
+      {
+        title: 'XVII Juegos Nacionales de Menores Guayas 2026',
+        description: 'Julieta Grisales, Juan Puente y Emilio Ayala representaron a Pichincha en estos Juegos Nacionales de Menores, consiguiendo múltiples medallas y apoyando a Pichincha a convertirse en el campeón absoluto del evento.',
+        image: './imagenes/eventos/xviiJuegosNacionalesMenores.jpeg',
+        date: '15 de septiembre, 2026',
+        location: 'Guayaquil',
+        tag: 'Deportivo',
+        detalles: 'Julieta Grisales consiguió el segundo y tercer puesto en Poomsae Trio Femenino y Poomsae Pareja Mixta, Emilio Ayala obtuvo bronce en Poomsae Pareja Mixta y Poomsae Trio Masculino y Juan Puente obtuvo bronce en las categorías de Poomsae Trio Masculino y Poomsae Individual.'
+      },
+      {
+        title: 'Ranking G1 Copa de las Naciones Ecuador 2026',
+        description: 'Nuestros deportistas avanzados estuvieron presentes en este gran evento de nivel internacional, dejando en alto al Ecuador y al club DebakTKD.',
+        image: './imagenes/eventos/copaDeNaciones.jpeg',
+        date: '11 de Septiembre, 2026', 
+        location: 'Quito',
+        tag: 'Deportivo',
+        detalles: 'Con esfuerzo y dedicación dejaron todo en el tatami y obtuvieron múltiples medallas.'
+      },
+      {
+        title: 'Campeonato Panamericano Infantil Ecuador 2026 PATU12',
+        description: 'Arantxa Marcano, Bryan Valdez, Emiliano Herrera y Leonardo Obando representaron al Ecuador y al club DebakTKD en este gran campeonato panamericano.',
+        image: './imagenes/eventos/campeonatoPanamericanoInfantil.jpeg',
+        date: '09 de Septiembre, 2026',
+        location: 'Quito',
+        tag: 'Deportivo',
+        detalles: 'Arantxa Marcano se consagró como campeona panamericana en Poomsae Individual y Freestyle, convirtiéndose en la mejor deportista del evento; Bryan Valdez se consagró como campeón panamericano en combate, Emiliano Herrera obvtuvo plata en freestyle y Leonardo Obando plata en combate.'
+      },
+      {
+        title: 'Open Cintas de Colores',
+        description: 'Nuestros deportistas novatos e intermedios suman una nueva experiencia y nuevos logros a su trayectoría como deportistas en este evento internacional.',
+        image: './imagenes/eventos/openCintasDeColor.jpeg',
+        date: '10 de Septiembre, 2026',
+        location: 'Quito',
+        tag: 'Deportivo',
+        detalles: 'Todos nuestros deportistas participantes obtuvieron medallas y puestos altos, demostrando la pasión y el compromiso que tienen con el Taekwondo.'
       },
       {
         title: 'II Campeonato Sueños Olímpicos Patu12',
@@ -28,7 +73,7 @@ const dataEventos = {
         detalles: 'Salieron de aquí varios logros y medalas, símbolo del esfuerzo y dedicación de los deportistas de DEBAK.'
       },
       {
-        title: 'Campeonato Ranking Mundial G1',
+        title: 'Campeonato Ranking Mundial G1 República Dominicana 2026',
         description: 'Nuestro director, Jimmy Bolaños, asistió junto con nuestro campeón Iván Marcano y Charlotte al Campeonato Ranking Mundial G1 en República Dominicana.',
         image: './imagenes/eventos/rankingRD.jpg',
         date: '10 de Abril, 2026',
@@ -55,22 +100,22 @@ const dataEventos = {
         detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
       },
       {
+        title: 'XII Copa Embajador de la República de Corea',
+        description: 'En Baños de Agua Santa, nuestros deportistas dieron su mayor esfuerzo y consiguieron grandes resultados.',
+        image: './imagenes/eventos/xiicopaDeCorea.jpg',
+        date: '20 de Junio, 2026',
+        location: 'Baños de Agua Santa',
+        tag: 'Deportivo',
+        detalles: 'Al haber aceptado el reto, consiguieron crecer como deportistas y conseguir nuevas experiencias.'
+      },
+      {
         title: 'II Ecuador Challenger 2026',
         description: 'DEBAK Estuvo presente en esta competencia nacional desarrollada en Riobamba.',
-        image: './imagenes/eventos/IIecuadorChallenger.jpg',
-        date: '30 de Mayo, 2026',
-        location: 'Manabí',
+        image: './imagenes/eventos/iiecuadorChallenger.jpg',
+        date: '09 de Julio, 2026',
+        location: 'Riobamba',
         tag: 'Deportivo',
-        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
-      }
-      {
-        title: 'Nacional Junior Combate',
-        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
-        image: './imagenes/eventos/nacionalJunior.jpg',
-        date: '30 de Mayo, 2026',
-        location: 'Manabí',
-        tag: 'Deportivo',
-        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
+        detalles: 'Demostraron sus capacidades y ahora se preparan para competir por el reconocimiento a mejores deportistas del año a nivel nacional.'
       },
       {
         title: 'Nacional Junior Combate',
@@ -80,34 +125,16 @@ const dataEventos = {
         location: 'Manabí',
         tag: 'Deportivo',
         detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
-      },
+      }, 
       {
-        title: 'Nacional Junior Combate',
-        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
-        image: './imagenes/eventos/nacionalJunior.jpg',
-        date: '30 de Mayo, 2026',
+        title: 'I Campeonato Nacional Interclubes',
+        description: 'Varios de nuestros deportistas nos representaron en el Campeonato Nacional Interclubes en Manabí.',
+        image: './imagenes/eventos/interclubesManabi.jpg',
+        date: '19 de Febrero, 2026',
         location: 'Manabí',
         tag: 'Deportivo',
-        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
+        detalles: 'Cada uno de nuestros deportistas consiguió buenos resultados, llevándose nuevos aprendizajes con ellos.'
       },
-      {
-        title: 'Nacional Junior Combate',
-        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
-        image: './imagenes/eventos/nacionalJunior.jpg',
-        date: '30 de Mayo, 2026',
-        location: 'Manabí',
-        tag: 'Deportivo',
-        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
-      },
-      {
-        title: 'Nacional Junior Combate',
-        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
-        image: './imagenes/eventos/nacionalJunior.jpg',
-        date: '30 de Mayo, 2026',
-        location: 'Manabí',
-        tag: 'Deportivo',
-        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
-      }
     ]
   },
   sociales: {
@@ -183,7 +210,7 @@ const dataEventos = {
         detalles: 'Compartió aquí su historia deportiva, experiencia y consejos que inspiran a seguir creciendo.'
       },{
         title: 'Gabriel Ruíz al Aire',
-        description: 'Gabriel Ruíz, uno de nuestros deportistas, pudo dra a conocer sus motivaciones en el deporte y compartió hermosos mensajes.',
+        description: 'Gabriel Ruíz, uno de nuestros deportistas, pudo dar a conocer sus motivaciones en el deporte y compartió hermosos mensajes desde su experiencia y trayectoria.',
         image: './imagenes/eventos/gabrielEntrevista.png',  
         date: '28 de Mayo, 2026',
         location: 'Quito',
