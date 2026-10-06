@@ -64,13 +64,13 @@ const dataEventos = {
         detalles: 'Todos nuestros deportistas participantes obtuvieron medallas y puestos altos, demostrando la pasión y el compromiso que tienen con el Taekwondo.'
       },
       {
-        title: 'II Campeonato Sueños Olímpicos Patu12',
-        description: 'Nuestros campeones dieron su mayor esfuerzo en el Patu12 2026, logrando destacar con sus logros.',
+        title: 'II Campeonato "Sueños Olímpicos" Patu12',
+        description: 'Gracias a todo el esfuerzo y dedicación de nuestros deportistas, nos consagramos como campeones del evento en la categoría de POOMSAE.',
         image: './imagenes/eventos/patu12.jpg',
         date: '28 de Marzo, 2026',
         location: 'Quito',
         tag: 'Deportivo',
-        detalles: 'Salieron de aquí varios logros y medalas, símbolo del esfuerzo y dedicación de los deportistas de DEBAK.'
+        detalles: 'Dejaron marca de lo mucho que se esmeran en cada uno de sus entrenamientos.'
       },
       {
         title: 'Campeonato Ranking Mundial G1 República Dominicana 2026',
@@ -162,10 +162,9 @@ const dataEventos = {
   },
   promocion: {
     titulo: 'Promoción del Taekwondo',
-    descripcion: 'Conoce nuestras acciones para ampliar el alcance del Taekwondo en la ciudad.',
     items: [
       {
-        title: 'Trayecto de zoe Celi',
+        title: 'Trayecto de Zoe Celi',
         description: 'Nuestra deportista Zoe Celi estuvo presente en una entrevista en Pública FM, donde tuvo la oportunidad de compartir su trayectoria deportiva y los logros que ha alcanzado.',
         image: './imagenes/eventos/zoeEntrevista.png',
         date: '8 de Enero, 2026',
