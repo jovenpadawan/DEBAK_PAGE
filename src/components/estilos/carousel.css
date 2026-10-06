@@ -62,7 +62,7 @@
   backdrop-filter: blur(8px);
   cursor: pointer;
   transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
-  z-index: 2;
+  z-index: 1000;
 }
 
 .carousel-fullscreen-button:hover {

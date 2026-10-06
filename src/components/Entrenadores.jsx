@@ -14,14 +14,14 @@ export default function Entrenadores() {
       image: "./imagenes/entrenadores/diegoNaranjo.jpg",
       miniImage: "./imagenes/entrenadores/diegoNaranjoMini.jpg",
       tasks: ["Clases de psicología deportiva.", "Parte del equipo multidisciplinario."],
-      courses: ["Curso de Psicología del Deporte en el ISFP."]
+      courses: ["Licenciado en psicología.", "Curso de Psicología del Deporte en el ISFP."]
     },
     {
       name: "Rodneey Quisnia",
       role: "Departamento Administrativo",
       image: "./imagenes/entrenadores/rodneeyQuisniaInstitucional.jpg",
       miniImage: "./imagenes/entrenadores/rodneeyQuisniaInstitucional.jpg",
-      tasks: ["Facturación.", "Gestión de GAL Nacional y Provincial.", "Inscripción en eventos Nacionales y Provinciales."],
+      tasks: ["Facturación.", "Gestión de GAL Provincial, Nacional e Internacional.", "Inscripción en eventos Provincial, Nacional e Internacional."],
       courses: ["Capacitación en gestión administrativa."]
     },
     {
@@ -45,12 +45,12 @@ export default function Entrenadores() {
   const trainers = [
     {
       name: "Jimmy Bolaños",
-      range: "5to DAN Nacional y 5to DAN Kukkiwon.",
+      range: "6to DAN Nacional y 5to DAN Kukkiwon.",
       role: "Director y Presidente del club DEBAK.",
       image: "./imagenes/entrenadores/jimmyBolanos.jpg",
       miniImage: "./imagenes/entrenadores/jimmyBolanosMini.jpg",
-      courses: ["Curso de Acreditación de entrenadores 2026.", "Ingeniero Automotriz."],
-      achievements: ["Campeón Panamericano.", "Seleccionado nacional desde el 2021.", "Campeón del Campeonato Ranking Mundial G1 República Dominicana 2026."]
+      courses: ["Curso avanzado de Combate, Poomsae y Freestyle en el programa PTP Muju, Taekwondowon Corea 2026.", "Curso de coach panamericano 2026.", "Ingeniero Automotriz."],
+      achievements: ["Participación en Juegos Olímpicos Master 2025", "Múltiple medallista panamericano.", "Seleccionado Provincial y Nacional desde 1997.", "Campeón del Ranking Mundial G1 República Dominicana 2026."]
     },
     {
       name: "Marcelo Prado",
@@ -63,25 +63,25 @@ export default function Entrenadores() {
     },
     {
       name: "Adrián Lara",
-      range: "1er DAN Nacional.",
+      range: "2do DAN Kukkiwon.",
       role: "Profesor de combate y director de la sede Colegio Liga.",
       image: "./imagenes/entrenadores/adrianLara.jpg",
       miniImage: "./imagenes/entrenadores/adrianLaraMini.jpg",
       courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Práctica de poomsae, freestyle y exhibición 2025.", "Actualización del reglamento kyorugui 2025."],
-      achievements: ["Ing. en Administración de Empresas.", "Lic. en Educación Mención en Educación Física."]
+      achievements: ["Participación en el Campeonato Nacional Absoluto 2026.", "Ing. en Administración de Empresas.", "Lic. en Educación Mención en Educación Física."]
     },
     {
       name: "Rodneey Quisnia",
-      range: "1er DAN Nacional.",
+      range: "1er DAN Nacional y 1er DAN Kukkiwon.",
       role: "Profesor de la modalidad poomsae.",
       image: "./imagenes/entrenadores/rodneeyQuisnia.jpg",
       miniImage: "./imagenes/entrenadores/rodneeyQuisniaMini.jpg",
       courses: ["Curso vigente de Ingeniería en Sistemas.", "Curso de acreditación de entrenadores Provincial y Nacional 2026."],
-      achievements: ["Campeón Parejas Juegos Prejuveniles 2022."]
+      achievements: ["Medallista panamericano oficial en Spokane, USA 2018 (bronce).", "Múltiple medallista internacional.", "Múltiple medallista nacional y de juegos nacionales.", "Campeón Parejas Juegos Prejuveniles 2022."]
     },
     {
       name: "Jared Vargas",
-      range: "1er DAN Nacional.",
+      range: "3er DAN Nacional y 3er DAN Kukkiwon.",
       role: "Director de la sede Carcelén Bajo.",
       image: "./imagenes/entrenadores/jaredVargas.jpg",
       miniImage: "./imagenes/entrenadores/jaredVargasMini.jpg",
@@ -95,7 +95,7 @@ export default function Entrenadores() {
       image: "./imagenes/entrenadores/santiLlaguno.jpg",
       miniImage: "./imagenes/entrenadores/santiLlagunoMini.jpg",
       courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Capacitación en entrenamiento personal y deportivo."],
-      achievements: ["Medalla de bronce en el Ranking Mundial GR Riobamba 2024", "Bronce del Campeonato Nacional."]
+      achievements: ["Subcampeón del II PAN AM SERIES PATU 12 – “Sueños Olímpicos” Ecuador 2026.", "Medalla de bronce en el Ranking Mundial G2 Riobamba 2024", "Múltiple medallista nacional."]
     },
     {
       name: "Estefani Bolaños",

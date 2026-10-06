@@ -42,7 +42,8 @@
 
 .intro {
   display: flex;
-  justify-content: justify;
+  justify-content: center;
+  text-align: justify;
   padding: 2rem 1.5rem;
   max-width: 800px;
   margin: auto;

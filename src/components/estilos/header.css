@@ -72,6 +72,7 @@
   left: -280px;
   width: 280px;
   height: 100vh;
+  box-sizing: border-box;
   background-color: #111;
   color: white;
   padding: 140px 24px 40px;
@@ -99,8 +100,23 @@
   margin-bottom: 0.5rem;
 }
 
+.side-menu > ul {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 0.65rem;
+  min-height: 0;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+}
+
 .side-menu li {
   margin: 0.45rem 0;
+}
+
+.side-menu > ul > li {
+  margin: 0;
 }
 
 .side-menu a {

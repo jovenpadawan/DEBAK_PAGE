@@ -8,7 +8,6 @@ import './estilos/styles.css';
 const dataEventos = {
   deportivos: {
     titulo: 'Eventos Deportivos',
-    descripcion: 'Actividades especialmente diseñadas para mostrar el talento y la energía de nuestros atletas.',
     items: [
       {
         title: 'I Campeonato Nacional Interclubes',
@@ -59,25 +58,24 @@ const dataEventos = {
   },
   sociales: {
     titulo: 'Eventos Sociales',
-    descripcion: 'Actividades para la comunidad, la convivencia y el crecimiento en equipo.',
     items: [
       {
-        title: 'Donación de Prendas',
-        description: 'Una jornada solidaria donde se apoyó a las personas que lo necesitan en lanavidad.',
+        title: 'Campaña navideña',
+        description: 'Jornada solidaria donde compartimos con personas de la comunidad de la Mitad del Mundo llevando un momento de calidez y alegría en las vísperas de navidad.',
         image: './imagenes/eventos/ayudaNavidena.jpg',
         date: '23 de Diciembre, 2025',
         location: 'Quito Sur',
         tag: 'Social',
-        detalles: 'Compartiremos un almuerzo comunitario y dinámicas grupales para fortalecer lazos.'
+        detalles: 'Se pudo vivir momentos llenos de sonrisas y alegría en comunidad.'
       },
       {
-        title: 'Reunión Deportiva',
-        description: 'Luego de la carnetización de nuestros deportistas, se les invitó s disfrutar de las actividades planificadas para todas las edades.',
+        title: 'Mañana deportiva',
+        description: 'Luego de las actividadeds institucionales de nuestros deportistas, invitamos a niños y jóvenes de la comunidad para disfrutar de actividades planificadas para todas las edades.',
         image: './imagenes/eventos/tardeDeportiva.jpg',
         date: '31 de Enero, 2026',
         location: 'Debak Matriz',
         tag: 'Social',
-        detalles: 'Los peques disfrutaron de un colchón inflable y algodón de azúcar y los intermedios y avanzados jugaron ecuavoley buscando ganar premios.'
+        detalles: 'Se llevaron a cabo jornadas de distintos deportes donde se integraron todos los niños y jóvenes presentes.'
       }
     ]
   },
@@ -86,13 +84,13 @@ const dataEventos = {
     descripcion: 'Conoce nuestras acciones para ampliar el alcance del Taekwondo en la ciudad.',
     items: [
       {
-        title: 'Debak al Aire',
-        description: 'Nuestro Director, junto con nuestros deportistas Zoe Celi y Martín Benavides, estuvieron presentes en una entrevista en Pública FM.',
+        title: 'Trayecto de zoe Celi',
+        description: 'Nuestra deportista Zoe Celi estuvo presente en una entrevista en Pública FM, donde tuvo la oportunidad de compartir su trayectoria deportiva y los logros que ha alcanzado.',
         image: './imagenes/eventos/zoeEntrevista.png',
         date: '8 de Enero, 2026',
         location: 'Quito',
         tag: 'Entrevista',
-        detalles: 'Pudieron compartir un poco de su carrera deportiva, sus logros y algunas anécdotas que han marcado su camino.'
+        detalles: 'Pudo compartir un poco de su carrera deportiva, sus logros y algunas anécdotas que han marcado su camino.'
       },
       {
         title: 'Emiliano Herrera al Aire',
@@ -129,6 +127,14 @@ const dataEventos = {
         location: 'Quito',
         tag: 'Entrevista',
         detalles: 'Compartió aquí su historia deportiva, experiencia y consejos que inspiran a seguir creciendo.'
+      },{
+        title: 'Gabriel Ruíz al Aire',
+        description: 'Gabriel Ruíz, uno de nuestros deportistas, pudo dra a conocer sus motivaciones en el deporte y compartió hermosos mensajes.',
+        image: './imagenes/eventos/gabrielEntrevista.png',  
+        date: '28 de Mayo, 2026',
+        location: 'Quito',
+        tag: 'Entrevista',
+        detalles: 'Compartió su historia deportiva, sus logros y consejos que inspiran a seguir creciendo.'
       }
     ]
   }
@@ -139,7 +145,6 @@ export default function Eventos() {
   const [categoriaActiva, setCategoriaActiva] = useState('deportivos');
   const [selected, setSelected] = useState(null);
 
-  // Cambia la pestaña automáticamente si viene una categoría desde el Header Menu
   useEffect(() => {
     if (location.state?.categoria) {
       setCategoriaActiva(location.state.categoria);

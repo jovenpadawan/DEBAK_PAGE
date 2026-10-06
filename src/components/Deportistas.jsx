@@ -13,7 +13,7 @@ export default function Deportistas() {
       rank: "Cinturón azul-rojo.",
       level: "intermedio",
       image: "./imagenes/deportistas/chuletaGrisales.jpg",
-      achievements: ["Campeona del Interescolar de Taekwondo 2026.", "Bronce Poomsae del Patu12 2026."]
+      achievements: ["Múltiple medallista de Juegos Nacionales de Menores.", "Campeona del Interescolar de Taekwondo 2026.", "Bronce Poomsae del Patu12 2026."]
     },
     {
       name: "Mariangel Madrid",
@@ -28,7 +28,7 @@ export default function Deportistas() {
       rank: "Cinturón azul-rojo.",
       level: "intermedio",
       image: "./imagenes/deportistas/bryanValdez.jpg",
-      achievements: ["Campeón Kyorugui del Campeonato Nacional Infantil Quito 2026.", "Doble Campeón y Bronce del Challenger Ecuador."]
+      achievements: ["Campeón panamericano infantil.", "Campeón Kyorugui del Campeonato Nacional Infantil Quito 2026.", "Múltiple medallista nacional."]
     },
     {
       name: "María López",
@@ -42,14 +42,14 @@ export default function Deportistas() {
       rank: "Cinturón azul-rojo.",
       level: "intermedio",
       image: "./imagenes/deportistas/adrianMartinez.jpg",
-      achievements: ["Campeón del Interescolar de Taekwondo 2026.", "Bronce Poomsae del Patu12 2026."]
+      achievements: ["Múltiple medallista del Open Cintas de Color 2026.", "Campeón del Interescolar de Taekwondo 2026.", "Bronce Poomsae del Patu12 2026."]
     },
     {
       name: "Martín Moreno",
       rank: "Cinturón azul-rojo.",
       level: "intermedio",
       image: "./imagenes/deportistas/martinMoreno.jpg",
-      achievements: ["Vicecampeón Kyorugui del Patu12 2026."]
+      achievements: ["Subcampeón Kyorugui del Patu12 2026."]
     },
     {
       name: "Joaquín Moreno",
@@ -63,77 +63,84 @@ export default function Deportistas() {
       rank: "Cinturón verde.",
       level: "intermedio",
       image: "./imagenes/deportistas/davidObando.jpg",
-      achievements: ["Campeón Poomsae y Kyorugui del I Campeonato Nacional Interclubes Manabí 2026.", "Campeón Poomsae y Bronce Kyorugui del Patu12 2026."]
+      achievements: ["Múltiple medalllista del Open Cintas de Color 2026.", "Múltiple medallista nacional.", "Campeón Poomsae y Bronce Kyorugui del Patu12 2026."]
     },
     {
       name: "Leonardo Obando",
       rank: "Cinturón verde.",
       level: "intermedio",
       image: "./imagenes/deportistas/leoObando.jpg",
-      achievements: ["Campeón Kyorugui del Campeonato Nacional Infantil Quito 2026."]
+      achievements: ["Medallista panamericano del Campeonato Panamericano Infantil.", "Campeón Kyorugui del Campeonato Nacional Infantil Quito 2026."]
     },
     {
       name: "Iván Marcano",
-      rank: "Cinturón negro, 1er DAN Nacional.",
+      rank: "Cinturón negro, 1er DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/ivanMarcano.jpg",
       achievements: ["Seleccionado Provincial y Nacional.", "Doble Campeón Panamericano Infantil.", "Campeón Mundial Infantil Colombia.", "Representante del Ecuador en la President Cup 2024.", "Campeón Poomsae y Vicecampeón Freestyle del Patu12 2026.", "Campeón Kyorugui, Vicecampeón Freestyle y Bronce Poomsae del I Campeonato Nacional Interclubes Manabí 2026.", "Vicecampeón poomsae y Campeón combate en el Campeonato Ranking Mundial G1 República Dominicana 2026."]
     },
     {
       name: "Emilio Ayala",
-      rank: "Cinturón negro, 1er DAN Nacional.",
+      rank: "Cinturón negro, 1er DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/emilioAyala.jpg",
-      achievements: ["Seleccionado provincial.", "Medallista de Juegos Nacionales Estudiantiles.", "Representante de Ecuador en la President Cup 2025.", "Integrante del equipo de Juegos Nacionales 2026."]
+      achievements: ["Múltiple medallista de Juegos Nacionales de Menores.", "Seleccionado provincial.", "Medallista de Juegos Nacionales Estudiantiles.", "Representante de Ecuador en la President Cup 2025.", "Integrante del equipo de Juegos Nacionales 2026."]
     },
     {
       name:"Juan Puente",
-      rank: "Cinturón negro, 1er DAN Nacional.",
+      rank: "Cinturón negro, 1er DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/juanPuente.jpg",
-      achievements: ["Seleccionado Provincial y Nacional.", "Medallista Panamericano.", "Representante del Ecuador en el US Open y Ranking Mundiales.", "Campeón Provincial y Nacional.", "Multimedallista de Juegos Nacionales."]
+      achievements: ["múliple medallista de Juegos Nacionales de Menores 2022, 2024 y 2026.", "Seleccionado Provincial y Nacional.", "Medallista Panamericano.", "Representante del Ecuador en el US Open y Ranking Mundiales.", "Campeón Provincial y Nacional.", "Multimedallista de Juegos Nacionales."]
     },
     {
       name:"Kevin Flores",
-      rank: "Cinturón negro, 2do DAN.",
+      rank: "Cinturón negro, 2do DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/kevinFlores.jpg",
       achievements: ["Ex-seleccionado nacional en combate -68kg.", "Medallista internacional.", "Representante de Ecuador en varios ranking mundiales.", "Multimedallista de varios juegos nacionales."]
     },
     {
       name:"Charllote Campusano",
-      rank:"Cinturón negro, 1er DAN Nacional.",
+      rank:"Cinturón negro.",
       level: "avanzado",
       image: "./imagenes/deportistas/charlloteCampusano.jpg",
-      achievements: ["Seleccionada Provincial y Nacional en combate y poomsae.", "Representante del Ecuador en el Dominican Republica Ranking G1."]
+      achievements: ["Seleccionada Provincial y Nacional en combate y poomsae.", "Medalla de bronce en el Ranking Mundial G1 República Dominicana 2026."]
     },
     {
       name:"Julián Ibarra",
-      rank: "Cinturón negro, 1er DAN Nacional.",
+      rank: "Cinturón negro, 1er DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/julianIbarra.jpg",
       achievements: ["Seleccionado de Pichincha", "Ex-preselección Nacional.", "Campeón Nacional.", "Medallista de Juegos Nacionales."]
     },
     {
       name: "Zoe Celi",
-      rank: "Cinturón negro, 2do DAN Nacional.",
+      rank: "Cinturón negro, 2do DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/zoeCeli.jpg",
-      achievements: ["Seleccionada Provincial y Nacional desde 2022.", "Doble medalla de bronce panamericana.", "Campeona nacional de manera consecutiva desde 2023.", "Medalla de oro, plata y bronce en Juegos Nacionales.", "Integrante del equipo de Juegos Nacionales 2026."]
+      achievements: ["Subcampeona del Ranking G1 Copa de las Naciones 2026.", "Seleccionada Provincial y Nacional desde 2022.", "Múltiple medallista panamericana.", "Múltiple medallista nacional 2022, 2024 y 2026.", "Múltiple medallista de Juegos Nacionales.", "Integrante del equipo de Juegos Nacionales 2026."]
     },
     {
       name:"Gabriel Ruíz",
-      rank: "Cinturón negro, 1er DAN Nacional.",
+      rank: "Cinturón negro, 1er DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/gabrielRuiz.jpg",
-      achievements: ["Seleccionado provincial y nacional.", "Vicecampeón de Juegos Nacionales.", "Medallista Panamericano.", "Integrante del equipo de Juegos Nacionales 2026."]
+      achievements: ["Bicampeón de Juegos Nacionales.", "Múltiple medallista nacional.", "Seleccionado provincial y nacional.", "Vicecampeón de Juegos Nacionales.", "Medallista Panamericano.", "Integrante del equipo de Juegos Nacionales 2026."]
     },
     {
       name: "Arantxa Marcano",
       rank: "Cinturón azul-rojo.",
       level: "intermedio",
       image: "./imagenes/deportistas/arantxaMarcano.jpg",
-      achievements: ["Bronce en Patu12 2026.", "Bronce en el Campeonato Nacional Infantil Quito 2026.", "Bronce II Ecuador Challenger 2026."]
+      achievements: ["Campeona Panamericana y mejor deportista del campeonato Panamericano Infantil.", "Bronce en Patu12 2026.", "Bronce en el Campeonato Nacional Infantil Quito 2026.", "Bronce II Ecuador Challenger 2026."]
+    },
+    {
+      name: "Emiliano Herrera",
+      rank: "Cinturón rojo.",
+      level: "intermedio",
+      image: "./imagenes/deportistas/emilianoHerrera.jpg",
+      achievements: ["Medalla de plata en el Campeonato Panamericano Infantil.", "Medalla de bronce del Campeonato Nacional de Combate."]
     },
     {
       name: "Estefany Barrera",
