@@ -28,7 +28,7 @@ export default function Implementos() {
             <Header />
             <main style={{ paddingBottom: '4rem' }}>
                 <section className="catalogoTitles">
-                    <h1>Implementos</h1>
+                    <h1>IMPLEMENTOS DE COMBATE</h1>
                     <span></span>
                 </section>
                 <section className="catalogo">

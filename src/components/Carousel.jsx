@@ -84,17 +84,33 @@ export default function Carousel({ images = defaultImages, intervalMs = 5000 }) 
       </div>
 
       {isFullscreen && (
-        <div className="carousel-fullscreen" role="dialog" aria-modal="true" aria-label="Vista de imagen en pantalla completa">
+        <div
+          className="carousel-fullscreen"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Vista de imagen en pantalla completa"
+          onClick={() => setIsFullscreen(false)}
+        >
           <button
             type="button"
-            className="carousel-fullscreen-close"
+            className="carousel-fullscreen-minimize"
             onClick={() => setIsFullscreen(false)}
-            aria-label="Cerrar vista en pantalla completa"
+            aria-label="Minimizar vista en pantalla completa"
           >
-            ×
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.8" cy="10.8" r="6.8" />
+              <path d="m16 16 5 5M8 10.8h5.6" />
+            </svg>
           </button>
 
-          <div className="carousel-fullscreen-stage">
+          <div
+            className="carousel-fullscreen-stage"
+            onClick={(event) => {
+              if (event.target === event.currentTarget) {
+                setIsFullscreen(false);
+              }
+            }}
+          >
             <img src={images[currentIndex]} alt={`Foto del carrusel ${currentIndex + 1}`} />
             <div className="carousel-fullscreen-controls">
               <button type="button" onClick={handlePrev} aria-label="Foto anterior">

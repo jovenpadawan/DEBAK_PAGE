@@ -164,7 +164,7 @@ export default function Deportistas() {
       <Header />
       <main>
         <section className="deportistTitles">
-          <h1>Deportistas Destacados de Debak</h1>
+          <h1>DEPORTISTAS DESTACADOS DE DEBAK</h1>
           <span></span>
           <p>Conoce más acerca de nuestros deportistas.</p>
         </section>

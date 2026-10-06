@@ -16,7 +16,7 @@ export default function Inicio() {
         <Carousel />
 
         <section className="intro">
-          <h2>¿Quiénes somos?</h2>
+          <h2>¿Quiénes somos?</h2> <br/>
           <p>El club Debak TKD es una familia de campeones dejando en alto al Ecuador. <br/> Formamos grandes seres humanos para la vida.</p>
         </section>
       </main>

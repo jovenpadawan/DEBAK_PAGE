@@ -116,7 +116,7 @@ export default function Entrenadores() {
         
         {/* SECCIÓN DE ENTRENADORES */}
         <section className="trainerTitles">
-          <h1>Profesores y Entrenadores Debak</h1>
+          <h1>ENTRENADORES DE DEBAK</h1>
           <span></span>
           <p>Conoce más acerca de nuestro personal capacitado.</p>
         </section>
@@ -138,7 +138,7 @@ export default function Entrenadores() {
 
         {/* SECCIÓN DEL PERSONAL INSTITUCIONAL */}
         <section className="trainerTitles" style={{ marginTop: '3rem' }}>
-          <h1>Personal Institucional Debak</h1>
+          <h1>PERSONAL INSTITUCIONAL DEBAK</h1>
           <span></span>
           <p>Conoce más acerca de nuestro equipo administrativo.</p>
         </section>

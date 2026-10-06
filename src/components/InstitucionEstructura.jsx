@@ -9,7 +9,7 @@ export default function InstitucionEstructura() {
       <Header />
       <main>
         <section className="institucionTitles">
-          <h1>Estructura Organizacional</h1>
+          <h1>ESTRUCTURA ORGANIZACIONAL</h1>
           <span></span>
           <p>Visualiza cómo está organizada nuestra academia y quiénes lideran cada área.</p>
         </section>

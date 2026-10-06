@@ -28,9 +28,9 @@ export default function Examenes() {
             <Header />
             <main>
                 <section className="examTitles">
-                    <h1>Exámenes</h1>
+                    <h1>INFORMACIÓN PARA EXÁMENES</h1>
                     <span></span>
-                    <p>Información sobre los exámenes de ascenso. Haz clic en un cinturón para descargar el vocabulario.</p>
+                    <p>Vocabulario y contenido de preparación previo a los exámenes de ascenso.</p>
                   
                 <section className='examenes'> 
                     <h2 style={{ fontSize: '32px' }}>Vocabulario</h2>

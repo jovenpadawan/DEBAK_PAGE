@@ -211,7 +211,7 @@ const dataEventos = {
       },{
         title: 'Gabriel Ruíz al Aire',
         description: 'Gabriel Ruíz, uno de nuestros deportistas, pudo dar a conocer sus motivaciones en el deporte y compartió hermosos mensajes desde su experiencia y trayectoria.',
-        image: './imagenes/eventos/entrevistaGabriel.jpeg',  
+        image: './imagenes/eventos/entrevistaGabriel.jpg',  
         date: '28 de Mayo, 2026',
         location: 'Quito',
         tag: 'Entrevista',

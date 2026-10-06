@@ -32,7 +32,7 @@ export default function Contactanos() {
       <Header />
       <main>
         <section className="contactanosTitles">
-          <h1>Redes Sociales</h1>
+          <h1>REDES SOCIALES</h1>
           <span></span>
           <p>Ve nuestro contenido y escríbenos para más información.</p>
           <div className="contactanosSocial">
@@ -63,7 +63,7 @@ export default function Contactanos() {
           </div>
         </section>
         <section className="contactanosTitles">
-          <h1>Sedes Debak</h1>
+          <h1>SEDES DEBAK</h1>
           <span></span>
           <p>Nos ubicamos en la capital del Ecuador: Quito; distribuidos en Carcelén y Tumbaco.</p>
         </section>

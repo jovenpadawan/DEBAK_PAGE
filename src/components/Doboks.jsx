@@ -23,7 +23,7 @@ export default function Doboks() {
             <Header />
             <main>
                 <section className="catalogoTitles">
-                    <h1>Doboks</h1>
+                    <h1>DOBOKS</h1>
                     <span></span>
                 </section>
                 <section className="catalogo">

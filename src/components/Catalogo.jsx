@@ -16,7 +16,7 @@ export default function Catalogo() {
             <Header />
             <main>
                 <section className="catalogoTitles">
-                    <h1>Catálogo de Productos</h1>
+                    <h1>CATÁLOGO DE PRODUCTOS</h1>
                     <span></span>
                 </section>
                 <section className="products">

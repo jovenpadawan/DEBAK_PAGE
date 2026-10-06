@@ -9,6 +9,11 @@ export default function PaginasAsociadas() {
             url: "https://worldtkd.simplycompete.com/"
         },
         {
+            name: "PATU (Pan American Taekwondo Union)",
+            image: "./imagenes/paginasAsociadas/patu.png",
+            url: "https://www.patutkd.org/"
+        },
+        {
             name: "Federación Ecuatoriana de Taekwondo",
             image: "./imagenes/paginasAsociadas/fetkd.jpg",
             url: "https://www.ecuatorianatkd.com/"
@@ -17,11 +22,6 @@ export default function PaginasAsociadas() {
             name: "Asociación Deportiva de Pichincha",
             image: "./imagenes/paginasAsociadas/asotkd.png",
             url: "https://www.pichinchataekwondo.com/"
-        },
-        {
-            name: "PATU (Pan American Taekwondo Union)",
-            image: "./imagenes/paginasAsociadas/patu.png",
-            url: "https://www.patutkd.org/"
         }
     ];
 
@@ -30,7 +30,7 @@ export default function PaginasAsociadas() {
             <Header />
             <main style={{ paddingBottom: '4rem' }}>
                 <section className="asociadasTitles">
-                    <h1>Páginas Asociadas</h1>
+                    <h1>PÁGINAS ASOCIADAS</h1>
                     <span></span>
                 </section>
                 

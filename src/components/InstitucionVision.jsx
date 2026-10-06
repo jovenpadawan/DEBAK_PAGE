@@ -9,7 +9,7 @@ export default function InstitucionVision() {
       <Header />
       <main>
         <section className="institucionTitles">
-          <h1>Visión</h1>
+          <h1>VISIÓN</h1>
           <span></span>
         </section>
 
