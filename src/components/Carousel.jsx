@@ -89,7 +89,11 @@ export default function Carousel({ images = defaultImages, intervalMs = 5000 }) 
           role="dialog"
           aria-modal="true"
           aria-label="Vista de imagen en pantalla completa"
-          onClick={() => setIsFullscreen(false)}
+          onClick={(event) => {
+            if (event.target === event.currentTarget) {
+              setIsFullscreen(false);
+            }
+          }}
         >
           <button
             type="button"
