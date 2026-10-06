@@ -193,7 +193,7 @@ const dataEventos = {
       },
       {
         title: 'Iván Marcano al Aire',
-        description: 'Nuestro campeón tuvo una entrevista con Pública FM desde la base de entrenamiento de Pichincha.',
+        description: 'Nuestro campeón tuvo una entrevista con Pública FM desde la Base de Entrenamiento Nacional.',
         image: './imagenes/eventos/marcanoEntrevista.png',
         date: '12 de Marzo, 2026',
         location: 'Quito',
