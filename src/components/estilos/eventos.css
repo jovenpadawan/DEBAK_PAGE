@@ -117,6 +117,23 @@
   color: #475569;
 }
 
+.event-detail-link {
+  color: #1d4ed8;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.event-detail-link:hover {
+  color: #1e40af;
+}
+
+.event-detail-link:focus-visible {
+  outline: 2px solid #1d4ed8;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 /* Responsivo */
 @media (max-width: 1024px) {
   .event-cards-grid {

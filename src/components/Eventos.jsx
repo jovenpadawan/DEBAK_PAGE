@@ -164,6 +164,17 @@ const dataEventos = {
     titulo: 'Promoción del Taekwondo',
     items: [
       {
+        title: 'La historia de Jimmy Bolaños',
+        description: 'Nuestro director Jimmy Bolaños fue entrevistado por el programa de Teleamazonas "EsTA Mañana", donde habló acerca de su recorrido como deportista de Taekwondo.',
+        image: './imagenes/eventos/entrevistaJimmy.jpeg',
+        date: '8 de Enero, 2026',
+        location: 'Quito',
+        tag: 'Entrevista',
+        detalles: 'Conoce más acerca de la entrevista en TikTok.',
+        enlace: 'https://www.tiktok.com/@estamananatv/video/7650284590266993927?_r=1&_t=ZS-9AHYCOwRpxt',
+        textoEnlace: 'Ver entrevista en TikTok'
+      },
+      {
         title: 'Trayecto de Zoe Celi',
         description: 'Nuestra deportista Zoe Celi estuvo presente en una entrevista en Pública FM, donde tuvo la oportunidad de compartir su trayectoria deportiva y los logros que ha alcanzado.',
         image: './imagenes/eventos/zoeEntrevista.png',
@@ -210,7 +221,7 @@ const dataEventos = {
       },{
         title: 'Gabriel Ruíz al Aire',
         description: 'Gabriel Ruíz, uno de nuestros deportistas, pudo dar a conocer sus motivaciones en el deporte y compartió hermosos mensajes desde su experiencia y trayectoria.',
-        image: './imagenes/eventos/entrevistaGabriel.jpg',  
+        image: './imagenes/eventos/entrevistaGabriel.JPG',  
         date: '28 de Mayo, 2026',
         location: 'Quito',
         tag: 'Entrevista',
@@ -301,6 +312,19 @@ export default function Eventos() {
             {selected.detalles && (
               <p style={{ marginTop: '1rem', color: '#475569', fontSize: '0.95rem', background: '#f8fafc', padding: '1rem', borderRadius: '8px', borderLeft: '4px solid #f5c400' }}>
                 {selected.detalles}
+                {selected.enlace && (
+                  <>
+                    {' '}
+                    <a
+                      className="event-detail-link"
+                      href={selected.enlace}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {selected.textoEnlace || 'Abrir enlace'}
+                    </a>
+                  </>
+                )}
               </p>
             )}
           </Modal>
