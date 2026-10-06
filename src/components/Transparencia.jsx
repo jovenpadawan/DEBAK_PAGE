@@ -45,7 +45,7 @@ export default function Transparencia() {
         <>
             <SeoOptimization title="Transparencia" description="Consulta documentos institucionales, estatutos, reglamentos y protocolos de DEBAK TKD." />
             <Header />
-            <main>
+            <main className="transparency-page">
                 <section className="transparencyTitles">
                     <h1>Transparencia</h1>
                     <span></span>

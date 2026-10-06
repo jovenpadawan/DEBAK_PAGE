@@ -1,3 +1,9 @@
+.transparency-page {
+  background:
+    linear-gradient(rgba(248, 248, 248, 0.9), rgba(248, 248, 248, 0.9)),
+    url('/imagenes/transparencia/transparenciaBG.jpeg') center / cover no-repeat;
+}
+
 .transparencyTitles{
   padding: 3rem 1.5rem;
   height:100%;

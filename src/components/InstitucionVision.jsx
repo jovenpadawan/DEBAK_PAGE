@@ -18,8 +18,13 @@ export default function InstitucionVision() {
             <h2>Visión</h2>
           </div>
           <span className="info-divider" aria-hidden="true"></span>
-          <div className="info-card__content">
+          <div className="info-card__content mision-card__content">
             <p>Ser una institución deportiva modelo, sólida y con liderazgo, consolidándonos en los próximos 3 años como una potencia deportiva del país y un referente internacional dentro de América y el mundo formando atletas y humanos íntegros y con trascendencia por su estilo de vida.</p>
+            <img
+              className="mision-card__image"
+              src="./imagenes/institucion/vision.jpeg"
+              alt="Deportistas de DEBAK durante una actividad de Taekwondo"
+            />
           </div>
         </section>
       </main>
