@@ -10,7 +10,7 @@ export default function Inicio() {
       <Header />
       <main>
         <section className="h1titles">
-          <h1>CLUB ESPECIALIZADO DE ALTO RENDIMIENTO DEBAK TKD</h1>
+          <h1>CLUB ESPECIALIZADO DE ALTO RENDIMIENTO <br/> DEBAK TKD</h1>
           <span></span>
         </section>
         <Carousel />
