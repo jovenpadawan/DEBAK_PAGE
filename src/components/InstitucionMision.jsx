@@ -18,8 +18,13 @@ export default function InstitucionMision() {
             <h2>Misión</h2>
           </div>
           <span className="info-divider" aria-hidden="true"></span>
-          <div className="info-card__content">
+          <div className="info-card__content mision-card__content">
             <p>En DEBAK entrenamos y formamos deportistas en la disciplina del Taekwondo, dirigido para niños, jóvenes y adultos que busquen un estilo de vida enmarcado en el respeto, disciplina y marcialidad. De esta manera, formamos seres humanos íntegros; buscando siempre formar seleccionados provinciales, nacionales y representantes internacionales del Ecuador.</p>
+            <img
+              className="mision-card__image"
+              src="./imagenes/institucion/mision.jpeg"
+              alt="Deportistas de DEBAK practicando Taekwondo"
+            />
           </div>
         </section>
       </main>
