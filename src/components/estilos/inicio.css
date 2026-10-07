@@ -6,7 +6,7 @@
 
 .h1titles h1 {
   padding:auto;
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .h1titles h2 {
@@ -224,4 +224,11 @@
   .carousel-button {
     display: none;
   }
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 14px;
+  color: #4b5563;
 }
