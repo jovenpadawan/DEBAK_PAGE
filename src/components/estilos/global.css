@@ -36,6 +36,13 @@ main {
   border-radius:15px;
 }
 
+.site-footer {
+  padding: 1.25rem 1rem;
+  text-align: center;
+  color: #4b5563;
+  font-size: 0.9rem;
+}
+
 @media (min-width: 1024px) {
   main {
     max-width: 1200px;

@@ -1,6 +1,7 @@
-import { HashRouter, Navigate, Route, Routes } from 'react-router-dom';
+import { HashRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import './components/estilos/styles.css';
 
+import Footer from './components/Footer';
 import Inicio from './components/Inicio';
 import Entrenadores from './components/Entrenadores';
 import Deportistas from './components/Deportistas';
@@ -17,9 +18,11 @@ import InstitucionEstructura from './components/InstitucionEstructura';
 import Eventos from './components/Eventos';
 import PaginasAsociadas from './components/PaginasAsociadas';
 
-function App() {
+function AppRoutes() {
+  const location = useLocation();
+
   return (
-    <HashRouter>
+    <>
       <Routes>
         <Route path="/" element={<Inicio />} />
         <Route path="/entrenadores" element={<Entrenadores />} />
@@ -39,6 +42,15 @@ function App() {
         <Route path="/paginasAsociadas" element={<PaginasAsociadas />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      {location.pathname !== '/' && <Footer />}
+    </>
+  );
+}
+
+function App() {
+  return (
+    <HashRouter>
+      <AppRoutes />
     </HashRouter>
   );
 }
