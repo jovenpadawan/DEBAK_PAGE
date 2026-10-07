@@ -18,6 +18,9 @@ export default function Inicio() {
         <section className="intro">
           <h2>¿Quiénes somos?</h2>
           <p>El club Debak TKD es una familia de campeones dejando en alto al Ecuador. <br/> Formamos grandes seres humanos para la vida.</p>
+           <footer>
+          <p>debaktkd486@gmail.com - 0984096361 / 0963240963</p>
+          </footer>
         </section>
       </main>
       <a
@@ -30,9 +33,6 @@ export default function Inicio() {
       >
         <img src="/imagenes/redes/whatsapp.png" alt="" />
       </a>
-      <footer>
-        <p>debaktkd486@gmail.com - 0984096361 / 0963240963</p>
-      </footer>
     </>
   );
 }
