@@ -30,6 +30,9 @@ export default function Inicio() {
       >
         <img src="/imagenes/redes/whatsapp.png" alt="" />
       </a>
+      <footer>
+        <p>debaktkd486@gmail.com - 0984096361 / 0963240963</p>
+      </footer>
     </>
   );
 }
