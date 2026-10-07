@@ -1,27 +1,15 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 import { useMenuToggle } from '../hooks/useMenuToggle';
 
 export default function Header() {
   const { isMenuActive, toggleMenu, handleNavigation } = useMenuToggle();
-  const [institucionOpen, setInstitucionOpen] = useState(false);
-  const [eventosOpen, setEventosOpen] = useState(false);
+  const [institucionExpanded, setInstitucionExpanded] = useState(false);
+  const [eventosExpanded, setEventosExpanded] = useState(false);
   
   const location = useLocation();
   const isInstitucionActive = location.pathname.startsWith('/institucion');
   const isEventosActive = location.pathname.startsWith('/eventos');
-
-  useEffect(() => {
-    if (isInstitucionActive) {
-      setInstitucionOpen(true);
-    }
-  }, [isInstitucionActive]);
-
-  useEffect(() => {
-    if (isEventosActive) {
-      setEventosOpen(true);
-    }
-  }, [isEventosActive]);
 
   const closeMenu = () => {
     handleNavigation();
@@ -50,11 +38,11 @@ export default function Header() {
             </NavLink>
           </li>
 
-          <li className={`menu-group ${institucionOpen ? 'open' : ''}`}>
+          <li className={`menu-group ${institucionExpanded || isInstitucionActive ? 'open' : ''}`}>
             <button 
               type="button" 
               className={`menu-link menu-group-button ${isInstitucionActive ? 'active-link' : ''}`} 
-              onClick={() => setInstitucionOpen(!institucionOpen)}
+              onClick={() => setInstitucionExpanded(!institucionExpanded)}
             >
               INSTITUCIÓN
             </button>
@@ -89,11 +77,11 @@ export default function Header() {
             </NavLink>
           </li>
 
-          <li className={`menu-group ${eventosOpen ? 'open' : ''}`}>
+          <li className={`menu-group ${eventosExpanded || isEventosActive ? 'open' : ''}`}>
             <button 
               type="button" 
               className={`menu-link menu-group-button ${isEventosActive ? 'active-link' : ''}`} 
-              onClick={() => setEventosOpen(!eventosOpen)}
+              onClick={() => setEventosExpanded(!eventosExpanded)}
             >
               EVENTOS
             </button>

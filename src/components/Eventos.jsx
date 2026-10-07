@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
+import { useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import Header from './Header';
 import Modal from './Modal';
 import SeoOptimization from './SeoOptimization';
@@ -233,14 +233,16 @@ const dataEventos = {
 
 export default function Eventos() {
   const location = useLocation();
-  const [categoriaActiva, setCategoriaActiva] = useState('deportivos');
+  const navigate = useNavigate();
+  const categoriaActiva = location.state?.categoria || 'deportivos';
   const [selected, setSelected] = useState(null);
 
-  useEffect(() => {
-    if (location.state?.categoria) {
-      setCategoriaActiva(location.state.categoria);
-    }
-  }, [location.state]);
+  const seleccionarCategoria = (categoria) => {
+    navigate(location.pathname, {
+      replace: true,
+      state: { ...location.state, categoria }
+    });
+  };
 
   const seccionActual = dataEventos[categoriaActiva] || dataEventos.deportivos;
 
@@ -259,19 +261,19 @@ export default function Eventos() {
         <nav className="event-navigation">
           <button 
             className={`nav-tag-btn ${categoriaActiva === 'deportivos' ? 'active' : ''}`}
-            onClick={() => setCategoriaActiva('deportivos')}
+            onClick={() => seleccionarCategoria('deportivos')}
           >
             Deportivos
           </button>
           <button 
             className={`nav-tag-btn ${categoriaActiva === 'sociales' ? 'active' : ''}`}
-            onClick={() => setCategoriaActiva('sociales')}
+            onClick={() => seleccionarCategoria('sociales')}
           >
             Sociales
           </button>
           <button 
             className={`nav-tag-btn ${categoriaActiva === 'promocion' ? 'active' : ''}`}
-            onClick={() => setCategoriaActiva('promocion')}
+            onClick={() => seleccionarCategoria('promocion')}
           >
             Promoción
           </button>

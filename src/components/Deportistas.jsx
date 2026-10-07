@@ -123,7 +123,7 @@ export default function Deportistas() {
     },
     {
       name:"Gabriel Ruíz",
-      rank: "Cinturón negro, 1er DAN Kukkiwon.",
+      rank: "Cinturón negro, 2do DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/gabrielRuiz.jpg",
       achievements: ["Bicampeón de Juegos Nacionales.", "Múltiple medallista nacional.", "Seleccionado provincial y nacional.", "Vicecampeón de Juegos Nacionales.", "Medallista Panamericano.", "Integrante del equipo de Juegos Nacionales 2026."]

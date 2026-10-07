@@ -77,7 +77,7 @@ export default function Entrenadores() {
       image: "./imagenes/entrenadores/rodneeyQuisnia.jpg",
       miniImage: "./imagenes/entrenadores/rodneeyQuisniaMini.jpg",
       courses: ["Curso vigente de Ingeniería en Sistemas.", "Curso de acreditación de entrenadores Provincial y Nacional 2026."],
-      achievements: ["Medallista panamericano oficial en Spokane, USA 2018 (bronce).", "Múltiple medallista internacional.", "Múltiple medallista nacional y de juegos nacionales.", "Campeón Parejas Juegos Prejuveniles 2022."]
+      achievements: ["Medallista panamericano oficial en Spokane, USA 2019 (bronce).", "Múltiple medallista Internacional.", "Múltiple medallista Nacional y de Juegos Nacionales.", "Campeón absoluto en los XIII Juegos Deportivos Nacionales Menores 2018."]
     },
     {
       name: "Jared Vargas",
