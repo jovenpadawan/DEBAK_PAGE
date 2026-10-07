@@ -22,7 +22,7 @@ export default function Inicio() {
       </main>
       <a
         className="whatsapp-float"
-        href="https://wa.me/593984096361?text=Deseo%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20curso%20de%20taekwondo"
+        href="https://wa.me/593984096361?text=%C2%A1Hola!%20Deseo%20m%C3%A1s%20informaci%C3%B3n%20acerca%20del%20curso%20de%20taekwondo."
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Solicitar más información del curso de taekwondo por WhatsApp"

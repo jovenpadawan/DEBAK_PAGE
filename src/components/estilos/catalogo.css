@@ -26,6 +26,10 @@
     text-align: center;
 }
 
+.catalog-navigation .nav-tag-btn {
+    text-decoration: none;
+}
+
 .catalogo span {
     display: flex;
     margin: auto;

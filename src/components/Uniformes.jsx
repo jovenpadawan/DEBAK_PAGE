@@ -1,5 +1,6 @@
 import Header from './Header';
 import SeoOptimization from './SeoOptimization';
+import CatalogNavigation from './CatalogNavigation';
 import './estilos/catalogo.css';
 
 export default function Uniformes() {
@@ -19,6 +20,7 @@ export default function Uniformes() {
                     <h1>Uniformes Debak</h1>
                     <span></span>
                 </section>
+                <CatalogNavigation />
                 <section className="catalogo">
                     <div className="products-container">
                         {uniforms.map((uniform) => (

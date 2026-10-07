@@ -1,5 +1,6 @@
 import Header from './Header';
 import SeoOptimization from './SeoOptimization';
+import CatalogNavigation from './CatalogNavigation';
 import './estilos/catalogo.css';
 
 export default function Doboks() {
@@ -26,6 +27,7 @@ export default function Doboks() {
                     <h1>DOBOKS</h1>
                     <span></span>
                 </section>
+                <CatalogNavigation />
                 <section className="catalogo">
                     <div className="products-container">
                         {products.map((product) => (

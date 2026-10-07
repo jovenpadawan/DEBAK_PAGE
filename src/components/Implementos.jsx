@@ -1,5 +1,6 @@
 import Header from './Header';
 import SeoOptimization from './SeoOptimization';
+import CatalogNavigation from './CatalogNavigation';
 import './estilos/catalogo.css';
 
 const implementos = [
@@ -31,6 +32,7 @@ export default function Implementos() {
                     <h1>IMPLEMENTOS DE COMBATE</h1>
                     <span></span>
                 </section>
+                <CatalogNavigation />
                 <section className="catalogo">
                     <div className="products-container">
                         {implementos.map((item) => (
