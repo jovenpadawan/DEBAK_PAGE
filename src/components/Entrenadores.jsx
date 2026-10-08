@@ -55,7 +55,7 @@ export default function Entrenadores() {
     {
       name: "Marcelo Prado",
       range: "5to DAN Nacional y 5to DAN Kukkiwon.",
-      role: "Maestro de la modalidad poomsae.",
+      role: "Profesor de la modalidad Poomsae.",
       image: "./imagenes/entrenadores/marceloPrado.jpg",
       miniImage: "./imagenes/entrenadores/marceloPradoMini.jpg",
       courses: ["Curso de Acreditación de entrenadores Provincial y Nacional 2026."],
@@ -64,7 +64,7 @@ export default function Entrenadores() {
     {
       name: "Adrián Lara",
       range: "2do DAN Kukkiwon.",
-      role: "Profesor de combate y director de la sede Colegio Liga.",
+      role: "Profesor de la modalidad Combate y director de la sede Colegio Liga.",
       image: "./imagenes/entrenadores/adrianLara.jpg",
       miniImage: "./imagenes/entrenadores/adrianLaraMini.jpg",
       courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Práctica de poomsae, freestyle y exhibición 2025.", "Actualización del reglamento kyorugui 2025."],
@@ -73,7 +73,7 @@ export default function Entrenadores() {
     {
       name: "Rodneey Quisnia",
       range: "1er DAN Nacional y 1er DAN Kukkiwon.",
-      role: "Profesor de la modalidad poomsae.",
+      role: "Profesor de la modalidad Poomsae.",
       image: "./imagenes/entrenadores/rodneeyQuisnia.jpg",
       miniImage: "./imagenes/entrenadores/rodneeyQuisniaMini.jpg",
       courses: ["Curso vigente de Ingeniería en Sistemas.", "Curso de acreditación de entrenadores Provincial y Nacional 2026."],
