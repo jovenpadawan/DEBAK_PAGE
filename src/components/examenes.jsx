@@ -31,6 +31,7 @@ export default function Examenes() {
                     <h1>INFORMACIÓN PARA EXÁMENES</h1>
                     <span></span>
                     <p>Vocabulario y contenido de preparación previo a los exámenes de ascenso.</p>
+                </section> 
                   
                 <section className='examenes'> 
                     <h2 style={{ fontSize: '32px' }}>Vocabulario</h2>
@@ -50,7 +51,6 @@ export default function Examenes() {
                         ))}
                     </div>
                 </section>
-                </section> 
             </main>
         </>
     );
