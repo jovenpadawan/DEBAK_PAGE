@@ -1,3 +1,33 @@
+.catalog-page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catalog-page--catalogo {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        url('/imagenes/catalogo/fondoCatalogo.jpeg');
+}
+
+.catalog-page--doboks {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        url('/imagenes/catalogo/fondoDoboks.jpeg');
+}
+
+.catalog-page--uniformes {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        url('/imagenes/catalogo/fondoUniformes.jpeg');
+}
+
+.catalog-page--implementos {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        url('/imagenes/catalogo/fondoImplementacion.jpeg');
+}
+
 .catalogoTitles{
    padding: 3rem 1.5rem;
   height:100%;

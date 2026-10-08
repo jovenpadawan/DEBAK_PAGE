@@ -29,7 +29,7 @@ export default function Doboks() {
         <>
             <SeoOptimization title="Catálogo" description="Explora los doboks oficiales de DEBAK TKD para diferentes categorías y estilos." />
             <Header />
-            <main>
+            <main className="catalog-page catalog-page--doboks">
                 <section className="catalogoTitles">
                     <h1>DOBOKS</h1>
                     <span></span>

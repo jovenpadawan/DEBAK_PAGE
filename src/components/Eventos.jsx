@@ -12,7 +12,7 @@ const dataEventos = {
       {
         title: 'Ranking G8 Chuncheon 2026 World Taekwondo Poomsae Championships, Korea 2026',
         description: 'Nuestro deportista Iván Marcano y Maestro Marcelo Prado representaron al Ecuador en el mundial de Corea, donde con mucho orgullo lo dejaron en alto.',
-        image: './imagenes/eventos/chuncheon2026.jpg',
+        image: './imagenes/eventos/chuncheon2026.jpeg',
         date: '16 de Septiembre, 2026',
         location: 'Corea del sur',
         tag: 'Deportivo',
@@ -75,7 +75,7 @@ const dataEventos = {
       {
         title: 'Campeonato Nacional Senior y Sub-21 - 2026',
         description: 'En la Universidad San Francisco de Quito, nuestros profesores asisitieron a representar con orgullo a DEBAK.',
-        image: './imagenes/eventos/openNacionalUniversitario.jpeg',
+        image: './imagenes/eventos/campeonatoNacionalSenior.jpeg',
         date: '26 de Junio, 2026',
         location: 'Quito, USFQ',
         tag: 'Deportivo',

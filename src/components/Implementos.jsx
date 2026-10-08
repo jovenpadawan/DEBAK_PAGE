@@ -27,7 +27,7 @@ export default function Implementos() {
         <>
             <SeoOptimization title="Catálogo" description="Consulta implementos deportivos y accesorios oficiales para la práctica del Taekwondo en DEBAK TKD." />
             <Header />
-            <main style={{ paddingBottom: '4rem' }}>
+            <main className="catalog-page catalog-page--implementos" style={{ paddingBottom: '4rem' }}>
                 <section className="catalogoTitles">
                     <h1>IMPLEMENTOS DE COMBATE</h1>
                     <span></span>

@@ -26,7 +26,7 @@ export default function Examenes() {
     return (
         <>
             <Header />
-            <main>
+            <main className="examenes-page">
                 <section className="examTitles">
                     <h1>INFORMACIÓN PARA EXÁMENES</h1>
                     <span></span>

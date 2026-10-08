@@ -1,8 +1,13 @@
+.examenes-page {
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        url('/imagenes/examenes/fondoEx%C3%A1menes.jpeg') center / cover no-repeat;
+}
+
 .examTitles{
   padding: 3rem 1.5rem;
   height:100%;
   text-align: center;
-  background: linear-gradient(to bottom, #fff, #f0f0f0);
 }
 
 .examTitles h1 {

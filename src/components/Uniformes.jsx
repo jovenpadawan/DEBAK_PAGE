@@ -22,7 +22,7 @@ export default function Uniformes() {
         <>
             <SeoOptimization title="Catálogo" description="Descubre uniformes y prendas oficiales para deportistas y entrenadores de DEBAK TKD." />
             <Header />
-            <main>
+            <main className="catalog-page catalog-page--uniformes">
                 <section className="catalogoTitles">
                     <h1>Uniformes Debak</h1>
                     <span></span>

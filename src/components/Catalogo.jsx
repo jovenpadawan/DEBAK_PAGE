@@ -14,7 +14,7 @@ export default function Catalogo() {
         <>
             <SeoOptimization title="Catálogo" description="Explora el catálogo de doboks, uniformes e implementos deportivos de DEBAK TKD." />
             <Header />
-            <main>
+            <main className="catalog-page catalog-page--catalogo">
                 <section className="catalogoTitles">
                     <h1>CATÁLOGO DE PRODUCTOS</h1>
                     <span></span>
