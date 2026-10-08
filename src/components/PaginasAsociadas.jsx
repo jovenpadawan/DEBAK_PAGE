@@ -28,7 +28,7 @@ export default function PaginasAsociadas() {
     return (
         <>
             <Header />
-            <main style={{ paddingBottom: '4rem' }}>
+            <main className="asociadas-page" style={{ paddingBottom: '4rem' }}>
                 <section className="asociadasTitles">
                     <h1>PÁGINAS ASOCIADAS</h1>
                     <span></span>

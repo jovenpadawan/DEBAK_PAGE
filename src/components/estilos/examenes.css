@@ -5,9 +5,10 @@
 }
 
 .examTitles{
-  padding: 3rem 1.5rem;
+    padding: 3rem 1.5rem;
   height:100%;
   text-align: center;
+  background: linear-gradient(to bottom, #fff, #f0f0f0);
 }
 
 .examTitles h1 {

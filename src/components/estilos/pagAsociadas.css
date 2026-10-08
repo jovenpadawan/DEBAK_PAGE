@@ -1,3 +1,9 @@
+.asociadas-page {
+    background:
+        linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+        url('/imagenes/paginasAsociadas/fondoPaginasAsociadas.jpeg') center / cover no-repeat;
+}
+
 .asociadasTitles {
     padding: 3rem 1.5rem;
     height:100%;
@@ -36,7 +42,7 @@
 }
 
 .asociada-card {
-    text-decoration: none; /* Quita el subrayado del enlace */
+    text-decoration: none; 
     width: 220px;
     height: 250px;
     border: 1px solid #e2e8f0;
@@ -60,13 +66,12 @@
     align-items: center;
     justify-content: center;
     background-color: #f8fafc;
-    padding: 1.5rem; /* Espacio extra para que el logo respire */
+    padding: 1.5rem; 
 }
 
 .asociada-image img {
     max-width: 100%;
     max-height: 100%;
-    /* contain asegura que el logo se vea completo sin recortarse */
     object-fit: contain; 
 }
 
