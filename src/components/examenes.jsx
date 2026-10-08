@@ -34,8 +34,10 @@ export default function Examenes() {
                 </section> 
                   
                 <section className='examenes'> 
-                    <h2 style={{ fontSize: '32px' }}>Vocabulario</h2>
+                    <section className="examTitles">
+                    <h1 style={{ fontSize: '32px' }}>Vocabulario</h1>
                     <span></span>
+                </section>
                     <div className="belts-container">
                         {belts.map((belt) => (
                             <a 
