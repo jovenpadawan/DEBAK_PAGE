@@ -4,6 +4,7 @@ import CatalogNavigation from './CatalogNavigation';
 import './estilos/catalogo.css';
 
 export default function Doboks() {
+    const numeroWhatsApp = "593963240963";
     const products = [
         { name: 'Doboks Kyorugui tallas 100 - 200', image: './imagenes/catalogo/dobokCombate.png' },
         { name: 'Dobok Poomsae Cadete Masculino', image: './imagenes/catalogo/dobokCadeteHombre.png' },
@@ -18,6 +19,12 @@ export default function Doboks() {
         { name: 'Dobok Negro', image: './imagenes/catalogo/dobokNegro.png' }
     ];
 
+    const consultarPorWhatsApp = (nombreProducto) => {
+        const mensaje = `Hola, vengo de la página web. Estoy interesado en el siguiente producto: *${nombreProducto}*. ¿Me podrían brindar más información?`;
+        const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+        window.open(url, '_blank');
+    };
+
     return (
         <>
             <SeoOptimization title="Catálogo" description="Explora los doboks oficiales de DEBAK TKD para diferentes categorías y estilos." />
@@ -31,7 +38,12 @@ export default function Doboks() {
                 <section className="catalogo">
                     <div className="products-container">
                         {products.map((product) => (
-                            <div key={product.name} className="product-card">
+                            <div
+                                key={product.name}
+                                className="product-card"
+                                onClick={() => consultarPorWhatsApp(product.name)}
+                                title="Consultar disponibilidad en WhatsApp"
+                            >
                                 <div className="product-image">
                                     <img src={product.image} alt={product.name} />
                                 </div>

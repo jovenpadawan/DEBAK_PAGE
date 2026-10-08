@@ -102,7 +102,7 @@ export default function Deportistas() {
     },
     {
       name:"Charllote Campusano",
-      rank:"Cinturón negro.",
+      rank:"Cinturón rojo-negro.",
       level: "avanzado",
       image: "./imagenes/deportistas/charlloteCampusano.jpg",
       achievements: ["Seleccionada Provincial y Nacional en combate y poomsae.", "Medalla de bronce en el Ranking Mundial G1 República Dominicana 2026."]

@@ -4,12 +4,19 @@ import CatalogNavigation from './CatalogNavigation';
 import './estilos/catalogo.css';
 
 export default function Uniformes() {
+    const numeroWhatsApp = "593963240963";
     const uniforms = [
         { name: 'Piel Debak', image: './imagenes/catalogo/pielDebak.jpg' },
         { name: 'Camiseta Debak', image: './imagenes/catalogo/camisetaDebak.jpg' },
         { name: 'Pantaloneta Debak', image: './imagenes/catalogo/pantaloneta.jpg' },
         { name: 'Mochila Debak', image: './imagenes/catalogo/mochilaDebak.jpeg' }
     ];
+
+    const consultarPorWhatsApp = (nombreProducto) => {
+        const mensaje = `Hola, vengo de la página web. Estoy interesado en el siguiente producto: *${nombreProducto}*. ¿Me podrían brindar más información?`;
+        const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
+        window.open(url, '_blank');
+    };
 
     return (
         <>
@@ -24,7 +31,12 @@ export default function Uniformes() {
                 <section className="catalogo">
                     <div className="products-container">
                         {uniforms.map((uniform) => (
-                            <div key={uniform.name} className="product-card">
+                            <div
+                                key={uniform.name}
+                                className="product-card"
+                                onClick={() => consultarPorWhatsApp(uniform.name)}
+                                title="Consultar disponibilidad en WhatsApp"
+                            >
                                 <div className="product-image">
                                     <img src={uniform.image} alt={uniform.name} />
                                 </div>

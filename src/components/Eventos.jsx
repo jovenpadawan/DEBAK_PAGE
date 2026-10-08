@@ -19,15 +19,6 @@ const dataEventos = {
         detalles: 'Iván Marcano obtuvo el puntaje másalto de todo el team ecuador (8,63) y Marcelo Prado obtuvo el 5to lugar entre múltiples deportitstas de su categoría.'
       },
       {
-        title: 'XIII Juegos Nacionales Pre Juveniles Azuay 2026',
-        description: 'Zoe Celi y Gabriel Ruíz representaron a la provincia de Pichincha en estos Juegos Nacionales, convirtiéndose en múltiples medallistas y ayudando a Pichincha a convertirse en el campeón absoluto del evento.',
-        image: './imagenes/eventos/xiiiJuegosNacionales.jpeg',
-        date: '12 de Agosto, 2026',
-        location: 'Cuenca',
-        tag: 'Deportivo',
-        detalles: 'Zoe Celi consiguió ser campeona y subcampeona en Poomsae Trio y Poomsae individual y Gabriel Ruíz se consagró como campeón del evento en la categoría de Freestyle.'
-      },
-      {
         title: 'XVII Juegos Nacionales de Menores Guayas 2026',
         description: 'Julieta Grisales, Juan Puente y Emilio Ayala representaron a Pichincha en estos Juegos Nacionales de Menores, consiguiendo múltiples medallas y apoyando a Pichincha a convertirse en el campeón absoluto del evento.',
         image: './imagenes/eventos/xviiJuegosNacionalesMenores.jpeg',
@@ -46,15 +37,6 @@ const dataEventos = {
         detalles: 'Con esfuerzo y dedicación dejaron todo en el tatami y obtuvieron múltiples medallas.'
       },
       {
-        title: 'Campeonato Panamericano Infantil Ecuador 2026 PATU12',
-        description: 'Arantxa Marcano, Bryan Valdez, Emiliano Herrera y Leonardo Obando representaron al Ecuador y al club DebakTKD en este gran campeonato panamericano.',
-        image: './imagenes/eventos/campeonatoPanamericanoInfantil.jpeg',
-        date: '09 de Septiembre, 2026',
-        location: 'Quito',
-        tag: 'Deportivo',
-        detalles: 'Arantxa Marcano se consagró como campeona panamericana en Poomsae Individual y Freestyle, convirtiéndose en la mejor deportista del evento; Bryan Valdez se consagró como campeón panamericano en combate, Emiliano Herrera obvtuvo plata en freestyle y Leonardo Obando plata en combate.'
-      },
-      {
         title: 'Open Cintas de Colores',
         description: 'Nuestros deportistas novatos e intermedios suman una nueva experiencia y nuevos logros a su trayectoría como deportistas en este evento internacional.',
         image: './imagenes/eventos/openCintasDeColor.jpeg',
@@ -64,40 +46,40 @@ const dataEventos = {
         detalles: 'Todos nuestros deportistas participantes obtuvieron medallas y puestos altos, demostrando la pasión y el compromiso que tienen con el Taekwondo.'
       },
       {
-        title: 'II Campeonato "Sueños Olímpicos" Patu12',
-        description: 'Gracias a todo el esfuerzo y dedicación de nuestros deportistas, nos consagramos como campeones del evento en la categoría de POOMSAE.',
-        image: './imagenes/eventos/patu12.jpg',
-        date: '28 de Marzo, 2026',
+        title: 'Campeonato Panamericano Infantil Ecuador 2026 PATU12',
+        description: 'Arantxa Marcano, Bryan Valdez, Emiliano Herrera y Leonardo Obando representaron al Ecuador y al club DebakTKD en este gran campeonato panamericano.',
+        image: './imagenes/eventos/campeonatoPanamericanoInfantil.jpeg',
+        date: '09 de Septiembre, 2026',
         location: 'Quito',
         tag: 'Deportivo',
-        detalles: 'Dejaron marca de lo mucho que se esmeran en cada uno de sus entrenamientos.'
+        detalles: 'Arantxa Marcano se consagró como campeona panamericana en Poomsae Individual y Freestyle, convirtiéndose en la mejor deportista del evento; Bryan Valdez se consagró como campeón panamericano en combate, Emiliano Herrera obvtuvo plata en freestyle y Leonardo Obando plata en combate.'
       },
       {
-        title: 'Campeonato Ranking Mundial G1 República Dominicana 2026',
-        description: 'Nuestro director, Jimmy Bolaños, asistió junto con nuestro campeón Iván Marcano y Charlotte al Campeonato Ranking Mundial G1 en República Dominicana.',
-        image: './imagenes/eventos/rankingRD.jpg',
-        date: '10 de Abril, 2026',
-        location: 'República Dominicana',
+        title: 'XIII Juegos Nacionales Pre Juveniles Azuay 2026',
+        description: 'Zoe Celi y Gabriel Ruíz representaron a la provincia de Pichincha en estos Juegos Nacionales, convirtiéndose en múltiples medallistas y apoyando a Pichincha a convertirse en el campeón absoluto del evento.',
+        image: './imagenes/eventos/xiiiJuegosNacionales.jpeg',
+        date: '12 de Agosto, 2026',
+        location: 'Cuenca',
         tag: 'Deportivo',
-        detalles: 'Todos consiguieron alcanzar el podio, estando Charlotte en el tercer lugar, Iván Marcano en el segundo y Jimmy Bolaños en el primero.'
+        detalles: 'Zoe Celi consiguió ser campeona y subcampeona en Poomsae Trio y Poomsae individual y Gabriel Ruíz se consagró como campeón del evento en la categoría de Freestyle.'
       },
       {
-        title: 'Campeonato Panamericano de Taekwondo',
-        description: 'Nuestro director, Jimmy Bolaños, y maestro, Marcelo Prado, nos representaron en el Campeonato Panamericano de Taekwondo en Brasil.',
-        image: './imagenes/eventos/panamericanBrasil.jpg',
-        date: '7 de Mayo, 2026',
-        location: 'Brasil, Arena Carioca 1',
+        title: 'II Ecuador Challenger 2026',
+        description: 'DEBAK Estuvo presente en esta competencia nacional desarrollada en Riobamba.',
+        image: './imagenes/eventos/iiecuadorChallenger.jpeg',
+        date: '09 de Julio, 2026',
+        location: 'Riobamba',
         tag: 'Deportivo',
-        detalles: 'Marcelo Prado consiguió el segundo lugar en el podio, dejando en alto a la nación y al club.'
-      },
+        detalles: 'Demostraron sus capacidades y ahora se preparan para competir por el reconocimiento a mejores deportistas del año a nivel nacional.'
+      }, 
       {
-        title: 'Nacional Junior Combate',
-        description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
-        image: './imagenes/eventos/nacionalJunior.jpg',
-        date: '30 de Mayo, 2026',
-        location: 'Manabí',
+        title: 'Campeonato Nacional Senior y Sub-21 - 2026',
+        description: 'En la Universidad San Francisco de Quito, nuestros profesores asisitieron a representar con orgullo a DEBAK.',
+        image: './imagenes/eventos/openNacionalUniversitario.jpeg',
+        date: '26 de Junio, 2026',
+        location: 'Quito, USFQ',
         tag: 'Deportivo',
-        detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
+        detalles: 'Adrián Lara y José Alejo dieron lo mejor de sí en sus combates y nuestro profesor Rodneey Quisnia subió al tercer lugar del podio.'
       },
       {
         title: 'XII Copa Embajador de la República de Corea',
@@ -109,15 +91,6 @@ const dataEventos = {
         detalles: 'Al haber aceptado el reto, consiguieron crecer como deportistas y conseguir nuevas experiencias.'
       },
       {
-        title: 'II Ecuador Challenger 2026',
-        description: 'DEBAK Estuvo presente en esta competencia nacional desarrollada en Riobamba.',
-        image: './imagenes/eventos/iiecuadorChallenger.jpeg',
-        date: '09 de Julio, 2026',
-        location: 'Riobamba',
-        tag: 'Deportivo',
-        detalles: 'Demostraron sus capacidades y ahora se preparan para competir por el reconocimiento a mejores deportistas del año a nivel nacional.'
-      },
-      {
         title: 'Nacional Junior Combate',
         description: 'Nuestro deportista, Joaquín Vargas, participó en el Campeonato Nacional Junior Combate en Manabí.',
         image: './imagenes/eventos/nacionalJunior.jpg',
@@ -125,7 +98,34 @@ const dataEventos = {
         location: 'Manabí',
         tag: 'Deportivo',
         detalles: 'Sus esfuerzos lo llevaron al podio, ocupando el tercer lugar entre los participantes.'
-      }, 
+      },
+      {
+        title: 'Campeonato Panamericano de Taekwondo',
+        description: 'Nuestro director, Jimmy Bolaños, y maestro, Marcelo Prado, nos representaron en el Campeonato Panamericano de Taekwondo en Brasil.',
+        image: './imagenes/eventos/panamericanBrasil.jpg',
+        date: '7 de Mayo, 2026',
+        location: 'Brasil, Arena Carioca 1',
+        tag: 'Deportivo',
+        detalles: 'Marcelo Prado consiguió el segundo lugar en el podio, dejando en alto a la nación y al club.'
+      },
+      {
+        title: 'Campeonato Ranking Mundial G1 República Dominicana 2026',
+        description: 'Nuestro director, Jimmy Bolaños, asistió junto con nuestro campeón Iván Marcano y Charlotte al Campeonato Ranking Mundial G1 en República Dominicana.',
+        image: './imagenes/eventos/rankingRD.jpg',
+        date: '10 de Abril, 2026',
+        location: 'República Dominicana',
+        tag: 'Deportivo',
+        detalles: 'Todos consiguieron alcanzar el podio, estando Charlotte Campusano en el tercer lugar, Iván Marcano primer lugar combate y segundo poomsae y Jimmy Bolaños en el primer lugar poomsae.'
+      },
+      {
+        title: 'II Campeonato "Sueños Olímpicos" Patu12',
+        description: 'Gracias a todo el esfuerzo y dedicación de nuestros deportistas, nos consagramos como campeones del evento en la categoría de POOMSAE.',
+        image: './imagenes/eventos/patu12.jpg',
+        date: '28 de Marzo, 2026',
+        location: 'Quito',
+        tag: 'Deportivo',
+        detalles: 'Dejaron marca de lo mucho que se esmeran en cada uno de sus entrenamientos.'
+      },
       {
         title: 'I Campeonato Nacional Interclubes',
         description: 'Varios de nuestros deportistas nos representaron en el Campeonato Nacional Interclubes en Manabí.',
@@ -145,13 +145,13 @@ const dataEventos = {
         description: 'Jornada solidaria donde compartimos con personas de la comunidad de la Mitad del Mundo llevando un momento de calidez y alegría en las vísperas de navidad.',
         image: './imagenes/eventos/ayudaNavidena.jpg',
         date: '23 de Diciembre, 2025',
-        location: 'Quito Sur',
+        location: 'Mitad del Mundo',
         tag: 'Social',
         detalles: 'Se pudo vivir momentos llenos de sonrisas y alegría en comunidad.'
       },
       {
         title: 'Mañana deportiva',
-        description: 'Luego de las actividadeds institucionales de nuestros deportistas, invitamos a niños y jóvenes de la comunidad para disfrutar de actividades planificadas para todas las edades.',
+        description: 'Luego de las actividades institucionales de nuestros deportistas, invitamos a niños y jóvenes de la comunidad para disfrutar de actividades planificadas para todas las edades.',
         image: './imagenes/eventos/tardeDeportiva.jpg',
         date: '31 de Enero, 2026',
         location: 'Debak Matriz',
@@ -167,7 +167,7 @@ const dataEventos = {
         title: 'La historia de Jimmy Bolaños',
         description: 'Nuestro director Jimmy Bolaños fue entrevistado por el programa de Teleamazonas "EsTA Mañana", donde habló acerca de su recorrido como deportista de Taekwondo.',
         image: './imagenes/eventos/entrevistaJimmy.jpeg',
-        date: '8 de Enero, 2026',
+        date: '11 de junio, 2026',
         location: 'Quito',
         tag: 'Entrevista',
         detalles: 'Conoce más acerca de la entrevista en TikTok.',
