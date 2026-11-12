@@ -1,22 +1,26 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Header from './Header';
 import Carousel from './Carousel';
 import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
-export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
+export default function Inicio() {
   const introVideoRef = useRef(null);
+  const [showIntroVideo, setShowIntroVideo] = useState(true);
 
   useEffect(() => {
-    if (!showIntroVideo || !introVideoRef.current) {
+    const video = introVideoRef.current;
+    if (!video) {
       return;
     }
 
-    const video = introVideoRef.current;
     video.muted = true;
-    video.play().catch((error) => {
-      console.warn('El navegador no permitió reproducir automáticamente el video de bienvenida.', error);
-    });
+    const playVideo = () => {
+      video.play().catch((error) => {
+        console.warn('El navegador no permitió reproducir automáticamente el video de bienvenida.', error);
+      });
+    };
+    playVideo();
 
     const enableAudio = () => {
       video.muted = false;
@@ -34,7 +38,7 @@ export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
       window.removeEventListener('pointerdown', enableAudio);
       window.removeEventListener('keydown', enableAudio);
     };
-  }, [showIntroVideo]);
+  }, []);
 
   return (
     <>
@@ -55,7 +59,15 @@ export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
               muted
               playsInline
               preload="auto"
-              onEnded={onIntroVideoDismiss}
+              onCanPlay={(event) => {
+                event.currentTarget.play().catch((error) => {
+                  console.warn('El navegador no permitió iniciar el video de bienvenida.', error);
+                });
+              }}
+              onError={(event) => {
+                console.error('No se pudo cargar el video de bienvenida.', event.currentTarget.error);
+              }}
+              onEnded={() => setShowIntroVideo(false)}
             />
           </div>
         </div>
