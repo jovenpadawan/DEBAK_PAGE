@@ -24,9 +24,7 @@ function AppRoutes() {
   const [showIntroVideo, setShowIntroVideo] = useState(() => location.pathname === '/');
 
   useEffect(() => {
-    if (location.pathname !== '/') {
-      setShowIntroVideo(false);
-    }
+    setShowIntroVideo(location.pathname === '/');
   }, [location.pathname]);
 
   return (
