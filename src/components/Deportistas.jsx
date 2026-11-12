@@ -77,7 +77,7 @@ export default function Deportistas() {
       rank: "Cinturón negro, 1er DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/ivanMarcano.jpg",
-      achievements: ["Seleccionado Provincial y Nacional.", "Doble Campeón Panamericano Infantil.", "Campeón Mundial Infantil Colombia.", "Representante del Ecuador en la President Cup 2024.", "Campeón Poomsae y Vicecampeón Freestyle del Patu12 2026.", "Campeón Kyorugui, Vicecampeón Freestyle y Bronce Poomsae del I Campeonato Nacional Interclubes Manabí 2026.", "Vicecampeón poomsae y Campeón combate en el Campeonato Ranking Mundial G1 República Dominicana 2026."]
+      achievements: ["Participación en el Mundial de Taekwondo Chuncheon 2026.","Seleccionado Provincial y Nacional.", "Múltiple medallista panamericano.", "Representante del Ecuador en la President Cup 2024.", "Campeón Poomsae y Vicecampeón Freestyle del Patu12 2026.", "Campeón Kyorugui, Vicecampeón Freestyle y Bronce Poomsae del I Campeonato Nacional Interclubes Manabí 2026.", "Vicecampeón poomsae y Campeón combate en el Campeonato Ranking Mundial G1 República Dominicana 2026."]
     },
     {
       name: "Emilio Ayala",
@@ -126,7 +126,7 @@ export default function Deportistas() {
       rank: "Cinturón negro, 2do DAN Kukkiwon.",
       level: "avanzado",
       image: "./imagenes/deportistas/gabrielRuiz.jpg",
-      achievements: ["Bicampeón de Juegos Nacionales.", "Múltiple medallista nacional.", "Seleccionado provincial y nacional.", "Vicecampeón de Juegos Nacionales.", "Medallista Panamericano.", "Integrante del equipo de Juegos Nacionales 2026."]
+      achievements: ["Bicampeón de Juegos Nacionales.", "Múltiple medallista nacional e internacional.", "Seleccionado provincial y nacional.", "Vicecampeón de Juegos Nacionales.", "Medallista Panamericano.", "Integrante del equipo de Juegos Nacionales 2026."]
     },
     {
       name: "Arantxa Marcano",

@@ -7,7 +7,7 @@ export default function Transparencia() {
         {
             titulo: 'Informe de Gestión',
             archivos: [
-                { documento: 'rendicionCuentas2025', textoEnlace: 'Rendición de cuentas 2025' }
+                { documento: 'rendicionCuentas2025', textoEnlace: 'Rendición de cuentas 2025 - 2026' }
             ]
         },
         {

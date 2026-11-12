@@ -68,7 +68,7 @@ export default function Entrenadores() {
       image: "./imagenes/entrenadores/adrianLara.jpg",
       miniImage: "./imagenes/entrenadores/adrianLaraMini.jpg",
       courses: ["Acreditación de entrenadores Provincial y Nacional 2026.", "Práctica de poomsae, freestyle y exhibición 2025.", "Actualización del reglamento kyorugui 2025."],
-      achievements: ["Participación en el Campeonato Nacional Absoluto 2026.", "Ing. en Administración de Empresas.", "Lic. en Educación Mención en Educación Física."]
+      achievements: ["Participación en el Campeonato Nacional Absoluto Senior 2026.", "Ing. en Administración de Empresas.", "Lic. en Educación Mención en Educación Física."]
     },
     {
       name: "Rodneey Quisnia",

@@ -119,12 +119,12 @@ const dataEventos = {
       },
       {
         title: 'II Campeonato "Sueños Olímpicos" Patu12',
-        description: 'Gracias a todo el esfuerzo y dedicación de nuestros deportistas, nos consagramos como campeones del evento en la categoría de POOMSAE.',
+        description: 'Gracias a todo el esfuerzo y dedicación de nuestros deportistas, nos consagramos como campeones del evento en las categorías de Poomsae y Combate.',
         image: './imagenes/eventos/patu12.jpg',
         date: '28 de Marzo, 2026',
         location: 'Quito',
         tag: 'Deportivo',
-        detalles: 'Dejaron marca de lo mucho que se esmeran en cada uno de sus entrenamientos.'
+        detalles: 'Dejaron marca de lo mucho que se esmeran en cada uno de sus entrenamientos, dejando al club dos reconocimientos importantes.'
       },
       {
         title: 'I Campeonato Nacional Interclubes',
@@ -142,7 +142,7 @@ const dataEventos = {
     items: [
       {
         title: 'Campaña navideña',
-        description: 'Jornada solidaria donde compartimos con personas de la comunidad de la Mitad del Mundo llevando un momento de calidez y alegría en las vísperas de navidad.',
+        description: 'Jornada solidaria donde compartimos con personas de la comunidad de la Mitad del Mundo, llevando un momento de calidez y alegría en las vísperas de navidad.',
         image: './imagenes/eventos/ayudaNavidena.jpg',
         date: '23 de Diciembre, 2025',
         location: 'Mitad del Mundo',
@@ -163,17 +163,6 @@ const dataEventos = {
   promocion: {
     titulo: 'Promoción del Taekwondo',
     items: [
-      {
-        title: 'La historia de Jimmy Bolaños',
-        description: 'Nuestro director Jimmy Bolaños fue entrevistado por el programa de Teleamazonas "EsTA Mañana", donde habló acerca de su recorrido como deportista de Taekwondo.',
-        image: './imagenes/eventos/entrevistaJimmy.jpeg',
-        date: '11 de junio, 2026',
-        location: 'Quito',
-        tag: 'Entrevista',
-        detalles: 'Conoce más acerca de la entrevista en TikTok.',
-        enlace: 'https://www.tiktok.com/@estamananatv/video/7650284590266993927?_r=1&_t=ZS-9AHYCOwRpxt',
-        textoEnlace: 'Ver entrevista en TikTok'
-      },
       {
         title: 'Trayecto de Zoe Celi',
         description: 'Nuestra deportista Zoe Celi estuvo presente en una entrevista en Pública FM, donde tuvo la oportunidad de compartir su trayectoria deportiva y los logros que ha alcanzado.',
@@ -226,6 +215,17 @@ const dataEventos = {
         location: 'Quito',
         tag: 'Entrevista',
         detalles: 'Compartió su historia deportiva, sus logros y consejos que inspiran a seguir creciendo.'
+      },
+      {
+        title: 'La historia de Jimmy Bolaños',
+        description: 'Nuestro director Jimmy Bolaños fue entrevistado por el programa de Teleamazonas "EsTA Mañana", donde habló acerca de su recorrido como deportista de Taekwondo.',
+        image: './imagenes/eventos/entrevistaJimmy.jpeg',
+        date: '11 de junio, 2026',
+        location: 'Quito',
+        tag: 'Entrevista',
+        detalles: 'Conoce más acerca de la entrevista en TikTok.',
+        enlace: 'https://www.tiktok.com/@estamananatv/video/7650284590266993927?_r=1&_t=ZS-9AHYCOwRpxt',
+        textoEnlace: 'Ver entrevista en TikTok'
       }
     ]
   }
@@ -302,6 +302,16 @@ export default function Eventos() {
             </article>
           ))}
         </div>
+
+        {categoriaActiva === 'sociales' && (
+          <div className="social-events-image-wrap">
+            <img
+              src="/imagenes/eventos/eventosSociales.png"
+              alt="Deportistas de DEBAK compartiendo en un evento social"
+              className="social-events-image"
+            />
+          </div>
+        )}
 
         {selected && (
           <Modal onClose={() => setSelected(null)}>

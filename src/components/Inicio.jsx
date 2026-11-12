@@ -19,7 +19,7 @@ export default function Inicio() {
           <h2>¿Quiénes somos?</h2>
           <p>El club Debak TKD es una familia de campeones dejando en alto al Ecuador. <br/> Formamos grandes seres humanos para la vida.</p>
            <footer>
-          <p>debaktkd486@gmail.com - 0984096361 / 0963240963</p>
+          <p id="footerInfo">debaktkd486@gmail.com - 0984096361 / 0963240963</p>
           </footer>
         </section>
       </main>

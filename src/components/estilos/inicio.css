@@ -232,3 +232,13 @@ footer {
   font-size: 14px;
   color: #4b5563;
 }
+
+#footerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  color: rgb(218, 210, 210);
+  font-family: Arial, sans-serif;
+}
