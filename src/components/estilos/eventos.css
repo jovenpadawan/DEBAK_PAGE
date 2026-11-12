@@ -144,11 +144,11 @@
 .social-events-image {
   display: block;
   width: 100%;
-  max-width: 760px;
-  border: 5px solid #ffffff;
-  border-top: 5px solid #f5c400;
-  border-radius: 18px;
-  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.16);
+  max-width: 440px;
+  border: 4px solid #ffffff;
+  border-top: 4px solid #f5c400;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.14);
 }
 
 /* Responsivo */

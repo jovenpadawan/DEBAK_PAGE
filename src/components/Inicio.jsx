@@ -3,11 +3,43 @@ import Carousel from './Carousel';
 import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
-export default function Inicio() {
+export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
   return (
     <>
       <SeoOptimization title="Inicio" description="DEBAK TKD, club de taekwondo de alto rendimiento en Ecuador con formación integral, disciplina y excelencia deportiva." />
       <Header />
+      {showIntroVideo && (
+        <div
+          className="home-video-overlay"
+          role="dialog"
+          aria-modal="true"
+          aria-label="Video de bienvenida de DEBAK TKD"
+          onClick={(event) => {
+            if (event.target === event.currentTarget) {
+              onIntroVideoDismiss();
+            }
+          }}
+        >
+          <div className="home-video-modal">
+            <button
+              className="home-video-close"
+              type="button"
+              onClick={onIntroVideoDismiss}
+              aria-label="Cerrar video"
+            >
+              &times;
+            </button>
+            <video
+              src="/imagenes/videoInicio.mp4"
+              autoPlay
+              muted
+              controls
+              playsInline
+              onEnded={onIntroVideoDismiss}
+            />
+          </div>
+        </div>
+      )}
       <main>
         <section className="h1titles">
           <h1>CLUB DEPORTIVO ESPECIALIZADO DE ALTO RENDIMIENTO <br/> DEBAK TKD</h1>

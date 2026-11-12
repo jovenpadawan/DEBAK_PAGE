@@ -4,6 +4,57 @@
   background: linear-gradient(to bottom, #d8d8d8, #f0f0f0);
 }
 
+.home-video-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 3000;
+  display: grid;
+  place-items: center;
+  padding: 1.5rem;
+  background: rgba(15, 23, 42, 0.82);
+}
+
+.home-video-modal {
+  position: relative;
+  width: min(100%, 900px);
+  padding: 0.75rem;
+  border-top: 4px solid #f5c400;
+  border-radius: 14px;
+  background: #111827;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+}
+
+.home-video-modal video {
+  display: block;
+  width: 100%;
+  max-height: 82vh;
+  border-radius: 8px;
+  background: #000;
+}
+
+.home-video-close {
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: #f5c400;
+  color: #111827;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.home-video-close:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+}
+
 .h1titles h1 {
   padding:auto;
   font-size: 2.2rem;
