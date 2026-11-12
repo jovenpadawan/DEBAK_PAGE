@@ -12,9 +12,28 @@ export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
       return;
     }
 
-    introVideoRef.current.play().catch((error) => {
+    const video = introVideoRef.current;
+    video.muted = true;
+    video.play().catch((error) => {
       console.warn('El navegador no permitió reproducir automáticamente el video de bienvenida.', error);
     });
+
+    const enableAudio = () => {
+      video.muted = false;
+      video.play().catch((error) => {
+        console.warn('El navegador no permitió activar el sonido del video de bienvenida.', error);
+      });
+      window.removeEventListener('pointerdown', enableAudio);
+      window.removeEventListener('keydown', enableAudio);
+    };
+
+    window.addEventListener('pointerdown', enableAudio);
+    window.addEventListener('keydown', enableAudio);
+
+    return () => {
+      window.removeEventListener('pointerdown', enableAudio);
+      window.removeEventListener('keydown', enableAudio);
+    };
   }, [showIntroVideo]);
 
   return (
@@ -33,6 +52,7 @@ export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
               ref={introVideoRef}
               src={`${import.meta.env.BASE_URL}imagenes/videoInicio.mp4`}
               autoPlay
+              muted
               playsInline
               preload="auto"
               onEnded={onIntroVideoDismiss}
