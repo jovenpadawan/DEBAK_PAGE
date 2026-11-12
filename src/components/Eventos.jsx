@@ -16,7 +16,7 @@ const dataEventos = {
         date: '16 de Septiembre, 2026',
         location: 'Corea del sur',
         tag: 'Deportivo',
-        detalles: 'Iván Marcano obtuvo el puntaje másalto de todo el team ecuador (8,63) y Marcelo Prado obtuvo el 5to lugar entre múltiples deportitstas de su categoría.'
+        detalles: 'Iván Marcano obtuvo el puntaje más alto de todo el Team Ecuador (8,63) y Marcelo Prado obtuvo el 5to lugar entre múltiples deportitstas de su categoría.'
       },
       {
         title: 'XVII Juegos Nacionales de Menores Guayas 2026',
@@ -163,23 +163,44 @@ const dataEventos = {
   promocion: {
     titulo: 'Promoción del Taekwondo',
     items: [
+      
       {
-        title: 'Trayecto de Zoe Celi',
-        description: 'Nuestra deportista Zoe Celi estuvo presente en una entrevista en Pública FM, donde tuvo la oportunidad de compartir su trayectoria deportiva y los logros que ha alcanzado.',
-        image: './imagenes/eventos/zoeEntrevista.png',
-        date: '8 de Enero, 2026',
-        location: 'Quito',
-        tag: 'Entrevista',
-        detalles: 'Pudo compartir un poco de su carrera deportiva, sus logros y algunas anécdotas que han marcado su camino.'
+        title: 'Concentrado Internacional',
+        description:'Parte del equipo de DEDBAK tuvo la gran oportunidad de representar a Ecuador en un Concentrado Deportivo Internacional realizado en Guatemala.',
+        image: './imagenes/eventos/concentradoGuatemala.jpeg',
+        date: '04 de Noviembre, 2026',
+        location: 'Guatemala',
+        tag: 'Promoción',
+        detalles: 'Nuestros deportistas, gracias a las relaciones con la Federación Ecuatoriana de Taekwondo, tuvieron el agrado y la oportunidad de poder asistir a un concentrado deportivo en Guatemala, donde pudieron tanto compartir conocimientos con otros deportistas como fortalecer su disciplina y rendimiento deportivo.'
       },
       {
-        title: 'Emiliano Herrera al Aire',
-        description: 'Nuestro querido deportista, Emiliano Herrera, fue invitado a asistir en una entrevista en Pública FM.',
-        image: './imagenes/eventos/emilianoEntrevista.png',
-        date: '2 de Marzo, 2026',
+        title: 'La historia de Jimmy Bolaños',
+        description: 'Nuestro director Jimmy Bolaños fue entrevistado por el programa de Teleamazonas "EsTA Mañana", donde habló acerca de su recorrido como deportista de Taekwondo.',
+        image: './imagenes/eventos/entrevistaJimmy.jpeg',
+        date: '11 de junio, 2026',
         location: 'Quito',
         tag: 'Entrevista',
-        detalles: 'Compartió sus experiencias y vivencias dentro de este hermoso deporte..'
+        detalles: 'Conoce más acerca de la entrevista en TikTok.',
+        enlace: 'https://www.tiktok.com/@estamananatv/video/7650284590266993927?_r=1&_t=ZS-9AHYCOwRpxt',
+        textoEnlace: 'Ver entrevista en TikTok'
+      },
+      {
+        title: 'Gabriel Ruíz al Aire',
+        description: 'Gabriel Ruíz, uno de nuestros deportistas, pudo dar a conocer sus motivaciones en el deporte y compartió hermosos mensajes desde su experiencia y trayectoria.',
+        image: './imagenes/eventos/entrevistaGabriel.JPG',  
+        date: '29 de Julio, 2026',
+        location: 'Quito',
+        tag: 'Entrevista',
+        detalles: 'Compartió su historia deportiva, sus logros y consejos que inspiran a seguir creciendo.'
+      },
+      {
+        title: 'Rodneey Quisnia al Aire',
+        description: 'Nuestro profesor, Rodneey Quisnia, tuvo el placer de ser invitado a una entrevista en Pública FM.',
+        image: './imagenes/eventos/rodneeyEntrevista.png',
+        date: '28 de Mayo, 2026',
+        location: 'Quito',
+        tag: 'Entrevista',
+        detalles: 'Compartió aquí su historia deportiva, experiencia y consejos que inspiran a seguir creciendo.'
       },
       {
         title: 'Marcelo Prado al Aire',
@@ -198,34 +219,24 @@ const dataEventos = {
         location: 'Quito',
         tag: 'Entrevista',
         detalles: 'El esfuerzo, la dedicación y la disciplina siempre traen grandes resultados.'
+      }, 
+      {
+        title: 'Emiliano Herrera al Aire',
+        description: 'Nuestro querido deportista, Emiliano Herrera, fue invitado a asistir en una entrevista en Pública FM.',
+        image: './imagenes/eventos/emilianoEntrevista.png',
+        date: '2 de Marzo, 2026',
+        location: 'Quito',
+        tag: 'Entrevista',
+        detalles: 'Compartió sus experiencias y vivencias dentro de este hermoso deporte..'
       },
       {
-        title: 'Rodneey Quisnia al Aire',
-        description: 'Nuestro profesor, Rodneey Quisnia, tuvo el placer de ser invitado a una entrevista en Pública FM.',
-        image: './imagenes/eventos/rodneeyEntrevista.png',
-        date: '28 de Mayo, 2026',
+        title: 'Trayecto de Zoe Celi',
+        description: 'Nuestra deportista Zoe Celi estuvo presente en una entrevista en Pública FM, donde tuvo la oportunidad de compartir su trayectoria deportiva y los logros que ha alcanzado.',
+        image: './imagenes/eventos/zoeEntrevista.png',
+        date: '8 de Enero, 2026',
         location: 'Quito',
         tag: 'Entrevista',
-        detalles: 'Compartió aquí su historia deportiva, experiencia y consejos que inspiran a seguir creciendo.'
-      },{
-        title: 'Gabriel Ruíz al Aire',
-        description: 'Gabriel Ruíz, uno de nuestros deportistas, pudo dar a conocer sus motivaciones en el deporte y compartió hermosos mensajes desde su experiencia y trayectoria.',
-        image: './imagenes/eventos/entrevistaGabriel.JPG',  
-        date: '28 de Mayo, 2026',
-        location: 'Quito',
-        tag: 'Entrevista',
-        detalles: 'Compartió su historia deportiva, sus logros y consejos que inspiran a seguir creciendo.'
-      },
-      {
-        title: 'La historia de Jimmy Bolaños',
-        description: 'Nuestro director Jimmy Bolaños fue entrevistado por el programa de Teleamazonas "EsTA Mañana", donde habló acerca de su recorrido como deportista de Taekwondo.',
-        image: './imagenes/eventos/entrevistaJimmy.jpeg',
-        date: '11 de junio, 2026',
-        location: 'Quito',
-        tag: 'Entrevista',
-        detalles: 'Conoce más acerca de la entrevista en TikTok.',
-        enlace: 'https://www.tiktok.com/@estamananatv/video/7650284590266993927?_r=1&_t=ZS-9AHYCOwRpxt',
-        textoEnlace: 'Ver entrevista en TikTok'
+        detalles: 'Pudo compartir un poco de su carrera deportiva, sus logros y algunas anécdotas que han marcado su camino.'
       }
     ]
   }
