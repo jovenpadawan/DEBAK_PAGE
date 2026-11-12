@@ -166,7 +166,7 @@ const dataEventos = {
       
       {
         title: 'Concentrado Internacional',
-        description:'Parte del equipo de DEDBAK tuvo la gran oportunidad de representar a Ecuador en un Concentrado Deportivo Internacional realizado en Guatemala.',
+        description:'Parte del equipo de DEBAK tuvo la gran oportunidad de representar a Ecuador en un Concentrado Deportivo Internacional realizado en Guatemala.',
         image: './imagenes/eventos/concentradoGuatemala.jpeg',
         date: '04 de Noviembre, 2026',
         location: 'Guatemala',
