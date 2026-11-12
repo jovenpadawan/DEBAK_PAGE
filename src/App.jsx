@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { HashRouter, Navigate, Route, Routes, useLocation } from 'react-router-dom';
 import './components/estilos/styles.css';
 
@@ -21,11 +21,13 @@ import PaginasAsociadas from './components/PaginasAsociadas';
 
 function AppRoutes() {
   const location = useLocation();
-  const initialLocation = useRef(location);
-  const [introVideoDismissed, setIntroVideoDismissed] = useState(false);
-  const showIntroVideo = initialLocation.current.pathname === '/'
-    && initialLocation.current.key === location.key
-    && !introVideoDismissed;
+  const [showIntroVideo, setShowIntroVideo] = useState(() => location.pathname === '/');
+
+  useEffect(() => {
+    if (location.pathname !== '/') {
+      setShowIntroVideo(false);
+    }
+  }, [location.pathname]);
 
   return (
     <>
@@ -35,7 +37,7 @@ function AppRoutes() {
           element={(
             <Inicio
               showIntroVideo={showIntroVideo}
-              onIntroVideoDismiss={() => setIntroVideoDismissed(true)}
+              onIntroVideoDismiss={() => setShowIntroVideo(false)}
             />
           )}
         />

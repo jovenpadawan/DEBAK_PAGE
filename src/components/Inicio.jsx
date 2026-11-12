@@ -30,11 +30,11 @@ export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
               &times;
             </button>
             <video
-              src="/imagenes/videoInicio.mp4"
+              src={`${import.meta.env.BASE_URL}imagenes/videoInicio.mp4`}
               autoPlay
               muted
-              controls
               playsInline
+              preload="auto"
               onEnded={onIntroVideoDismiss}
             />
           </div>
