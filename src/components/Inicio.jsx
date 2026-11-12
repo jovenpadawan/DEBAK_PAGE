@@ -1,9 +1,37 @@
+import { useEffect, useRef, useState } from 'react';
 import Header from './Header';
 import Carousel from './Carousel';
 import SeoOptimization from './SeoOptimization';
 import './estilos/styles.css';
 
 export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
+  const introVideoRef = useRef(null);
+  const [autoplayBlocked, setAutoplayBlocked] = useState(false);
+
+  useEffect(() => {
+    if (!showIntroVideo || !introVideoRef.current) {
+      return;
+    }
+
+    introVideoRef.current.play().then(() => {
+      setAutoplayBlocked(false);
+    }).catch(() => {
+      setAutoplayBlocked(true);
+    });
+  }, [showIntroVideo]);
+
+  const iniciarVideo = () => {
+    if (!introVideoRef.current) {
+      return;
+    }
+
+    introVideoRef.current.play().then(() => {
+      setAutoplayBlocked(false);
+    }).catch(() => {
+      setAutoplayBlocked(true);
+    });
+  };
+
   return (
     <>
       <SeoOptimization title="Inicio" description="DEBAK TKD, club de taekwondo de alto rendimiento en Ecuador con formación integral, disciplina y excelencia deportiva." />
@@ -30,13 +58,22 @@ export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
               &times;
             </button>
             <video
+              ref={introVideoRef}
               src={`${import.meta.env.BASE_URL}imagenes/videoInicio.mp4`}
               autoPlay
-              muted
               playsInline
               preload="auto"
               onEnded={onIntroVideoDismiss}
             />
+            {autoplayBlocked && (
+              <button
+                className="home-video-start"
+                type="button"
+                onClick={iniciarVideo}
+              >
+                Iniciar video
+              </button>
+            )}
           </div>
         </div>
       )}
