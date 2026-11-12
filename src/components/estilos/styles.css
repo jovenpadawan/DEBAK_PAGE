@@ -14,10 +14,10 @@
   @import './catalogo.css';
   @import './transparencia.css';
   @import './pagAsociadas.css';
+  @import './responsive.css';
 
   /* utility fallback in case any file is missing */
   .spanGridCenter {
     display: grid;
     place-items: center;
   }
-

@@ -35,7 +35,7 @@ export default function Examenes() {
                   
                 <section className='examenes'> 
                     <section className="examTitles">
-                    <h1 style={{ fontSize: '32px' }}>Vocabulario</h1>
+                    <h1>Vocabulario</h1>
                     <span></span>
                 </section>
                     <div className="belts-container">

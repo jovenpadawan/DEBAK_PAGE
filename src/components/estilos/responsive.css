@@ -1,0 +1,397 @@
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .main-header {
+    height: 72px;
+    padding: 0 0.75rem;
+  }
+
+  .header-logo .logo-img {
+    width: 72px;
+    max-height: 72px;
+  }
+
+  .side-menu {
+    width: min(280px, 88vw);
+    left: max(-280px, -88vw);
+    padding: 88px 1.25rem 1rem;
+    padding-bottom: max(1rem, env(safe-area-inset-bottom));
+  }
+
+  .menu-header {
+    margin-bottom: 0.75rem;
+  }
+
+  .side-menu a,
+  .menu-group-button {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+  }
+
+  main {
+    margin: 72px 0.5rem 0;
+    padding-top: 1.25rem;
+    border-radius: 12px;
+  }
+
+  section {
+    margin: 0.5rem;
+  }
+
+  .h1titles,
+  .institucionTitles,
+  .trainerTitles,
+  .deportistTitles,
+  .deportistLevel,
+  .examTitles,
+  .contactanosTitles,
+  .catalogoTitles,
+  .transparencyTitles,
+  .asociadasTitles {
+    height: auto;
+    padding: 1.5rem 0.75rem;
+  }
+
+  .h1titles h1,
+  .institucionTitles h1,
+  .trainerTitles h1,
+  .deportistTitles h1,
+  .deportistLevel h1,
+  .examTitles h1,
+  .contactanosTitles h1,
+  .catalogoTitles h1,
+  .transparencyTitles h1,
+  .asociadasTitles h1 {
+    font-size: clamp(1.45rem, 5.8vw, 1.75rem);
+    line-height: 1.2;
+    overflow-wrap: anywhere;
+  }
+
+  .h1titles h1 br {
+    display: none;
+  }
+
+  .sectionTitle,
+  .institucionTitles h2,
+  .contactanosTitles h2,
+  .h1titles h2 {
+    font-size: clamp(1.25rem, 5vw, 1.5rem);
+    line-height: 1.25;
+  }
+
+  .h1titles p,
+  .intro p,
+  .contactanosTitles p,
+  .institucionTitles p {
+    font-size: 1rem;
+    line-height: 1.55;
+  }
+
+  .institucionTitles p {
+    width: 100%;
+  }
+
+  .intro {
+    padding: 1.25rem 0.75rem;
+  }
+
+  .carousel-section {
+    padding: 1.25rem 0.75rem;
+  }
+
+  .carousel-track {
+    min-height: clamp(180px, 62vw, 260px);
+  }
+
+  .carousel-slide img {
+    height: clamp(180px, 62vw, 260px);
+  }
+
+  .carousel-caption {
+    padding: 0.65rem;
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+
+  .carousel-fullscreen {
+    padding: 0.5rem;
+  }
+
+  .carousel-fullscreen-stage {
+    width: 100%;
+    max-height: 92dvh;
+    border-radius: 12px;
+  }
+
+  .carousel-fullscreen-stage img {
+    max-height: 92dvh;
+    object-fit: contain;
+  }
+
+  .event-navigation {
+    gap: 0.5rem;
+    margin: 1rem auto 1.5rem;
+    padding: 0 0.75rem;
+  }
+
+  .nav-tag-btn {
+    min-height: 44px;
+    padding: 0.65rem 0.8rem;
+  }
+
+  .event-cards-grid {
+    gap: 1rem;
+    padding: 0 0.75rem;
+  }
+
+  .event-card-horizontal {
+    min-width: 0;
+  }
+
+  .event-card-img-left {
+    height: clamp(160px, 55vw, 220px);
+  }
+
+  .event-card-body {
+    min-width: 0;
+    padding: 1rem;
+  }
+
+  .event-card-horizontal h2 {
+    font-size: 1.2rem;
+    line-height: 1.3;
+    overflow-wrap: anywhere;
+  }
+
+  .event-card-meta {
+    gap: 0.4rem;
+    font-size: 0.8rem;
+  }
+
+  .social-events-image-wrap {
+    padding: 0 0.75rem;
+  }
+
+  .trainerCards,
+  .deportistCards {
+    gap: 0.75rem;
+    margin: 0.5rem;
+  }
+
+  .trainerCards .tarjeta,
+  .deportistCards .tarjeta {
+    width: min(100%, 280px);
+    height: auto;
+    min-height: 0;
+    padding: 0.75rem;
+  }
+
+  .trainerCards .tarjeta img,
+  .deportistCards .tarjeta img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: 280px !important;
+    aspect-ratio: 1 / 1;
+    object-fit: cover !important;
+  }
+
+  .info-card {
+    margin: 1rem 0.5rem;
+    padding: 1rem;
+  }
+
+  .info-card__title {
+    min-width: 0;
+  }
+
+  .info-card__title h2 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+  }
+
+  .info-card__content,
+  .estructura-card__text p {
+    overflow-wrap: anywhere;
+    line-height: 1.65;
+  }
+
+  .estructura-section {
+    padding: 1rem 0.5rem 1.5rem;
+  }
+
+  .estructura-card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .estructura-card__text {
+    padding: 1rem;
+  }
+
+  .estructura-card__image img {
+    min-height: 0;
+    height: auto;
+  }
+
+  .locationContainer,
+  .gridContainer {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1rem;
+    padding: 0.75rem;
+  }
+
+  .locationContainer > section,
+  .gridContainer > * {
+    min-width: 0;
+  }
+
+  .contactanos-location iframe,
+  .locationContainer iframe {
+    display: block;
+    width: 100%;
+    height: clamp(220px, 75vw, 300px);
+  }
+
+  .contactanosSocial {
+    gap: 1rem;
+    margin: 1.25rem 0;
+  }
+
+  .contactanosSocial img,
+  .whatsappSection img {
+    width: 56px;
+    height: 56px;
+    object-fit: contain;
+  }
+
+  .filesContainer {
+    width: 100%;
+    padding: 0.85rem;
+    overflow-wrap: anywhere;
+  }
+
+  .filesContainer:hover {
+    transform: none;
+  }
+
+  .transparencyContent {
+    min-width: 0;
+    gap: 0.75rem;
+    padding: 0.75rem;
+  }
+
+  .products-container,
+  .asociadas-container,
+  .belts-container {
+    gap: 0.75rem;
+    padding: 0 0.5rem;
+  }
+
+  .product-card,
+  .belt-rect {
+    width: min(100%, 200px);
+  }
+
+  .belt-rect {
+    min-height: 110px;
+    height: auto;
+    padding: 0.75rem;
+  }
+
+  .belt-rect h2 {
+    overflow-wrap: anywhere;
+  }
+
+  .asociada-card {
+    width: min(100%, 220px);
+  }
+
+  .modal-content {
+    width: min(100%, 500px);
+    max-height: 90dvh;
+    padding: 1.25rem;
+  }
+
+  .whatsapp-float {
+    right: max(0.75rem, env(safe-area-inset-right));
+    bottom: max(0.75rem, env(safe-area-inset-bottom));
+    width: 54px;
+    height: 54px;
+  }
+
+  .whatsapp-float img {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media (max-width: 390px) {
+  .h1titles,
+  .institucionTitles,
+  .trainerTitles,
+  .deportistTitles,
+  .deportistLevel,
+  .examTitles,
+  .contactanosTitles,
+  .catalogoTitles,
+  .transparencyTitles,
+  .asociadasTitles {
+    padding: 1.25rem 0.6rem;
+  }
+
+  .h1titles h1,
+  .institucionTitles h1,
+  .trainerTitles h1,
+  .deportistTitles h1,
+  .deportistLevel h1,
+  .examTitles h1,
+  .contactanosTitles h1,
+  .catalogoTitles h1,
+  .transparencyTitles h1,
+  .asociadasTitles h1 {
+    font-size: clamp(1.35rem, 5.6vw, 1.55rem);
+    line-height: 1.2;
+  }
+
+  .event-navigation {
+    padding: 0 0.5rem;
+  }
+
+  .event-card-body {
+    padding: 0.85rem;
+  }
+
+  .event-card-horizontal h2 {
+    font-size: 1.1rem;
+  }
+
+  .event-card-meta {
+    font-size: 0.75rem;
+  }
+}
+
+@media (hover: none) {
+  .filesContainer:hover,
+  .product-card:hover,
+  .asociada-card:hover,
+  .belt-rect:hover,
+  .contactanosSocial img:hover {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
