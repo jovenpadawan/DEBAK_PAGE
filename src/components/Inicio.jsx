@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import Header from './Header';
 import Carousel from './Carousel';
 import SeoOptimization from './SeoOptimization';
@@ -6,31 +6,16 @@ import './estilos/styles.css';
 
 export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
   const introVideoRef = useRef(null);
-  const [autoplayBlocked, setAutoplayBlocked] = useState(false);
 
   useEffect(() => {
     if (!showIntroVideo || !introVideoRef.current) {
       return;
     }
 
-    introVideoRef.current.play().then(() => {
-      setAutoplayBlocked(false);
-    }).catch(() => {
-      setAutoplayBlocked(true);
+    introVideoRef.current.play().catch((error) => {
+      console.warn('El navegador no permitió reproducir automáticamente el video de bienvenida.', error);
     });
   }, [showIntroVideo]);
-
-  const iniciarVideo = () => {
-    if (!introVideoRef.current) {
-      return;
-    }
-
-    introVideoRef.current.play().then(() => {
-      setAutoplayBlocked(false);
-    }).catch(() => {
-      setAutoplayBlocked(true);
-    });
-  };
 
   return (
     <>
@@ -42,21 +27,8 @@ export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
           role="dialog"
           aria-modal="true"
           aria-label="Video de bienvenida de DEBAK TKD"
-          onClick={(event) => {
-            if (event.target === event.currentTarget) {
-              onIntroVideoDismiss();
-            }
-          }}
         >
           <div className="home-video-modal">
-            <button
-              className="home-video-close"
-              type="button"
-              onClick={onIntroVideoDismiss}
-              aria-label="Cerrar video"
-            >
-              &times;
-            </button>
             <video
               ref={introVideoRef}
               src={`${import.meta.env.BASE_URL}imagenes/videoInicio.mp4`}
@@ -65,15 +37,6 @@ export default function Inicio({ showIntroVideo, onIntroVideoDismiss }) {
               preload="auto"
               onEnded={onIntroVideoDismiss}
             />
-            {autoplayBlocked && (
-              <button
-                className="home-video-start"
-                type="button"
-                onClick={iniciarVideo}
-              >
-                Iniciar video
-              </button>
-            )}
           </div>
         </div>
       )}
