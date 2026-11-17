@@ -141,13 +141,13 @@ const dataEventos = {
     titulo: 'Eventos Sociales',
     items: [
       {
-        title: 'Campaña navideña',
-        description: 'Jornada solidaria donde compartimos con personas de la comunidad de la Mitad del Mundo, llevando un momento de calidez y alegría en las vísperas de navidad.',
-        image: './imagenes/eventos/ayudaNavidena.jpg',
-        date: '23 de Diciembre, 2025',
-        location: 'Mitad del Mundo',
-        tag: 'Social',
-        detalles: 'Se pudo vivir momentos llenos de sonrisas y alegría en comunidad.'
+        title:'Ascenso de Danes Nacionales y Kukkiwon',
+        description:'Nuestro director Jimmy Bolaños participó como examinador oficial en el Curso de Examinación de Danes realizado en la ciudad de Ambato.',
+        image:'./imagenes/eventos/examinacionDanes.jpeg',
+        date:'06 de noviembre, 2026',
+        location:'Ambato',
+        tag:'Social',
+        detalles:'Jimmy Bolaños evaluó a múltiples deportistas de cinturón negro, contribuyendo directamente en la formación de cada uno de ellos y ayudándolos a seguir adelante en el largo y hermoso camino del taekwondo.'
       },
       {
         title: 'Mañana deportiva',
@@ -157,6 +157,15 @@ const dataEventos = {
         location: 'Debak Matriz',
         tag: 'Social',
         detalles: 'Se llevaron a cabo jornadas de distintos deportes donde se integraron todos los niños y jóvenes presentes.'
+      },
+      {
+        title: 'Campaña navideña',
+        description: 'Jornada solidaria donde compartimos con personas de la comunidad de la Mitad del Mundo, llevando un momento de calidez y alegría en las vísperas de navidad.',
+        image: './imagenes/eventos/ayudaNavidena.jpg',
+        date: '23 de Diciembre, 2025',
+        location: 'Mitad del Mundo',
+        tag: 'Social',
+        detalles: 'Se pudo vivir momentos llenos de sonrisas y alegría en comunidad.'
       }
     ]
   },
