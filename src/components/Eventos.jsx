@@ -10,6 +10,15 @@ const dataEventos = {
     titulo: 'Eventos Deportivos',
     items: [
       {
+        title: 'XIX Rumiñahui Open 2026',
+        description: 'El Club de Alto Rendimiento DEBAK TKD demuestra su compromiso, esfuerzo y excelencia deportiva, alcanzando el título de campeones en esta gran competencia gracias al espíritu deportivo de nuestros deportistas.',
+        image: './imagenes/eventos/xixRumiñahui.jpeg',
+        date: '24 de octubre, 2026',
+        location: 'Rumiñahui',
+        tag: 'Deportivo',
+        detalles: 'Felicitamos a todos nuestros deportistas por haber impulsado a DEBAK TKD a consagrarse como el campeón de la competencia.'
+      },
+      {
         title: 'Ranking G8 Chuncheon 2026 World Taekwondo Poomsae Championships, Korea 2026',
         description: 'Nuestro deportista Iván Marcano y Maestro Marcelo Prado representaron al Ecuador en el mundial de Corea, donde con mucho orgullo lo dejaron en alto.',
         image: './imagenes/eventos/chuncheon2026.jpeg',
