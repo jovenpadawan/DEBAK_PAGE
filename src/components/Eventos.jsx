@@ -151,12 +151,21 @@ const dataEventos = {
     items: [
       {
         title:'Ascenso de Danes Nacionales y Kukkiwon',
-        description:'Nuestro director Jimmy Bolaños participó como examinador oficial en el Curso de Examinación de Danes realizado en la ciudad de Ambato.',
+        description:'Nuestro director Jimmy Bolaños participó como examinador oficial en el Curso de Examinación de Danes realizado en la ciudad de Otavalo.',
         image:'./imagenes/eventos/examinacionDanes.jpeg',
         date:'06 de noviembre, 2026',
-        location:'Ambato',
+        location:'Otavalo',
         tag:'Social',
         detalles:'Jimmy Bolaños evaluó a múltiples deportistas de cinturón negro, contribuyendo directamente en la formación de cada uno de ellos y ayudándolos a seguir adelante en el largo y hermoso camino del taekwondo.'
+      },
+      {
+        title:'Programa de la Academia Cultural Sejong 2026 y la Embajada de Corea',
+        description:'Nuestro director Jimmy Bolaños, conjuntamente con el embajador de Corea, Jae Hyun Shim, y la Federación Ecuatoriana de Taekwondo, estuvieron a cargo de la organización y el desarrollo de esta importante promoción del taekwondo gracias a los acuerdos institucionales, beneficiando a profesores, entrenadores y deportistas de la nación ecuatoriana en las instalaciones de la UIDE.',
+        image:'./imagenes/eventos/programaSejong.jpeg',
+        date:'22 de agosto, 2026',
+        location:'Quito, UIDE',
+        tag:'Social',
+        detalles:'Durante su desarrollo se impartieron conocimientos importantes sobre las modalidades de poomsae y combate y se entregó una camiseta conmemorativa a cada uno de los asistentes.'
       },
       {
         title: 'Mañana deportiva',
@@ -197,7 +206,7 @@ const dataEventos = {
         date:'01 de julio, 2026',
         location:'Corea del Sur',
         tag:'Promoción',
-        detalles:'Jimmy'
+        detalles:'Desde el 29 de junio hasta el 10 de julio, se desarrolló este importante curso donde los mejores entrenadores del mundo en las diferentes modalidades impartieron sus conocimientos a todos los delegados de las diferentes Federaciones mundiales del Taekwondo. Con la participación de varios maestros de élite mundial, como Triple J, Lee Hae Hee, Kang Yujin y Kim Moosung, entre otros, se desarrollaron diferentes entrenamientos y cursos de actualización en las modalidades de Poomsae, Freestyle y Combate. Además, estuvo presente en la 6th Sports Taekwondo International Convergence Conference, dirigido por el presidente de la WT, el Dr. Chung-won Choue, donde se habló acerca de la implementación de la IA en el taekwondo.'
       },
       {
         title: 'La historia de Jimmy Bolaños',
