@@ -181,7 +181,6 @@ const dataEventos = {
   promocion: {
     titulo: 'Promoción del Taekwondo',
     items: [
-      
       {
         title: 'Concentrado Internacional',
         description:'Parte del equipo de DEBAK tuvo la gran oportunidad de representar a Ecuador en un Concentrado Deportivo Internacional realizado en Guatemala.',
@@ -190,6 +189,15 @@ const dataEventos = {
         location: 'Guatemala',
         tag: 'Promoción',
         detalles: 'Nuestros deportistas, gracias a las relaciones con la Federación Ecuatoriana de Taekwondo, tuvieron el agrado y la oportunidad de poder asistir a un concentrado deportivo en Guatemala, donde pudieron tanto compartir conocimientos con otros deportistas como fortalecer su disciplina y rendimiento deportivo.'
+      },
+      {
+        title:'Programa PTP Muju, Taekwondowon, Corea 2026',
+        description:'Nuestro director Jimmy Bolaños fue participe del programa PTP Muju, Taekwondowon, Corea 2026 donde pudo actualizar sus conocimientos de Poomsae, Freestyle y Combate con el fin de poder impartir estos nuevos conocimientos con los deportistas del Ecuador.',
+        image:'./imagenes/eventos/taekwondowonCorea.jpeg',
+        date:'01 de julio, 2026',
+        location:'Corea del Sur',
+        tag:'Promoción',
+        detalles:'Jimmy'
       },
       {
         title: 'La historia de Jimmy Bolaños',
